@@ -29,7 +29,7 @@ const APPLICATIONS_PATH = 'data/applications.md';
 // Ensure required directories exist (fresh setup)
 mkdirSync('data', { recursive: true });
 
-const CONCURRENCY = 10;
+const CONCURRENCY = 3; // reduced from 10 — parallel sessions share one IP
 const FETCH_TIMEOUT_MS = 10_000;
 
 // ── API detection ───────────────────────────────────────────────────
@@ -254,6 +254,8 @@ async function main() {
   const dryRun = args.includes('--dry-run');
   const companyFlag = args.indexOf('--company');
   const filterCompany = companyFlag !== -1 ? args[companyFlag + 1]?.toLowerCase() : null;
+  const regionFlag = args.indexOf('--region');
+  const filterRegion = regionFlag !== -1 ? args[regionFlag + 1]?.toUpperCase() : null;
 
   // 1. Read portals.yml
   if (!existsSync(PORTALS_PATH)) {
@@ -265,10 +267,13 @@ async function main() {
   const companies = config.tracked_companies || [];
   const titleFilter = buildTitleFilter(config.title_filter);
 
+  if (filterRegion) console.log(`Region filter: ${filterRegion}`);
+
   // 2. Filter to enabled companies with detectable APIs
   const targets = companies
     .filter(c => c.enabled !== false)
     .filter(c => !filterCompany || c.name.toLowerCase().includes(filterCompany))
+    .filter(c => !filterRegion || (c.region || '').toUpperCase() === filterRegion)
     .map(c => ({ ...c, _api: detectApi(c) }))
     .filter(c => c._api !== null);
 
