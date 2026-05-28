@@ -12,14 +12,15 @@
  *   npm run dashboard:watch
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const TRACKER   = resolve(__dirname, 'data', 'applications.md');
-const HTML_OUT  = resolve(__dirname, 'output', 'dashboard.html');
+const TRACKER      = resolve(__dirname, 'data', 'applications.md');
+const ADDITIONS    = resolve(__dirname, 'batch', 'tracker-additions');
+const HTML_OUT     = resolve(__dirname, 'output', 'dashboard.html');
 const WATCH_MS  = 30_000;
 
 const HTML_MODE  = process.argv.includes('--html');
@@ -64,6 +65,26 @@ function parse(content) {
 function regionOf(notes) {
   const m = notes.match(/\[([A-Z_+]+)\]/);
   return m ? m[1] : 'UNTAGGED';
+}
+
+// ── Read unmerged TSVs ───────────────────────────────────────────────────────
+
+function pendingRows() {
+  const rows = [];
+  try {
+    const files = readdirSync(ADDITIONS).filter(f => f.endsWith('.tsv') && !f.includes('merged'));
+    for (const f of files) {
+      try {
+        const line = readFileSync(resolve(ADDITIONS, f), 'utf8').trim().split('\n')[0];
+        const c = line.split('\t');
+        if (c.length < 9) continue;
+        // TSV cols: num date company role status score pdf report notes
+        rows.push({ num: c[0], date: c[1], company: c[2], role: c[3],
+                    status: c[4], notes: c[8] ?? '' });
+      } catch {}
+    }
+  } catch {}
+  return rows;
 }
 
 // ── Aggregate ────────────────────────────────────────────────────────────────
@@ -296,7 +317,7 @@ function run() {
   try { content = readFileSync(TRACKER, 'utf8'); }
   catch { console.error('Cannot read data/applications.md'); return; }
 
-  const rows = parse(content);
+  const rows = [...parse(content), ...pendingRows()];
   const { byRegion, byDay } = aggregate(rows);
 
   if (HTML_MODE) {
