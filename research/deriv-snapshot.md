@@ -1,0 +1,546 @@
+- generic [ref=e2]:
+  - generic:
+    - heading "1 notification" [level=2] [ref=e491]
+    - alert [ref=e493]:
+      - generic [ref=e494]:
+        - generic [ref=e495]:
+          - img [ref=e496]
+          - paragraph [ref=e498]:
+            - text: Job moved to
+            - strong [ref=e499]: In progress
+            - text: under
+            - link "Clicked apply" [ref=e500] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs-tracker/?stage=clicked_apply
+              - strong [ref=e501]: Clicked apply
+            - text: .
+        - button "Close" [ref=e502] [cursor=pointer]:
+          - img [ref=e504]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e156]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e158] [cursor=pointer]:
+            - img "LinkedIn" [ref=e159]
+          - generic [ref=e161]:
+            - status [ref=e162]
+            - search [ref=e163]:
+              - generic [ref=e164]:
+                - img [ref=e166]
+                - textbox "Search" [ref=e168]
+          - generic [ref=e20]:
+            - figure [ref=e173]
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "Home, 1 new notification" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e30]: Home
+                - listitem [ref=e31]:
+                  - link "My Network, 1 new notification" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - generic [ref=e33]:
+                      - img [ref=e34]
+                      - generic [ref=e175]: "3"
+                    - generic [ref=e36]: My Network
+                - listitem [ref=e37]:
+                  - link "Jobs, 0 new notifications" [ref=e38] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e40]
+                    - generic [ref=e42]: Jobs
+                - listitem [ref=e43]:
+                  - link "Messaging, 0 new notifications" [ref=e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e46]
+                    - generic [ref=e48]: Messaging
+                - listitem [ref=e49]:
+                  - link "Notifications, 8 new notifications" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e51]:
+                      - img [ref=e52]
+                      - generic [ref=e176]: "8"
+                    - generic [ref=e54]: Notifications
+                - listitem [ref=e55]:
+                  - button "Me" [ref=e56] [cursor=pointer]:
+                    - figure [ref=e58]
+                    - generic [ref=e59]:
+                      - text: Me
+                      - img [ref=e177]
+            - navigation [ref=e63]:
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - button "For Business" [ref=e66] [cursor=pointer]:
+                    - img [ref=e68]
+                    - generic [ref=e70]:
+                      - text: For Business
+                      - img [ref=e179]
+                - listitem [ref=e72]:
+                  - link "Hire with AI" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job
+                    - img [ref=e181]
+                    - generic [ref=e76]: Hire with AI
+      - main [ref=e77]:
+        - generic [ref=e78]:
+          - toolbar
+          - main [ref=e79]:
+            - generic [ref=e81]:
+              - generic [ref=e188]:
+                - generic [ref=e191]:
+                  - generic [ref=e193]:
+                    - generic [ref=e194]:
+                      - generic [ref=e195]:
+                        - link "Company, Deriv." [ref=e197] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/derivdotcom/life/
+                          - generic "Company, Deriv." [ref=e198]:
+                            - figure [ref=e199]:
+                              - img "Company logo for, Deriv." [ref=e200]
+                            - paragraph [ref=e201]:
+                              - link "Deriv" [ref=e202]:
+                                - /url: https://www.linkedin.com/company/derivdotcom/life/
+                        - button "More options" [ref=e203] [cursor=pointer]:
+                          - img [ref=e205]
+                      - paragraph [ref=e209]:
+                        - text: Staff Applied AI Engineer
+                        - link "Verified job" [ref=e210] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Verified job" [ref=e211]:
+                            - img [ref=e212]
+                      - paragraph [ref=e214]: Dubai, Dubai, United Arab Emirates · Reposted 1 week ago · Over 100 people clicked apply
+                      - paragraph [ref=e216]: Promoted by hirer · Responses managed off LinkedIn
+                    - link "Full-time" [ref=e219] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/staff-applied-ai-engineer-at-deriv-4394730234/
+                      - generic [ref=e221]: Full-time
+                    - generic [ref=e222]:
+                      - generic [ref=e226]:
+                        - link "Apply on company website" [ref=e506] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fderiv%2Ezohorecruit%2Eeu%2Fjobs%2FCareers%2F47807000091943363%3Fsource%3DlinkedIn&urlhash=aM3H&isSdui=true
+                          - generic [ref=e507]:
+                            - img [ref=e508]
+                            - generic [ref=e510]: Apply
+                        - button "Save the job" [ref=e234] [cursor=pointer]:
+                          - generic [ref=e236]: Save
+                      - paragraph [ref=e512]:
+                        - text: Your profile was shared with the job poster.
+                        - link "Undo" [ref=e513] [cursor=pointer]:
+                          - /url: "#"
+                          - strong [ref=e514]: Undo
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - paragraph [ref=e519]: Did you finish applying?
+                      - paragraph [ref=e520]:
+                        - text: You'll find this job under
+                        - strong [ref=e521]: In progress
+                        - text: in your
+                        - link "job tracker" [ref=e522] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs-tracker/?stage=clicked_apply
+                          - strong [ref=e523]: job tracker
+                        - text: until you confirm.
+                    - generic [ref=e524]:
+                      - link "Yes" [ref=e525] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/view/staff-applied-ai-engineer-at-deriv-4394730234/
+                        - generic [ref=e527]: "Yes"
+                      - button "No" [ref=e528] [cursor=pointer]:
+                        - generic [ref=e530]: "No"
+                - generic [ref=e237]:
+                  - generic [ref=e534]:
+                    - heading "Use AI to assess how you fit" [level=2] [ref=e536]
+                    - paragraph [ref=e539]:
+                      - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                      - link "Reactivate Premium" [ref=e540] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=CcIBOvEFRz2LdY2q4noKSA%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                    - list [ref=e547]:
+                      - listitem [ref=e548]:
+                        - link "Show match details" [ref=e550] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A11736e0628bd5eda96e30dbac6ecda84d7f2bd1399bdae7a4e23dafabb08b65e%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3A11736e0628bd5eda96e30dbac6ecda84d7f2bd1399bdae7a4e23dafabb08b65e&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=Oe%2Bq3JexTNOGW1aQdan3uw%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2CjobPostingId%7E%3A4394730234%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4394730234
+                          - generic [ref=e551]:
+                            - img [ref=e552]
+                            - paragraph [ref=e554]: Show match details
+                      - listitem [ref=e555]:
+                        - link "Tailor my resume" [ref=e557] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Tailor+my+resume&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A11736e0628bd5eda96e30dbac6ecda84d7f2bd1399bdae7a4e23dafabb08b65e%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3A11736e0628bd5eda96e30dbac6ecda84d7f2bd1399bdae7a4e23dafabb08b65e&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=Hmrm6QS%2BRyyl1y%2FpjP0QJw%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_RESUME_ASSISTANCE%2CjobPostingId%7E%3A4394730234%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4394730234
+                          - generic [ref=e558]:
+                            - img [ref=e559]
+                            - paragraph [ref=e561]: Tailor my resume
+                      - listitem [ref=e562]:
+                        - link "Help me stand out" [ref=e564] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A11736e0628bd5eda96e30dbac6ecda84d7f2bd1399bdae7a4e23dafabb08b65e%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3A11736e0628bd5eda96e30dbac6ecda84d7f2bd1399bdae7a4e23dafabb08b65e&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=9%2Bkw40SUTCKzi179Sb5glw%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2CjobPostingId%7E%3A4394730234%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4394730234
+                          - generic [ref=e565]:
+                            - img [ref=e566]
+                            - paragraph [ref=e568]: Help me stand out
+                  - generic [ref=e280]:
+                    - heading "People you can reach out to" [level=2] [ref=e281]
+                    - generic [ref=e283]:
+                      - link "Dhanya Vijay Menon • 3rd Global Head of Talent Development | AI + Human potential | Leadership Development | Psychometrics | Elevating performance Company alum from OpenText" [ref=e284] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/dhanya-vijay-menon-5ab95164/
+                        - generic [ref=e285]:
+                          - figure [ref=e286]
+                          - generic [ref=e287]:
+                            - generic [ref=e288]:
+                              - paragraph [ref=e290]:
+                                - link "Dhanya Vijay Menon" [ref=e291]:
+                                  - /url: https://www.linkedin.com/in/dhanya-vijay-menon-5ab95164/
+                                - img [ref=e293]
+                              - paragraph [ref=e295]: • 3rd
+                            - paragraph [ref=e297]: Global Head of Talent Development | AI + Human potential | Leadership Development | Psychometrics | Elevating performance
+                            - paragraph [ref=e298]: Company alum from OpenText
+                      - link "Send a message to Dhanya Vijay Menon" [ref=e302] [cursor=pointer]:
+                        - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAA2qixMBXAt1_eAX77amhg9VGqniYSyn0nM&recipient=ACoAAA2qixMBXAt1_eAX77amhg9VGqniYSyn0nM&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+                        - generic [ref=e304]: Message
+                    - generic [ref=e305]:
+                      - paragraph [ref=e306]: Meet the hiring team
+                      - generic [ref=e307]:
+                        - link "Mahantesh Ambi • 2nd Data Scientist turned AI Generalist | AI/ML Leader | Building agentic systems, NLP & vision solutions at scale | Turning enterprise challenges into measurable AI success stories" [ref=e308] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/mahanteshambi/
+                          - generic [ref=e309]:
+                            - figure [ref=e310]
+                            - generic [ref=e311]:
+                              - generic [ref=e312]:
+                                - paragraph [ref=e314]:
+                                  - link "Mahantesh Ambi" [ref=e315]:
+                                    - /url: https://www.linkedin.com/in/mahanteshambi/
+                                  - img [ref=e317]
+                                - paragraph [ref=e319]: • 2nd
+                              - paragraph [ref=e321]: Data Scientist turned AI Generalist | AI/ML Leader | Building agentic systems, NLP & vision solutions at scale | Turning enterprise challenges into measurable AI success stories
+                              - paragraph
+                        - link "Message" [ref=e323] [cursor=pointer]:
+                          - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMzn60BNAA01Nxjs6ixotE0s8tUzgd9kKg&recipient=ACoAAAMzn60BNAA01Nxjs6ixotE0s8tUzgd9kKg&screenContext=JOB_DETAILS_HIRING_TEAM&jobPostingUrn=urn%3Ali%3Afsd_jobPosting%3A4394730234&contextEntityUrn=urn%3Ali%3Afsd_jobPosting%3A4394730234&interop=msgOverlay
+                          - generic [ref=e325]: Message
+                  - generic [ref=e331]:
+                    - heading "About the job" [level=2] [ref=e333]
+                    - paragraph [ref=e334]:
+                      - generic [ref=e335]:
+                        - strong [ref=e336]: The challenge
+                        - text: Getting an AI to work once is luck; getting it to work a million times is engineering. Any junior with an API key can write a prompt that looks like magic, but you’ll be here for the "last mile"—when latency spikes, models hallucinate, and the system collapses under scale. You won't be building another prototype; you are here to solve coordination problems that don't have StackOverflow answers yet, turning fragile miracles into boring, reliable infrastructure for a business that demands "autonomous operations" but has no map to get there.
+                        - text: See what we’re shipping at Deriv .
+                        - strong [ref=e337]: Why this matters
+                        - text: Deriv's mission is Trading for Anyone, Anywhere, Anytime. This scale demands AI that works in production, not prototypes that demo well.
+                        - text: "We're already here: AI resolving 65%+ of customer enquiries, writing and reviewing code, and processing invoices. We've proved what's possible—now we're scaling it. You will lead the technical implementation of our next generation of agentic systems, creating co-intelligence that collaborates, debates, and decides alongside humans."
+                        - strong [ref=e338]: Why Deriv
+                        - text: We're in production, not planning.
+                        - list [ref=e339]:
+                          - listitem [ref=e340]: 400+ users on our internal workflow orchestration platform.
+                          - listitem [ref=e341]: Open-source Spec-to-PR transforming product specs into full implementations.
+                          - listitem [ref=e342]: "Real money, real regulations: Our AI handles financial transactions and compliance checks."
+                        - text: You'll join a transformation that's underway, not one waiting for approval.
+                        - strong [ref=e343]: What You'll Do
+                        - list [ref=e344]:
+                          - listitem [ref=e345]: "Architect scalable solutions: You’ll break down ambiguous, function-wide problems into shippable technical architectures. You won't just solve the immediate bug; you'll design the systems that prevent it."
+                          - listitem [ref=e346]: "Own the outcome: You won’t just build a feature; you’ll ensure it solves the business problem, monitoring it from deployment through to adoption."
+                          - listitem [ref=e347]: "Elevate engineering standards: You’ll review code and design docs not just to catch errors, but to raise the bar for the entire team. You’ll document knowledge so it doesn't stay in your head."
+                          - listitem [ref=e348]: "Bridge the gap: You will facilitate agreement between engineering, compliance, and ops when they all want different things—translating \"make it safe\" and \"make it fast\" into \"here is the architecture\"."
+                          - listitem [ref=e349]: "Balance quality and speed: You’ll make strategic calls on technical debt vs. shipping speed, knowing when to hack a prototype and when to engineer a platform."
+                        - strong [ref=e350]: Who You Are
+                        - list [ref=e351]:
+                          - listitem [ref=e352]: "You have 7+ years of software engineering experience: At least 3 years building production AI systems. Not prototypes - systems that handle real traffic at scale."
+                          - listitem [ref=e353]: "You’ve shipped production AI: Not notebooks. Not demos. Systems that handle real traffic, break in unexpected ways, and teach you things papers didn't mention."
+                          - listitem [ref=e354]: "You operate across paradigms: You are comfortable with SQL and with prompt engineering. You pick the right tool, not your favourite tool."
+                          - listitem [ref=e355]: "You lead through uncertainty: When the path isn't clear, you facilitate the problem-solving discussions that get the team moving."
+                          - listitem [ref=e356]: "You think in systems: You see the structural flaws behind the symptoms. You don't just optimise code; you optimise how the organisation solves problems."
+                        - strong [ref=e357]: Tech stack
+                        - list [ref=e358]:
+                          - listitem [ref=e359]: "Languages : Python, TypeScript"
+                          - listitem [ref=e360]: "AI/ML : OpenAI APIs, Anthropic APIs, LangGraph, Custom ML Pipelines"
+                          - listitem [ref=e361]: "Infrastructure : AWS, PostgreSQL, Redis, Docker, LangFuse, Vector Databases, Graph Databases"
+                        - strong [ref=e362]: The honest reality
+                        - text: This is demanding work. You’ll make decisions with incomplete data and live with the consequences. You’ll navigate organisational complexity, convincing stakeholders to change how they work to accommodate the systems you build.
+                        - text: You’ll balance moving fast with getting it right when real money is at stake. But you’ll build systems that actually run. You’ll solve problems that matter. And you’ll work with people who’ve done this at scale.
+                        - button:
+                          - generic [ref=e364] [cursor=pointer]: … more
+                  - generic [ref=e369]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e370]
+                    - generic [ref=e371]:
+                      - paragraph [ref=e372]: Artificial Intelligence Engineer, Dubai, Dubai, United Arab Emirates
+                      - switch "Tap to toggle setting" [ref=e373] [cursor=pointer]:
+                        - generic [ref=e374]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e375]:
+                            - generic [ref=e376]: "Off"
+                            - generic [ref=e377]:
+                              - switch
+                  - generic [ref=e387]:
+                    - paragraph [ref=e389]: Job search faster with Premium
+                    - paragraph [ref=e390]: Access company insights like strategic priorities, headcount trends, and more
+                    - generic [ref=e391]:
+                      - figure [ref=e392]
+                      - figure [ref=e393]
+                      - figure [ref=e394]
+                      - paragraph [ref=e395]: Lovely and millions of other members use Premium
+                    - link "Reactivate Premium" [ref=e396] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=B19lXXVeSCCK7GRThywKgg%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC
+                      - generic [ref=e398]: Reactivate Premium
+                    - paragraph [ref=e399]: Cancel anytime. No hidden fees.
+                  - generic [ref=e404]:
+                    - heading "About the company" [level=2] [ref=e406]
+                    - generic [ref=e407]:
+                      - generic [ref=e408]:
+                        - link "Deriv 131,199 followers" [ref=e409] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/derivdotcom/life/
+                          - generic [ref=e410]:
+                            - figure [ref=e411]
+                            - generic [ref=e412]:
+                              - paragraph [ref=e415]: Deriv
+                              - paragraph [ref=e417]: 131,199 followers
+                        - button "Follow" [ref=e418] [cursor=pointer]:
+                          - generic [ref=e419]:
+                            - img [ref=e420]
+                            - generic [ref=e422]: Follow
+                      - generic [ref=e423]:
+                        - paragraph [ref=e425]: Financial Services
+                        - paragraph [ref=e427]: •
+                        - paragraph [ref=e429]: 1001-5000 employees
+                        - paragraph [ref=e431]: •
+                        - paragraph [ref=e433]: 2,553 on LinkedIn
+                      - paragraph [ref=e434]:
+                        - generic [ref=e435]:
+                          - text: "The Deriv Group of companies connects 3 million customers across 150+ countries to the world's financial markets, processing millions of transactions every day. We move at the speed of the market, and with an AI-first mindset, we are transforming how it works. The Group is all in on AI. Our worldwide 24/7 platforms process hundreds of transactions per second across forex, stocks, and crypto. This level of precision at scale is driven by our global team of 1,000+ innovators across 20 offices. We empower our people with access to bleeding-edge LLMs, advanced frameworks, and the freedom to reimagine workflows across all teams, from engineering to customer support. Our culture encourages exploration, creativity, and calculated risk-taking, the necessary ingredients for breakthroughs. This focus on our people has been recognised globally: 90% of employees say we are a great place to work, contributing to our Great Place to Work certification in 8 countries, Best Workplace for Women in 2 countries, and Investors in People Platinum. Guided by our core values of integrity, customer focus, teamwork, and competence, the group turns ideas into action. Join us to innovate, lead, and create global reach in an environment where human judgment fuses with AI at scale."
+                          - button:
+                            - generic [ref=e437] [cursor=pointer]: … more
+                      - generic [ref=e438]:
+                        - generic [ref=e439]:
+                          - heading "Commitments" [level=3] [ref=e440]
+                          - button "Help" [ref=e441] [cursor=pointer]:
+                            - img [ref=e443]
+                        - generic [ref=e445]:
+                          - generic [ref=e446]:
+                            - paragraph [ref=e447]: Career growth and learning
+                            - paragraph [ref=e448]:
+                              - generic [ref=e449]:
+                                - text: At Deriv, the strength of our workforce lies in our ability to innovate, evolve and grow. We place great value on continuous learning and career development. Here, you can count on carefully curated programs and activities designed to make learning a thrilling journey, not a chore. For us, professional development not only boosts employee performance but also prepares us for the future, ensuring Deriv stays at the forefront of industry progress.
+                                - button:
+                                  - generic [ref=e451] [cursor=pointer]: … more
+                          - generic [ref=e452]:
+                            - paragraph [ref=e453]: Work-life balance
+                            - paragraph [ref=e454]:
+                              - generic [ref=e455]:
+                                - text: The Deriv work culture is built on flexibility, open communication, and accountability. Our offices are vibrant and buzzing with activity, courtesy of our employee-focused engagement activities and well-being initiatives. In addition to working with global teams and on challenging projects, employee well-being is as important as achieving business goals. Our office environment encourages play as much as work, understanding that this balance leads to more productive, satisfied employees. We are committed to building a workplace that's not just about doing but also about thriving.
+                                - button:
+                                  - generic [ref=e457] [cursor=pointer]: … more
+                          - generic [ref=e458]:
+                            - paragraph [ref=e459]: Social impact
+                            - paragraph [ref=e460]:
+                              - generic [ref=e461]:
+                                - text: Derivians commit to sparking change and making a real difference. Our philosophy is simple - join hands with causes that resonate with us, from boosting environmental consciousness and extending a helping hand to those in need to bolstering humanitarian initiatives. After all, responsible action and deep-rooted values are the heartbeat of Deriv's culture.
+                                - button:
+                                  - generic [ref=e463] [cursor=pointer]: … more
+                        - link "Learn more" [ref=e464] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/derivdotcom/about/
+                          - generic [ref=e466]: Learn more
+                    - generic [ref=e470]:
+                      - generic [ref=e472]:
+                        - paragraph [ref=e473]: Interested in working with us in the future?
+                        - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e474] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                          - paragraph [ref=e475]:
+                            - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                            - link "Learn more" [ref=e476]:
+                              - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                              - strong [ref=e477]: Learn more
+                      - button "I’m interested" [ref=e479] [cursor=pointer]:
+                        - generic [ref=e481]: I’m interested
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Looking for talent?
+                - link "Post a job" [ref=e87] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e89]: Post a job
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - navigation [ref=e96]:
+                    - link "About" [ref=e97] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e98]: About
+                    - link "Accessibility" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e100]: Accessibility
+                    - link "Talent Solutions" [ref=e101] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e102]: Talent Solutions
+                    - link "Community Guidelines" [ref=e103] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e104]: Community Guidelines
+                    - link "Careers" [ref=e105] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e106]: Careers
+                    - link "Marketing Solutions" [ref=e107] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e108]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e109] [cursor=pointer]:
+                      - generic [ref=e110]:
+                        - paragraph [ref=e111]: Privacy & Terms
+                        - img [ref=e482]
+                    - link "Ad Choices" [ref=e113] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e114]: Ad Choices
+                    - link "Advertising" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e116]: Advertising
+                    - link "Sales Solutions" [ref=e117] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e118]: Sales Solutions
+                    - link "Mobile" [ref=e119] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e120]: Mobile
+                    - link "Small Business" [ref=e121] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e122]: Small Business
+                    - link "Safety Center" [ref=e123] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e124]: Safety Center
+                  - paragraph [ref=e126]: LinkedIn Corporation © 2026
+                - generic [ref=e127]:
+                  - list [ref=e128]:
+                    - listitem [ref=e129]:
+                      - generic [ref=e130]:
+                        - img [ref=e484]
+                        - generic [ref=e132]:
+                          - link "Questions?" [ref=e133] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e134]: Questions?
+                          - paragraph [ref=e135]: Visit our Help Center.
+                    - listitem [ref=e136]:
+                      - generic [ref=e137]:
+                        - img [ref=e486]
+                        - generic [ref=e139]:
+                          - link "Manage your account and privacy" [ref=e140] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e141]: Manage your account and privacy
+                          - paragraph [ref=e142]: Go to your Settings.
+                    - listitem [ref=e143]:
+                      - generic [ref=e144]:
+                        - img [ref=e488]
+                        - generic [ref=e146]:
+                          - link "Recommendation transparency" [ref=e147] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e148]: Recommendation transparency
+                          - paragraph [ref=e149]: Learn more about Recommended Content.
+                  - generic [ref=e151]:
+                    - paragraph [ref=e153]: Select language
+                    - generic [ref=e154]:
+                      - combobox "Select language" [ref=e155] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e490]:
+    - generic [active] [ref=f6e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f6e3]
+          - alert
+      - region [ref=f6e4]
+      - generic [ref=f6e5]:
+        - generic [ref=f6e7]:
+          - button "Skip to search" [ref=f6e8] [cursor=pointer]:
+            - generic [ref=f6e9]: Skip to search
+          - button "Skip to main content" [ref=f6e10] [cursor=pointer]:
+            - generic [ref=f6e11]: Skip to main content
+          - button "Keyboard shortcuts" [ref=f6e12] [cursor=pointer]:
+            - generic [ref=f6e13]: Keyboard shortcuts
+          - button "Close jump menu" [ref=f6e14] [cursor=pointer]:
+            - img [ref=f6e15]
+            - generic [ref=f6e17]: Close jump menu
+        - banner "Global Navigation" [ref=f6e18]:
+          - generic [ref=f6e19]:
+            - link "LinkedIn" [ref=f6e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f6e23]:
+                - img [ref=f6e24]
+            - button "Click to start a search" [ref=f6e28] [cursor=pointer]:
+              - img [ref=f6e30]
+            - navigation "Primary Navigation" [ref=f6e32]:
+              - list [ref=f6e33]:
+                - listitem [ref=f6e34]:
+                  - link "new feed updates notifications Home" [ref=f6e35] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f6e36]:
+                      - generic [ref=f6e39]: new feed updates notifications
+                      - img [ref=f6e43]
+                    - generic "Home" [ref=f6e45]
+                - listitem [ref=f6e46]:
+                  - link "1 new network update notification My Network" [ref=f6e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - generic [ref=f6e48]:
+                      - generic [ref=f6e49]:
+                        - generic [ref=f6e50]: "1"
+                        - generic [ref=f6e51]: 1 new network update notification
+                      - img [ref=f6e55]
+                    - generic "My Network" [ref=f6e57]
+                - listitem [ref=f6e58]:
+                  - link "Jobs" [ref=f6e59] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f6e63]
+                    - generic "Jobs" [ref=f6e65]
+                - listitem [ref=f6e66]:
+                  - link "Messaging" [ref=f6e67] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f6e71]
+                    - generic "Messaging" [ref=f6e73]
+                - listitem [ref=f6e74]:
+                  - link "8 new notifications Notifications" [ref=f6e75] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f6e76]:
+                      - generic [ref=f6e77]:
+                        - generic [ref=f6e78]: "8"
+                        - generic [ref=f6e79]: 8 new notifications
+                      - img [ref=f6e83]
+                    - generic "Notifications" [ref=f6e85]
+                - listitem [ref=f6e86]:
+                  - button "Amarsh Pedapati Me" [ref=f6e88] [cursor=pointer]:
+                    - img "Amarsh Pedapati" [ref=f6e89]
+                    - generic [ref=f6e90]:
+                      - text: Me
+                      - img [ref=f6e91]
+                - listitem [ref=f6e93]:
+                  - button "For Business" [ref=f6e95] [cursor=pointer]:
+                    - img [ref=f6e99]
+                    - generic "For Business" [ref=f6e101]:
+                      - text: For Business
+                      - img [ref=f6e102]
+                - listitem [ref=f6e104]:
+                  - link "Post a job" [ref=f6e105] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=nav_spotlight_post_job&
+                    - img [ref=f6e109]
+                    - generic "Post a job" [ref=f6e114]

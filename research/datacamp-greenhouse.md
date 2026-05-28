@@ -1,0 +1,180 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - img "DataCamp Logo" [ref=e5]
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - heading "Principal AI Engineer - AI Tutor" [level=1] [ref=e10]
+            - generic [ref=e11]:
+              - img [ref=e12]
+              - generic [ref=e14]: Belgium; Dubai; Portugal; United Kingdom; United States
+          - button "Apply" [ref=e15] [cursor=pointer]
+        - generic [ref=e17]:
+          - paragraph [ref=e18]:
+            - strong [ref=e19]: About DataCamp
+          - paragraph [ref=e20]:
+            - text: DataCamp's mission is to empower everyone with the data and AI skills essential for 21st-century success. By providing practical, engaging learning experiences, DataCamp equips learners and organizations of all sizes to harness the power of data and AI. As a trusted partner to over
+            - strong [ref=e21]: 17 million learners
+            - text: and
+            - strong [ref=e22]: 6,000+ companies
+            - text: ", including 80% of the Fortune 1000, DataCamp is leading the charge in addressing the critical data and AI skills shortage."
+          - paragraph [ref=e23]:
+            - strong [ref=e24]: About the role
+          - paragraph [ref=e25]: Research has consistently shown that one-on-one tutoring dramatically outperforms traditional classroom instruction—a finding known as Bloom's 2 Sigma Problem. Despite decades of awareness, no solution has successfully delivered personalized tutoring at scale. Until now.
+          - paragraph [ref=e26]:
+            - text: We are building an AI tutoring system designed to emulate and eventually surpass the best human tutors. You will work on the core AI system that delivers real-time, adaptive learning experiences to learners.
+            - strong [ref=e27]: If you're excited about building the future of human learning, this role is for you. This role can be done remotely from anyone of the following; United States, United Kingdom, Belgium, Portugal OR UAE
+          - paragraph [ref=e28]:
+            - strong [ref=e29]: About you
+          - paragraph [ref=e30]: At DataCamp, we seek individuals who embody our core values of data-driven decision-making, action, transparency, ownership, and customer focus. You thrive in a fast-paced, high-performing environment and are driven by a passion for making a meaningful impact. You're adaptable, embracing change and ambiguity with enthusiasm. Your initiative and entrepreneurial spirit push you beyond just meeting targets—you aim to understand the "why" behind our goals and take ownership to drive the business forward. You’re a collaborative team player who values transparency and always seeks to improve and innovate. If this sounds like you, we encourage you to apply!
+          - paragraph [ref=e31]:
+            - strong [ref=e32]: Responsibilities
+          - list [ref=e33]:
+            - listitem [ref=e34]:
+              - strong [ref=e35]: Build and evolve the core AI tutoring system
+              - text: ", including prompt architectures, agentic workflows, and real-time adaptive behaviors."
+            - listitem [ref=e36]:
+              - strong [ref=e37]: Run rigorous experimentation and evaluation
+              - text: ", developing custom metrics and frameworks to measure learning effectiveness and improve model reliability."
+            - listitem [ref=e38]:
+              - strong [ref=e39]: Design and implement scalable, maintainable software
+              - text: ", integrating AI capabilities with platform systems, content pipelines, and user experience components."
+            - listitem [ref=e40]:
+              - strong [ref=e41]: Collaborate cross-functionally
+              - text: with educators, content creators, and product teams to translate pedagogical goals into technical solutions.
+            - listitem [ref=e42]:
+              - strong [ref=e43]: Prototype and productionize novel model interactions
+              - text: ", leveraging emerging research and capabilities to advance the tutor’s intelligence."
+            - listitem [ref=e44]:
+              - strong [ref=e45]: Ensure quality, safety, and observability
+              - text: through monitoring, testing, guardrails, and iterative refinement of model behavior.
+            - listitem [ref=e46]:
+              - strong [ref=e47]: Share knowledge and elevate teammates
+              - text: ", contributing to a culture of clarity, simplicity, and continuous learning."
+          - paragraph [ref=e48]:
+            - strong [ref=e49]: Qualifications
+          - heading "Technical" [level=3] [ref=e50]:
+            - strong [ref=e51]: Technical
+          - list [ref=e52]:
+            - listitem [ref=e53]: 1+ years building complex LLM-based systems, with strong prompt engineering intuition and experience designing agentic workflows.
+            - listitem [ref=e54]: Ability to design meaningful evaluation methods, including custom metrics and frameworks when off-the-shelf options fall short.
+            - listitem [ref=e55]: Strong software engineering fundamentals, architectural thinking, and fluency in Python; comfortable working with production infrastructure, cloud environments, and CI/CD.
+            - listitem [ref=e56]: Actively follows AI research and emerging capabilities, applying new ideas creatively to real problems.
+          - heading "Product & Pedagogy" [level=3] [ref=e57]:
+            - strong [ref=e58]: Product & Pedagogy
+          - list [ref=e59]:
+            - listitem [ref=e60]: Strong empathy for learners and content creators; able to translate pedagogical goals into system behavior and product decisions.
+            - listitem [ref=e61]: Ability to reason holistically across AI behavior, content structure, platform features, and user experience.
+            - listitem [ref=e62]: Familiarity with learning science or a desire to develop expertise.
+          - heading "Character & Collaboration" [level=3] [ref=e63]:
+            - strong [ref=e64]: Character & Collaboration
+          - list [ref=e65]:
+            - listitem [ref=e66]: Drawn to difficult, ambiguous problems with no clear blueprint; persistent in exploring and refining solutions.
+            - listitem [ref=e67]: Preference for elegance and simplicity in system design.
+            - listitem [ref=e68]: Communicates clearly across mediums and enjoys mentoring and collaborating in small, high-ownership teams.
+          - paragraph [ref=e69]:
+            - strong [ref=e70]: Why Datacamp?
+          - paragraph [ref=e71]: "Joining DataCamp means becoming part of a dynamic, creative, and international start-up. Here are just a few of the reasons why you’ll love being on our team:"
+          - list [ref=e72]:
+            - listitem [ref=e73]: "Exciting challenges: Face new technical challenges daily, keeping your work engaging and rewarding."
+            - listitem [ref=e74]: "Competitive compensation: We offer a competitive salary with attractive benefits."
+            - listitem [ref=e75]: "Flexibility: Benefit from flexible working hours because the future is flexible!"
+            - listitem [ref=e76]: "Continuous learning: Access a yearly learning budget for conferences & training to support your professional growth."
+            - listitem [ref=e77]: "Global retreats: Participate in international company retreats, fostering a global team spirit."
+            - listitem [ref=e78]: "Equipment: Yearly refreshment of your IT Equipment budget for your home working setup."
+            - listitem [ref=e79]: "Amazing team: Collaborate with a truly exceptional team—seriously, we’re awesome!"
+          - paragraph [ref=e80]
+        - generic [ref=e81]:
+          - img [ref=e82]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: Create a Job Alert
+            - paragraph [ref=e86]: Interested in building your career at DataCamp? Get future opportunities sent straight to your email.
+            - link "Create alert" [ref=e87] [cursor=pointer]:
+              - /url: https://my.greenhouse.io/users/sign_in?job_board=datacamp&source=job_alert_post
+      - separator [ref=e88]
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - heading "Apply for this job" [level=2] [ref=e93]
+            - generic [ref=e94]:
+              - paragraph [ref=e96]: "*"
+              - paragraph [ref=e97]: indicates a required field
+          - button "Autofill with MyGreenhouse" [ref=e100] [cursor=pointer]
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e105]:
+              - generic [ref=e106]: First Name*
+              - textbox "First Name" [ref=e107]
+            - generic [ref=e110]:
+              - generic [ref=e111]: Last Name*
+              - textbox "Last Name" [ref=e112]
+            - generic [ref=e115]:
+              - generic [ref=e116]: Preferred First Name
+              - textbox "Preferred First Name" [ref=e117]
+            - generic [ref=e120]:
+              - generic [ref=e121]: Email*
+              - textbox "Email" [ref=e122]
+            - group "Phone" [ref=e124]:
+              - generic [ref=e125]: Phone
+              - generic [ref=e128]:
+                - generic [ref=e129]: Country
+                - generic [ref=e130]:
+                  - log [ref=e132]
+                  - generic [ref=e134]:
+                    - combobox "Country" [ref=e137]
+                    - button "Toggle flyout" [ref=e139] [cursor=pointer]:
+                      - img [ref=e140]
+              - generic [ref=e144]:
+                - generic [ref=e145]: Phone
+                - textbox "Phone" [ref=e147]
+            - group "Resume/CV" [ref=e149]:
+              - generic [ref=e150]: Resume/CV
+              - generic [ref=e152]:
+                - generic [ref=e154]:
+                  - button "Attach" [ref=e155] [cursor=pointer]
+                  - generic [ref=e156]: Attach
+                  - button "Attach" [ref=e157]
+                - button "Dropbox" [ref=e159] [cursor=pointer]
+                - button "Google Drive" [ref=e161] [cursor=pointer]
+                - generic [ref=e163]:
+                  - button "Enter manually" [ref=e164] [cursor=pointer]
+                  - generic [ref=e165]: Enter manually
+                - paragraph [ref=e166]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=e168]:
+              - generic [ref=e169]: Cover Letter
+              - generic [ref=e171]:
+                - generic [ref=e173]:
+                  - button "Attach" [ref=e174] [cursor=pointer]
+                  - generic [ref=e175]: Attach
+                  - button "Attach" [ref=e176]
+                - button "Dropbox" [ref=e178] [cursor=pointer]
+                - button "Google Drive" [ref=e180] [cursor=pointer]
+                - generic [ref=e182]:
+                  - button "Enter manually" [ref=e183] [cursor=pointer]
+                  - generic [ref=e184]: Enter manually
+                - paragraph [ref=e185]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=e186]:
+            - separator [ref=e187]
+            - generic [ref=e190]:
+              - generic [ref=e191]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=e192]
+            - generic [ref=e195]:
+              - generic [ref=e196]: Website
+              - textbox "Website" [ref=e197]
+            - generic [ref=e198]:
+              - generic [ref=e200]:
+                - generic [ref=e201]: Paste your full resume text below for faster review by our AI assistant. (Formatting is not important, the content is)*
+                - textbox "Paste your full resume text below for faster review by our AI assistant. (Formatting is not important, the content is)" [ref=e202]
+              - paragraph [ref=e205]: This is required for AI-based screening. Please paste the same resume you've uploaded, in plain text. Formatting is not important — your content is.
+          - button "Submit application" [ref=e207] [cursor=pointer]
+  - contentinfo [ref=e208]:
+    - generic [ref=e209]:
+      - paragraph [ref=e210]: Powered by
+      - link "Greenhouse logo" [ref=e211] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e212]
+  - iframe [ref=e226]:
+    - generic [ref=f2e6]:
+      - text: protected by
+      - strong [ref=f2e7]: reCAPTCHA

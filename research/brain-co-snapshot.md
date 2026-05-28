@@ -1,0 +1,464 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e156]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e158] [cursor=pointer]:
+            - img "LinkedIn" [ref=e159]
+          - generic [ref=e161]:
+            - status [ref=e162]
+            - search [ref=e163]:
+              - generic [ref=e164]:
+                - img [ref=e166]
+                - textbox "Search" [ref=e168]
+          - generic [ref=e20]:
+            - figure [ref=e173]
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "Home, 1 new notification" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e30]: Home
+                - listitem [ref=e31]:
+                  - link "My Network, 3 new notifications" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - generic [ref=e33]:
+                      - img [ref=e34]
+                      - generic [ref=e175]: "3"
+                    - generic [ref=e36]: My Network
+                - listitem [ref=e37]:
+                  - link "Jobs, 0 new notifications" [ref=e38] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e40]
+                    - generic [ref=e42]: Jobs
+                - listitem [ref=e43]:
+                  - link "Messaging, 0 new notifications" [ref=e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e46]
+                    - generic [ref=e48]: Messaging
+                - listitem [ref=e49]:
+                  - link "Notifications, 8 new notifications" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e51]:
+                      - img [ref=e52]
+                      - generic [ref=e176]: "8"
+                    - generic [ref=e54]: Notifications
+                - listitem [ref=e55]:
+                  - button "Me" [ref=e56] [cursor=pointer]:
+                    - figure [ref=e58]
+                    - generic [ref=e59]:
+                      - text: Me
+                      - img [ref=e177]
+            - navigation [ref=e63]:
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - button "For Business" [ref=e66] [cursor=pointer]:
+                    - img [ref=e68]
+                    - generic [ref=e70]:
+                      - text: For Business
+                      - img [ref=e179]
+                - listitem [ref=e72]:
+                  - link "Hire with AI" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job
+                    - img [ref=e181]
+                    - generic [ref=e76]: Hire with AI
+      - main [ref=e77]:
+        - generic [ref=e78]:
+          - toolbar
+          - main [ref=e79]:
+            - generic [ref=e81]:
+              - generic [ref=e188]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - generic [ref=e195]:
+                      - link "Company, Brain Co.." [ref=e197] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/brainco-ai/life/
+                        - generic "Company, Brain Co.." [ref=e198]:
+                          - figure [ref=e199]:
+                            - img "Company logo for, Brain Co.." [ref=e200]
+                          - paragraph [ref=e201]:
+                            - link "Brain Co." [ref=e202]:
+                              - /url: https://www.linkedin.com/company/brainco-ai/life/
+                      - button "More options" [ref=e203] [cursor=pointer]:
+                        - img [ref=e205]
+                    - paragraph [ref=e208]: AI/ML Engineer, Deployed
+                    - paragraph [ref=e209]: Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates · Reposted 1 week ago · Over 100 people clicked apply
+                    - paragraph [ref=e211]: Promoted by hirer · Responses managed off LinkedIn
+                  - generic [ref=e212]:
+                    - link "Hybrid" [ref=e214] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/ai-ml-engineer-deployed-at-brain-co-4275229612/
+                      - generic [ref=e216]: Hybrid
+                    - link "Full-time" [ref=e218] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/ai-ml-engineer-deployed-at-brain-co-4275229612/
+                      - generic [ref=e220]: Full-time
+                - generic [ref=e221]:
+                  - generic [ref=e226]:
+                    - heading "Take the next step in your job search" [level=2] [ref=e228]
+                    - paragraph [ref=e231]:
+                      - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                      - link "Reactivate Premium" [ref=e232] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=ZZVwOQ8wQQ6K9mmsuhoj%2Fg%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                    - list [ref=e239]:
+                      - listitem [ref=e240]:
+                        - link "Practice an interview" [ref=e242] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Practice+an+interview&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A202b44043ac5d113b333dc960c600f5b717d6e008dd122b1f757c89a5f5c1de3%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3A202b44043ac5d113b333dc960c600f5b717d6e008dd122b1f757c89a5f5c1de3&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=cl%2FdMi8yRty40XFkM7QwLQ%3D%3D&customContext=jobPostingId%7E%3A4275229612%2CsubIntent%7E%3AJobSeekerAgentIntent_ROLEPLAY%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4275229612
+                          - generic [ref=e243]:
+                            - img [ref=e244]
+                            - paragraph [ref=e246]: Practice an interview
+                  - generic [ref=e249]:
+                    - heading "Application status" [level=2] [ref=e251]
+                    - generic [ref=e254]:
+                      - paragraph [ref=e255]: Applied on company site
+                      - paragraph [ref=e256]: 2 months ago
+                      - paragraph [ref=e257]:
+                        - link "Go to company site" [ref=e258] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fjobs%2Eashbyhq%2Ecom%2Fbrainco%2Fc5de5f45-ee53-48f0-86cf-2dfefa694ebb&urlhash=KjNv&isSdui=true
+                          - text: Go to company site
+                          - img [ref=e259]
+                  - generic [ref=e263]:
+                    - generic [ref=e264]:
+                      - heading "People you can reach out to" [level=2] [ref=e265]
+                      - generic [ref=e266]:
+                        - paragraph [ref=e267]: Meet the hiring team
+                        - generic [ref=e268]:
+                          - link "Rushad Kaizad Heerjee • 3rd Head of Commercial Partnerships @ Brain Co. • 6x Patents • Ex-Palantir" [ref=e269] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/in/rushad-kaizad-heerjee/
+                            - generic [ref=e270]:
+                              - figure [ref=e271]
+                              - generic [ref=e272]:
+                                - generic [ref=e273]:
+                                  - paragraph [ref=e275]:
+                                    - link "Rushad Kaizad Heerjee" [ref=e276]:
+                                      - /url: https://www.linkedin.com/in/rushad-kaizad-heerjee/
+                                    - img [ref=e278]
+                                  - paragraph [ref=e280]: • 3rd
+                                - paragraph [ref=e282]: Head of Commercial Partnerships @ Brain Co. • 6x Patents • Ex-Palantir
+                                - paragraph
+                          - link "Message" [ref=e284] [cursor=pointer]:
+                            - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAAgLMBoB1IScorgIc5Fim-fkA1eeFJjIzYY&recipient=ACoAAAgLMBoB1IScorgIc5Fim-fkA1eeFJjIzYY&screenContext=JOB_DETAILS_HIRING_TEAM&jobPostingUrn=urn%3Ali%3Afsd_jobPosting%3A4275229612&contextEntityUrn=urn%3Ali%3Afsd_jobPosting%3A4275229612&interop=msgOverlay
+                            - generic [ref=e286]: Message
+                    - link "Show all" [ref=e287] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/ai-ml-engineer-deployed-at-brain-co-4275229612/
+                      - generic [ref=e289]: Show all
+                  - generic [ref=e295]:
+                    - heading "About the job" [level=2] [ref=e297]
+                    - paragraph [ref=e298]:
+                      - generic [ref=e299]:
+                        - strong [ref=e300]: About Brain Co.
+                        - text: Brain Co. is an Applied AI startup founded by Elad Gil and Jared Kushner, and backed by many of Silicon Valley’s leading builders — including Patrick Collison (CEO of Stripe), Andrej Karpathy (Cofounder of OpenAI), Mike Krieger (CPO of Anthropic), Kevin Weil (CPO of OpenAI), and Aravind Srinivas (CEO of Perplexity).We are building an AI platform and applications for the world’s most important institutions - delivering impact on real-world problems.Our progress so far
+                        - list [ref=e301]:
+                          - listitem [ref=e302]: Automated construction permitting for a sovereign government → 80% faster, unlocking $375M+ in value
+                          - listitem [ref=e303]: Optimized supply chains for a leading global energy company → 30% lower cost, 99% reliability, preventing $100M+ in losses
+                          - listitem [ref=e304]: Streamlined hospital patient care across national health systems → 40% better outcomes, 80% less admin work
+                          - listitem [ref=e305]: Raised a $30M Series A from top investors
+                          - listitem [ref=e306]: Built a team of 40+ AI experts from Tesla, Google DeepMind, NVIDIA, and Databricks
+                        - text: At Brain Co., your work will be deployed in the real world, not stuck in research. We move fast, with more demand than we can serve, and are looking for exceptional people to take ownership from day one.
+                        - strong [ref=e307]: About The Role
+                        - text: As an AI/ML Engineer at Brain Co., you will play a crucial role in deploying state-of-the-art models to automate various real world problems in sectors such as healthcare, government and energy. Part of the role will involve turning research breakthroughs into practical solutions for various nation states. This role is your opportunity to make a significant impact by making AI technology both accessible and influential.
+                        - strong [ref=e308]: In This Role, You Will
+                        - list [ref=e309]:
+                          - listitem [ref=e310]: "Innovate and Deploy: Design and deploy advanced LLM models to tackle real-world problems, particularly in automating complex, manual processes in a range of real-world verticals."
+                          - listitem [ref=e311]: "Optimize and Scale: Build scalable data pipelines, optimize models for performance and accuracy, and prepare them for production. Monitor and maintain deployed models to ensure they continue delivering value across various governments worldwide."
+                          - listitem [ref=e312]: "Make a Difference: Engage in projects including but not limited to optimizing the world's most advanced energy production systems, modernizing core government workflows, or improving patient outcomes in advanced public healthcare systems. Your work will directly impact how AI benefits individuals, businesses, and society at large."
+                          - listitem [ref=e313]: "Engage with Leaders: interact directly with government officials in various countries and apply the first of its kind AI solutions while working alongside experienced ex. Founders, AI researchers, and software engineers to understand complex business challenges and deliver AI-powered solutions. Join a dynamic team where ideas are exchanged freely and creativity flourishes. You will be able to wear many hats: software building, product management, sales, interpersonal skills."
+                          - listitem [ref=e314]: "Learn and Lead: Keep abreast of the latest developments in machine learning and AI. Participate in code reviews, share knowledge, and set an example with high-quality engineering practices."
+                        - strong [ref=e315]: You Might Thrive In This Role If You
+                        - list [ref=e316]:
+                          - listitem [ref=e317]: Hold a BSc/Master’s/PhD degree in Computer Science, Machine Learning, Data Science, or a related field.
+                          - listitem [ref=e318]: Have experience building GenAI-focused applications with the latest technologies, including but not limited to Agents, reasoning models and RAG.
+                          - listitem [ref=e319]: Have at least a high level familiarity with the architecture and operation of large language models.
+                          - listitem [ref=e320]: Have personally implemented models in common ML frameworks such as PyTorch, Jax or TensorFlow.
+                          - listitem [ref=e321]: Possess a strong foundation in data structures, algorithms, and software engineering principles.
+                          - listitem [ref=e322]: Exhibit excellent problem-solving and analytical skills, with a proactive approach to challenges.
+                          - listitem [ref=e323]: Can work collaboratively with cross-functional teams.
+                          - listitem [ref=e324]: Thrive in fast-paced environments where priorities or deadlines may compete.
+                          - listitem [ref=e325]: Are eager to own problems end-to-end and willing to acquire any necessary knowledge to get the job done.
+                        - strong [ref=e326]: Benefits
+                        - list [ref=e327]:
+                          - listitem [ref=e328]: Competitive salary plus equity
+                          - listitem [ref=e329]: Daily lunches
+                          - listitem [ref=e330]: Commuter benefits
+                          - listitem [ref=e331]: 401(k)
+                          - listitem [ref=e332]: Medical, Dental and Vision
+                          - listitem [ref=e333]: Unlimited PTO
+                        - strong [ref=e334]: Why Join Us
+                        - list [ref=e335]:
+                          - listitem [ref=e336]: Ship quickly, iterate constantly and see your work deployed at global scale
+                          - listitem [ref=e337]: Collaborate with industry veterans from Tesla, DeepMind, Databricks, and more
+                          - listitem [ref=e338]: Accelerate your career with ownership based on impact, not tenure
+                          - listitem [ref=e339]: Earn competitive compensation + meaningful equity in a high-growth company
+                          - listitem [ref=e340]: Thrive in a culture built on speed, curiosity, and impact
+                        - emphasis [ref=e341]: If you want to see your work deployed at scale with real impact, Brain Co. is the place to build.
+                        - strong [ref=e342]:
+                          - emphasis [ref=e343]: This is a hybrid role that can be based in either our Abu Dhabi or Doha office
+                        - button:
+                          - generic [ref=e345] [cursor=pointer]: … more
+                    - paragraph [ref=e346]: Benefits found in job post
+                    - paragraph [ref=e347]: Commuter benefits, 401(k)
+                  - generic [ref=e352]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e353]
+                    - generic [ref=e354]:
+                      - paragraph [ref=e355]: Machine Learning Engineer, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates
+                      - switch "Tap to toggle setting" [ref=e356] [cursor=pointer]:
+                        - generic [ref=e357]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e358]:
+                            - generic [ref=e359]: "Off"
+                            - generic [ref=e360]:
+                              - switch
+                  - generic [ref=e370]:
+                    - paragraph [ref=e372]: Job search faster with Premium
+                    - paragraph [ref=e373]: Access company insights like strategic priorities, headcount trends, and more
+                    - generic [ref=e374]:
+                      - figure [ref=e375]
+                      - figure [ref=e376]
+                      - figure [ref=e377]
+                      - paragraph [ref=e378]: Lovely and millions of other members use Premium
+                    - link "Reactivate Premium" [ref=e379] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=ZCnV2ErRQAmgczZnwQmGsg%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC
+                      - generic [ref=e381]: Reactivate Premium
+                    - paragraph [ref=e382]: Cancel anytime. No hidden fees.
+                  - generic [ref=e387]:
+                    - heading "About the company" [level=2] [ref=e389]
+                    - generic [ref=e390]:
+                      - generic [ref=e391]:
+                        - link "Brain Co. 5,671 followers" [ref=e392] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/brainco-ai/life/
+                          - generic [ref=e393]:
+                            - figure [ref=e394]
+                            - generic [ref=e395]:
+                              - paragraph [ref=e398]: Brain Co.
+                              - paragraph [ref=e400]: 5,671 followers
+                        - button "Follow" [ref=e401] [cursor=pointer]:
+                          - generic [ref=e402]:
+                            - img [ref=e403]
+                            - generic [ref=e405]: Follow
+                      - generic [ref=e406]:
+                        - paragraph [ref=e408]: Software Development
+                        - paragraph [ref=e410]: •
+                        - paragraph [ref=e412]: 11-50 employees
+                        - paragraph [ref=e414]: •
+                        - paragraph [ref=e416]: 94 on LinkedIn
+                      - paragraph [ref=e417]:
+                        - generic [ref=e418]: We're building an AI platform and applications for the world's most important institutions. Learn more at https://brain.co/
+                    - generic [ref=e422]:
+                      - generic [ref=e424]:
+                        - paragraph [ref=e425]: Interested in working with us in the future?
+                        - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e426] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                          - paragraph [ref=e427]:
+                            - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                            - link "Learn more" [ref=e428]:
+                              - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                              - strong [ref=e429]: Learn more
+                      - button "I’m interested" [ref=e431] [cursor=pointer]:
+                        - generic [ref=e433]: I’m interested
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Looking for talent?
+                - link "Post a job" [ref=e87] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e89]: Post a job
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - navigation [ref=e96]:
+                    - link "About" [ref=e97] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e98]: About
+                    - link "Accessibility" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e100]: Accessibility
+                    - link "Talent Solutions" [ref=e101] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e102]: Talent Solutions
+                    - link "Community Guidelines" [ref=e103] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e104]: Community Guidelines
+                    - link "Careers" [ref=e105] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e106]: Careers
+                    - link "Marketing Solutions" [ref=e107] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e108]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e109] [cursor=pointer]:
+                      - generic [ref=e110]:
+                        - paragraph [ref=e111]: Privacy & Terms
+                        - img [ref=e434]
+                    - link "Ad Choices" [ref=e113] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e114]: Ad Choices
+                    - link "Advertising" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e116]: Advertising
+                    - link "Sales Solutions" [ref=e117] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e118]: Sales Solutions
+                    - link "Mobile" [ref=e119] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e120]: Mobile
+                    - link "Small Business" [ref=e121] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e122]: Small Business
+                    - link "Safety Center" [ref=e123] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e124]: Safety Center
+                  - paragraph [ref=e126]: LinkedIn Corporation © 2026
+                - generic [ref=e127]:
+                  - list [ref=e128]:
+                    - listitem [ref=e129]:
+                      - generic [ref=e130]:
+                        - img [ref=e436]
+                        - generic [ref=e132]:
+                          - link "Questions?" [ref=e133] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e134]: Questions?
+                          - paragraph [ref=e135]: Visit our Help Center.
+                    - listitem [ref=e136]:
+                      - generic [ref=e137]:
+                        - img [ref=e438]
+                        - generic [ref=e139]:
+                          - link "Manage your account and privacy" [ref=e140] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e141]: Manage your account and privacy
+                          - paragraph [ref=e142]: Go to your Settings.
+                    - listitem [ref=e143]:
+                      - generic [ref=e144]:
+                        - img [ref=e440]
+                        - generic [ref=e146]:
+                          - link "Recommendation transparency" [ref=e147] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e148]: Recommendation transparency
+                          - paragraph [ref=e149]: Learn more about Recommended Content.
+                  - generic [ref=e151]:
+                    - paragraph [ref=e153]: Select language
+                    - generic [ref=e154]:
+                      - combobox "Select language" [ref=e155] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e442]:
+    - generic [active] [ref=f72e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f72e3]
+          - alert
+      - generic [ref=f72e4]:
+        - generic [ref=f72e6]:
+          - button "Skip to search" [ref=f72e7] [cursor=pointer]:
+            - generic [ref=f72e8]: Skip to search
+          - button "Skip to main content" [ref=f72e9] [cursor=pointer]:
+            - generic [ref=f72e10]: Skip to main content
+          - button "Keyboard shortcuts" [ref=f72e11] [cursor=pointer]:
+            - generic [ref=f72e12]: Keyboard shortcuts
+          - button "Close jump menu" [ref=f72e13] [cursor=pointer]:
+            - img [ref=f72e14]
+            - generic [ref=f72e16]: Close jump menu
+        - banner "Global Navigation" [ref=f72e17]:
+          - generic [ref=f72e18]:
+            - link "LinkedIn" [ref=f72e19] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f72e22]:
+                - img [ref=f72e23]
+            - button "Click to start a search" [ref=f72e27] [cursor=pointer]:
+              - img [ref=f72e29]
+            - navigation "Primary Navigation" [ref=f72e31]:
+              - list [ref=f72e32]:
+                - listitem [ref=f72e33]:
+                  - link "new feed updates notifications Home" [ref=f72e34] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f72e35]:
+                      - generic [ref=f72e38]: new feed updates notifications
+                      - img [ref=f72e42]
+                    - generic "Home" [ref=f72e44]
+                - listitem [ref=f72e45]:
+                  - link "3 new network updates notifications My Network" [ref=f72e46] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - generic [ref=f72e47]:
+                      - generic [ref=f72e48]:
+                        - generic [ref=f72e49]: "3"
+                        - generic [ref=f72e50]: 3 new network updates notifications
+                      - img [ref=f72e54]
+                    - generic "My Network" [ref=f72e56]
+                - listitem [ref=f72e57]:
+                  - link "Jobs" [ref=f72e58] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f72e62]
+                    - generic "Jobs" [ref=f72e64]
+                - listitem [ref=f72e65]:
+                  - link "Messaging" [ref=f72e66] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f72e70]
+                    - generic "Messaging" [ref=f72e72]
+                - listitem [ref=f72e73]:
+                  - link "8 new notifications Notifications" [ref=f72e74] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f72e75]:
+                      - generic [ref=f72e76]:
+                        - generic [ref=f72e77]: "8"
+                        - generic [ref=f72e78]: 8 new notifications
+                      - img [ref=f72e82]
+                    - generic "Notifications" [ref=f72e84]
+                - listitem [ref=f72e85]:
+                  - button "Amarsh Pedapati Me" [ref=f72e87] [cursor=pointer]:
+                    - img "Amarsh Pedapati" [ref=f72e88]
+                    - generic [ref=f72e89]:
+                      - text: Me
+                      - img [ref=f72e90]
+                - listitem [ref=f72e92]:
+                  - button "For Business" [ref=f72e94] [cursor=pointer]:
+                    - img [ref=f72e98]
+                    - generic "For Business" [ref=f72e100]:
+                      - text: For Business
+                      - img [ref=f72e101]
+                - listitem [ref=f72e103]:
+                  - link "Post a job" [ref=f72e104] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=nav_spotlight_post_job&
+                    - img [ref=f72e108]
+                    - generic "Post a job" [ref=f72e113]
+      - region [ref=f72e129]

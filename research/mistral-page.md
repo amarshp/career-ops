@@ -1,0 +1,467 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e156]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e158] [cursor=pointer]:
+            - img "LinkedIn" [ref=e159]
+          - generic [ref=e161]:
+            - status [ref=e162]
+            - search [ref=e163]:
+              - generic [ref=e164]:
+                - img [ref=e166]
+                - textbox "Search" [ref=e168]
+          - generic [ref=e20]:
+            - figure [ref=e173]
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "Home, 1 new notification" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e30]: Home
+                - listitem [ref=e31]:
+                  - link "My Network, 3 new notifications" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - generic [ref=e33]:
+                      - img [ref=e34]
+                      - generic [ref=e175]: "3"
+                    - generic [ref=e36]: My Network
+                - listitem [ref=e37]:
+                  - link "Jobs, 0 new notifications" [ref=e38] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e40]
+                    - generic [ref=e42]: Jobs
+                - listitem [ref=e43]:
+                  - link "Messaging, 0 new notifications" [ref=e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e46]
+                    - generic [ref=e48]: Messaging
+                - listitem [ref=e49]:
+                  - link "Notifications, 9 new notifications" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e51]:
+                      - img [ref=e52]
+                      - generic [ref=e176]: "9"
+                    - generic [ref=e54]: Notifications
+                - listitem [ref=e55]:
+                  - button "Me" [ref=e56] [cursor=pointer]:
+                    - figure [ref=e58]
+                    - generic [ref=e59]:
+                      - text: Me
+                      - img [ref=e177]
+            - navigation [ref=e63]:
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - button "For Business" [ref=e66] [cursor=pointer]:
+                    - img [ref=e68]
+                    - generic [ref=e70]:
+                      - text: For Business
+                      - img [ref=e179]
+                - listitem [ref=e72]:
+                  - link "Hire with AI" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job
+                    - img [ref=e181]
+                    - generic [ref=e76]: Hire with AI
+      - main [ref=e77]:
+        - generic [ref=e78]:
+          - toolbar
+          - main [ref=e79]:
+            - generic [ref=e81]:
+              - generic [ref=e188]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - generic [ref=e195]:
+                      - link "Company, Mistral AI." [ref=e197] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/mistralai/life/
+                        - generic "Company, Mistral AI." [ref=e198]:
+                          - figure [ref=e199]:
+                            - img "Company logo for, Mistral AI." [ref=e200]
+                          - paragraph [ref=e201]:
+                            - link "Mistral AI" [ref=e202]:
+                              - /url: https://www.linkedin.com/company/mistralai/life/
+                      - button "More options" [ref=e203] [cursor=pointer]:
+                        - img [ref=e205]
+                    - paragraph [ref=e208]: Applied AI, Technical Lead, Forward Deployed AI Engineer - Abu Dhabi
+                    - paragraph [ref=e209]: Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates · 5 days ago · Over 100 people clicked apply
+                    - paragraph [ref=e211]: Responses managed off LinkedIn
+                  - generic [ref=e212]:
+                    - link "On-site" [ref=e214] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/applied-ai-technical-lead-forward-deployed-ai-engineer-abu-dhabi-at-mistral-ai-4411219348/
+                      - generic [ref=e216]: On-site
+                    - link "Full-time" [ref=e218] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/applied-ai-technical-lead-forward-deployed-ai-engineer-abu-dhabi-at-mistral-ai-4411219348/
+                      - generic [ref=e220]: Full-time
+                  - generic [ref=e225]:
+                    - link "Apply on company website" [ref=e227] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fjobs%2Elever%2Eco%2Fmistral%2Fcb2986cc-4768-40b9-9d67-e53d78b247dc%2Fapply%3Flever-source%3DLinkedIn&urlhash=biqC&isSdui=true
+                      - generic [ref=e228]:
+                        - img [ref=e229]
+                        - generic [ref=e231]: Apply
+                    - button "Save the job" [ref=e233] [cursor=pointer]:
+                      - generic [ref=e235]: Save
+                - generic [ref=e236]:
+                  - generic [ref=e241]:
+                    - heading "Use AI to assess how you fit" [level=2] [ref=e243]
+                    - paragraph [ref=e246]:
+                      - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                      - link "Reactivate Premium" [ref=e247] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=%2Fu8JhVN3QtuolfdLZgloBg%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                    - list [ref=e254]:
+                      - listitem [ref=e255]:
+                        - link "Show match details" [ref=e257] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Ae1c72ce5296bc67ef96ac2a81314e26916499b93bc770916d5d4b4d6af8e7cfd%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Ae1c72ce5296bc67ef96ac2a81314e26916499b93bc770916d5d4b4d6af8e7cfd&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=VA8xGoqORn2XMW1coD9KtQ%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2CjobPostingId%7E%3A4411219348%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4411219348
+                          - generic [ref=e258]:
+                            - img [ref=e259]
+                            - paragraph [ref=e261]: Show match details
+                      - listitem [ref=e262]:
+                        - link "Tailor my resume" [ref=e264] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Tailor+my+resume&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Ae1c72ce5296bc67ef96ac2a81314e26916499b93bc770916d5d4b4d6af8e7cfd%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Ae1c72ce5296bc67ef96ac2a81314e26916499b93bc770916d5d4b4d6af8e7cfd&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=9a7X%2FRXYSQuh6O%2B2XJQ1OA%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_RESUME_ASSISTANCE%2CjobPostingId%7E%3A4411219348%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4411219348
+                          - generic [ref=e265]:
+                            - img [ref=e266]
+                            - paragraph [ref=e268]: Tailor my resume
+                      - listitem [ref=e269]:
+                        - link "Help me stand out" [ref=e271] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Ae1c72ce5296bc67ef96ac2a81314e26916499b93bc770916d5d4b4d6af8e7cfd%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Ae1c72ce5296bc67ef96ac2a81314e26916499b93bc770916d5d4b4d6af8e7cfd&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=C9RTkiqFRrmm3ZK5vLyVtQ%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2CjobPostingId%7E%3A4411219348%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4411219348
+                          - generic [ref=e272]:
+                            - img [ref=e273]
+                            - paragraph [ref=e275]: Help me stand out
+                  - generic [ref=e279]:
+                    - heading "People you can reach out to" [level=2] [ref=e280]
+                    - generic [ref=e282]:
+                      - link "Helen F. • 2nd GTM @ Mistral AI | Women in Tech | Lucy Mentor | Challenging the “opaque” box Company alum from OpenText" [ref=e283] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/helenfotiou/
+                        - generic [ref=e284]:
+                          - figure [ref=e285]:
+                            - img [ref=e286]
+                          - generic [ref=e292]:
+                            - generic [ref=e293]:
+                              - paragraph [ref=e295]:
+                                - link "Helen F." [ref=e296]:
+                                  - /url: https://www.linkedin.com/in/helenfotiou/
+                                - img [ref=e298]
+                              - paragraph [ref=e300]: • 2nd
+                            - paragraph [ref=e302]: GTM @ Mistral AI | Women in Tech | Lucy Mentor | Challenging the “opaque” box
+                            - paragraph [ref=e303]: Company alum from OpenText
+                      - button "Follow Helen F." [ref=e307] [cursor=pointer]:
+                        - generic [ref=e310]: Follow
+                  - generic [ref=e316]:
+                    - heading "About the job" [level=2] [ref=e318]
+                    - paragraph [ref=e319]:
+                      - generic [ref=e320]:
+                        - strong [ref=e321]: About Mistral
+                        - text: At Mistral AI, we believe in the power of AI to simplify tasks, save time, and enhance learning and creativity. Our technology is designed to integrate seamlessly into daily working life.
+                        - text: We democratize AI through high-performance, optimized, open-source and cutting-edge models, products, and solutions. Our comprehensive AI platform is designed to meet enterprise needs, whether on-premises or in cloud environments. Our offerings include le Chat, the AI assistant for life and work.
+                        - text: We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed across global hubs including France, the USA, the UK, Germany, and Singapore, with growing activity in Abu Dhabi and the wider MENA region.
+                        - text: Join us to be part of a pioneering company shaping the future of AI. Together, we can make a meaningful impact. See more about our culture on mistral.ai/careers.
+                        - strong [ref=e322]: "About The Job:"
+                        - text: Mistral AI is seeking a Technical Lead, Applied AI to drive the technical strategy, execution, and delivery of complex AI solutions for our enterprise customers. In this role, you will lead a project teams of Applied AI Engineers, ensuring the successful deployment of Mistral AI products and the development of high-impact, scalable AI use cases.
+                        - text: You will act as the primary technical point of contact for our most strategic customers, guiding them through the entire lifecycle—from pre-sales to post-implementation—while collaborating closely with research, product, and engineering teams to shape the future of our offerings.
+                        - text: As a Technical Lead, you will bridge the gap between cutting-edge AI research and real-world enterprise applications, ensuring our solutions are robust, scalable, and aligned with both customer needs and Mistral’s technological vision.
+                        - strong [ref=e323]: What You Will Do
+                        - list [ref=e324]:
+                          - listitem [ref=e325]: Deliver as an IC the critical lines of codes of our complex projects, you’ll be hands-on and de-risk the critical parts of our complex projects. You’ll stay deeply involved in coding, reviewing, and optimizing AI solutions
+                          - listitem [ref=e326]: Lead technical teams of Applied AI Engineers, providing mentorship, technical guidance, and best practices for deploying state-of-the-art GenAI applications across industries
+                          - listitem [ref=e327]: Lead technical discussions during pre-sales, translating customer requirements into actionable solutions and communicating Mistral’s technological advantages to diverse stakeholders
+                          - listitem [ref=e328]: Design and oversee the implementation of complex AI systems, including fine-tuning, RAG, agentic workflows, and custom LLM applications, ensuring alignment with Mistral’s product roadmap and open-source initiatives
+                          - listitem [ref=e329]: Drive innovation by identifying emerging trends in AI, evaluating new tools and methodologies, and championing best practices for fine-tuning, inference, and deployment
+                          - listitem [ref=e330]: Work closely with product managers, researchers, and engineers to ensure seamless integration of customer feedback into Mistral’s product development cycle
+                        - strong [ref=e331]: How We Work In Applied AI
+                        - list [ref=e332]:
+                          - listitem [ref=e333]: We care about people and outputs
+                          - listitem [ref=e334]: What matters is what you ship, not the time you spend on it
+                          - listitem [ref=e335]: Bureaucracy is where urgency goes to vanish. You talk to whoever you need to talk to. The best idea wins, whether it comes from a principal engineer or someone in their first week
+                          - listitem [ref=e336]: Always ask why. The best solutions come from deep understanding, not from copying what worked before
+                          - listitem [ref=e337]: We say what we mean. Feedback is direct, timely, and given because we care
+                          - listitem [ref=e338]: No politics. Low ego, high standards
+                          - listitem [ref=e339]: We embrace an unstructured environment and find joy in it
+                        - strong [ref=e340]: About You
+                        - list [ref=e341]:
+                          - listitem [ref=e342]: You are fluent in English
+                          - listitem [ref=e343]: You hold a PhD or Master’s degree in AI, Machine Learning, Computer Science, or a related field
+                          - listitem [ref=e344]: You have 7/8+ years of experience in AI/ML, with at least 2+ years in a technical leadership role (e.g., Tech Lead, Engineering Manager, or Solutions Architect) focused on AI products or enterprise solutions
+                          - listitem [ref=e345]: You have a proven track record of leading teams to deliver complex AI projects, from prototyping to production, in industries such as tech, finance, healthcare, or industrial automation
+                          - listitem [ref=e346]: You possess deep expertise in fine-tuning LLMs, advanced RAG, agentic systems, and deploying NLP applications at scale
+                          - listitem [ref=e347]: You are proficient in Python, PyTorch, and modern AI frameworks (e.g., LangChain, Hugging Face). Experience with cloud platforms (AWS, GCP, Azure) and MLOps tools is a plus
+                          - listitem [ref=e348]: You have strong software engineering skills, including API design, backend/full-stack development, and system architecture
+                          - listitem [ref=e349]: You excel in technical communication, with the ability to articulate complex concepts to both technical and non-technical audiences, including executives and engineers
+                          - listitem [ref=e350]: You thrive in fast-paced, collaborative environments and are passionate about mentoring and growing technical talent
+                        - strong [ref=e351]: "Ideally, you have:"
+                        - list [ref=e352]:
+                          - listitem [ref=e353]: Contributed to open-source projects, particularly in the LLM or AI space
+                          - listitem [ref=e354]: Experience in customer-facing roles (e.g., Solutions Architect, Customer Engineer, or Technical Product Manager) with a focus on enterprise AI adoption
+                          - listitem [ref=e355]: A track record of driving technical strategy and influencing product direction based on customer needs and market opportunities
+                        - strong [ref=e356]: Why join us?
+                        - text: You’ll have the opportunity to shape the future of AI adoption in enterprises, work with a world-class team, and contribute to open-source projects that impact millions. If you’re excited about leading technical innovation and solving real-world challenges with AI, we’d love to hear from you!
+                        - strong [ref=e357]: Why join us?
+                        - text: You’ll have the opportunity to shape the future of AI adoption in enterprises, work with a world-class team, and contribute to open-source projects that impact millions. If you’re excited about leading technical innovation and solving real-world challenges with AI, we’d love to hear from you!
+                        - button:
+                          - generic [ref=e359] [cursor=pointer]: … more
+                  - generic [ref=e364]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e365]
+                    - generic [ref=e366]:
+                      - paragraph [ref=e367]: Software Engineer Technical Lead, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates
+                      - generic [ref=e369]:
+                        - generic:
+                          - paragraph
+                        - generic [ref=e370]:
+                          - generic [ref=e371]: "Off"
+                          - generic [ref=e372] [cursor=pointer]:
+                            - switch "Tap to toggle setting"
+                  - generic [ref=e382]:
+                    - paragraph [ref=e384]: Job search faster with Premium
+                    - paragraph [ref=e385]: Access company insights like strategic priorities, headcount trends, and more
+                    - generic [ref=e386]:
+                      - figure [ref=e387]
+                      - figure [ref=e388]
+                      - figure [ref=e389]
+                      - paragraph [ref=e390]: Varun and millions of other members use Premium
+                    - link "Reactivate Premium" [ref=e391] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=nihAr9e0SAyzb09eY%2FFn8Q%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC
+                      - generic [ref=e393]: Reactivate Premium
+                    - paragraph [ref=e394]: Cancel anytime. No hidden fees.
+                  - generic [ref=e399]:
+                    - heading "About the company" [level=2] [ref=e401]
+                    - generic [ref=e402]:
+                      - generic [ref=e403]:
+                        - link "Mistral AI 642,562 followers" [ref=e404] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/mistralai/life/
+                          - generic [ref=e405]:
+                            - figure [ref=e406]
+                            - generic [ref=e407]:
+                              - paragraph [ref=e410]: Mistral AI
+                              - paragraph [ref=e412]: 642,562 followers
+                        - button "Follow" [ref=e413] [cursor=pointer]:
+                          - generic [ref=e414]:
+                            - img [ref=e415]
+                            - generic [ref=e417]: Follow
+                      - generic [ref=e418]:
+                        - paragraph [ref=e420]: Technology, Information and Internet
+                        - paragraph [ref=e422]: •
+                        - paragraph [ref=e424]: 201-500 employees
+                        - paragraph [ref=e426]: •
+                        - paragraph [ref=e428]: 1,100 on LinkedIn
+                      - paragraph [ref=e429]:
+                        - generic [ref=e430]:
+                          - text: "Frontier AI. In your hands. We believe in a future where AI is abundant and accessible. We aspire to empower the world to build with—and benefit from—the most significant technology of our time. Join us: https://jobs.lever.co/mistral/"
+                          - button:
+                            - generic [ref=e432] [cursor=pointer]: … more
+                    - generic [ref=e436]:
+                      - generic [ref=e438]:
+                        - paragraph [ref=e439]: Interested in working with us in the future?
+                        - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e440] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                          - paragraph [ref=e441]:
+                            - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                            - link "Learn more" [ref=e442]:
+                              - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                              - strong [ref=e443]: Learn more
+                      - button "I’m interested" [ref=e445] [cursor=pointer]:
+                        - generic [ref=e447]: I’m interested
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Looking for talent?
+                - link "Post a job" [ref=e87] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e89]: Post a job
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - navigation [ref=e96]:
+                    - link "About" [ref=e97] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e98]: About
+                    - link "Accessibility" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e100]: Accessibility
+                    - link "Talent Solutions" [ref=e101] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e102]: Talent Solutions
+                    - link "Community Guidelines" [ref=e103] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e104]: Community Guidelines
+                    - link "Careers" [ref=e105] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e106]: Careers
+                    - link "Marketing Solutions" [ref=e107] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e108]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e109] [cursor=pointer]:
+                      - generic [ref=e110]:
+                        - paragraph [ref=e111]: Privacy & Terms
+                        - img [ref=e448]
+                    - link "Ad Choices" [ref=e113] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e114]: Ad Choices
+                    - link "Advertising" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e116]: Advertising
+                    - link "Sales Solutions" [ref=e117] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e118]: Sales Solutions
+                    - link "Mobile" [ref=e119] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e120]: Mobile
+                    - link "Small Business" [ref=e121] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e122]: Small Business
+                    - link "Safety Center" [ref=e123] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e124]: Safety Center
+                  - paragraph [ref=e126]: LinkedIn Corporation © 2026
+                - generic [ref=e127]:
+                  - list [ref=e128]:
+                    - listitem [ref=e129]:
+                      - generic [ref=e130]:
+                        - img [ref=e450]
+                        - generic [ref=e132]:
+                          - link "Questions?" [ref=e133] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e134]: Questions?
+                          - paragraph [ref=e135]: Visit our Help Center.
+                    - listitem [ref=e136]:
+                      - generic [ref=e137]:
+                        - img [ref=e452]
+                        - generic [ref=e139]:
+                          - link "Manage your account and privacy" [ref=e140] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e141]: Manage your account and privacy
+                          - paragraph [ref=e142]: Go to your Settings.
+                    - listitem [ref=e143]:
+                      - generic [ref=e144]:
+                        - img [ref=e454]
+                        - generic [ref=e146]:
+                          - link "Recommendation transparency" [ref=e147] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e148]: Recommendation transparency
+                          - paragraph [ref=e149]: Learn more about Recommended Content.
+                  - generic [ref=e151]:
+                    - paragraph [ref=e153]: Select language
+                    - generic [ref=e154]:
+                      - combobox "Select language" [ref=e155] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e456]:
+    - generic [active] [ref=f47e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f47e3]
+          - alert
+      - region [ref=f47e4]
+      - generic [ref=f47e5]:
+        - generic [ref=f47e7]:
+          - button "Skip to search" [ref=f47e8] [cursor=pointer]:
+            - generic [ref=f47e9]: Skip to search
+          - button "Skip to main content" [ref=f47e10] [cursor=pointer]:
+            - generic [ref=f47e11]: Skip to main content
+          - button "Keyboard shortcuts" [ref=f47e12] [cursor=pointer]:
+            - generic [ref=f47e13]: Keyboard shortcuts
+          - button "Close jump menu" [ref=f47e14] [cursor=pointer]:
+            - img [ref=f47e15]
+            - generic [ref=f47e17]: Close jump menu
+        - banner "Global Navigation" [ref=f47e18]:
+          - generic [ref=f47e19]:
+            - link "LinkedIn" [ref=f47e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f47e23]:
+                - img [ref=f47e24]
+            - button "Click to start a search" [ref=f47e28] [cursor=pointer]:
+              - img [ref=f47e30]
+            - navigation "Primary Navigation" [ref=f47e32]:
+              - list [ref=f47e33]:
+                - listitem [ref=f47e34]:
+                  - link "new feed updates notifications Home" [ref=f47e35] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f47e36]:
+                      - generic [ref=f47e39]: new feed updates notifications
+                      - img [ref=f47e43]
+                    - generic "Home" [ref=f47e45]
+                - listitem [ref=f47e46]:
+                  - link "3 new network updates notifications My Network" [ref=f47e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - generic [ref=f47e48]:
+                      - generic [ref=f47e49]:
+                        - generic [ref=f47e50]: "3"
+                        - generic [ref=f47e51]: 3 new network updates notifications
+                      - img [ref=f47e55]
+                    - generic "My Network" [ref=f47e57]
+                - listitem [ref=f47e58]:
+                  - link "Jobs" [ref=f47e59] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f47e63]
+                    - generic "Jobs" [ref=f47e65]
+                - listitem [ref=f47e66]:
+                  - link "Messaging" [ref=f47e67] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f47e71]
+                    - generic "Messaging" [ref=f47e73]
+                - listitem [ref=f47e74]:
+                  - link "9 new notifications Notifications" [ref=f47e75] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f47e76]:
+                      - generic [ref=f47e77]:
+                        - generic [ref=f47e78]: "9"
+                        - generic [ref=f47e79]: 9 new notifications
+                      - img [ref=f47e83]
+                    - generic "Notifications" [ref=f47e85]
+                - listitem [ref=f47e86]:
+                  - button "Amarsh Pedapati Me" [ref=f47e88] [cursor=pointer]:
+                    - img "Amarsh Pedapati" [ref=f47e89]
+                    - generic [ref=f47e90]:
+                      - text: Me
+                      - img [ref=f47e91]
+                - listitem [ref=f47e93]:
+                  - button "For Business" [ref=f47e95] [cursor=pointer]:
+                    - img [ref=f47e99]
+                    - generic "For Business" [ref=f47e101]:
+                      - text: For Business
+                      - img [ref=f47e102]
+                - listitem [ref=f47e104]:
+                  - link "Post a job" [ref=f47e105] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=nav_spotlight_post_job&
+                    - img [ref=f47e109]
+                    - generic "Post a job" [ref=f47e114]

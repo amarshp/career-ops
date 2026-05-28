@@ -1,0 +1,686 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e156]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e158] [cursor=pointer]:
+            - img "LinkedIn" [ref=e159]
+          - generic [ref=e161]:
+            - status [ref=e162]
+            - search [ref=e163]:
+              - generic [ref=e164]:
+                - img [ref=e166]
+                - textbox "Search" [ref=e168]
+          - generic [ref=e20]:
+            - figure [ref=e173]
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "Home, 1 new notification" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e30]: Home
+                - listitem [ref=e31]:
+                  - link "My Network, 3 new notifications" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - generic [ref=e33]:
+                      - img [ref=e34]
+                      - generic [ref=e175]: "3"
+                    - generic [ref=e36]: My Network
+                - listitem [ref=e37]:
+                  - link "Jobs, 0 new notifications" [ref=e38] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e40]
+                    - generic [ref=e42]: Jobs
+                - listitem [ref=e43]:
+                  - link "Messaging, 0 new notifications" [ref=e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e46]
+                    - generic [ref=e48]: Messaging
+                - listitem [ref=e49]:
+                  - link "Notifications, 9 new notifications" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e51]:
+                      - img [ref=e52]
+                      - generic [ref=e176]: "9"
+                    - generic [ref=e54]: Notifications
+                - listitem [ref=e55]:
+                  - button "Me" [ref=e56] [cursor=pointer]:
+                    - figure [ref=e58]
+                    - generic [ref=e59]:
+                      - text: Me
+                      - img [ref=e177]
+            - navigation [ref=e63]:
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - button "For Business" [ref=e66] [cursor=pointer]:
+                    - img [ref=e68]
+                    - generic [ref=e70]:
+                      - text: For Business
+                      - img [ref=e179]
+                - listitem [ref=e72]:
+                  - link "Hire with AI" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job
+                    - img [ref=e181]
+                    - generic [ref=e76]: Hire with AI
+      - main [ref=e77]:
+        - generic [ref=e78]:
+          - toolbar
+          - main [ref=e79]:
+            - generic [ref=e81]:
+              - generic [ref=e188]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - generic [ref=e195]:
+                      - link "Company, Auxo Talent." [ref=e197] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/auxotalent/life/
+                        - generic "Company, Auxo Talent." [ref=e198]:
+                          - figure [ref=e199]:
+                            - img "Company logo for, Auxo Talent." [ref=e200]
+                          - paragraph [ref=e201]:
+                            - link "Auxo Talent" [ref=e202]:
+                              - /url: https://www.linkedin.com/company/auxotalent/life/
+                      - button "More options" [ref=e203] [cursor=pointer]:
+                        - img [ref=e205]
+                    - paragraph [ref=e208]: Lead AI Engineer
+                    - paragraph [ref=e209]: Dubai, United Arab Emirates · 3 days ago · Over 100 applicants
+                    - paragraph [ref=e211]:
+                      - text: Promoted by hirer ·
+                      - strong [ref=e212]: Actively reviewing applicants
+                  - generic [ref=e213]:
+                    - link "On-site" [ref=e215] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/lead-ai-engineer-at-auxo-talent-4411361339/
+                      - generic [ref=e217]: On-site
+                    - link "Full-time" [ref=e219] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/lead-ai-engineer-at-auxo-talent-4411361339/
+                      - generic [ref=e221]: Full-time
+                  - generic [ref=e226]:
+                    - link "Easy Apply to this job" [ref=e228] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4411361339/apply/?openSDUIApplyFlow=true&trackingId=35%2BjWEl8RDibxMua0lHPBg%3D%3D
+                      - generic [ref=e229]:
+                        - img [ref=e230]
+                        - generic [ref=e232]: Easy Apply
+                    - button "Save the job" [ref=e234] [cursor=pointer]:
+                      - generic [ref=e236]: Save
+                - generic [ref=e237]:
+                  - generic [ref=e242]:
+                    - heading "Use AI to assess how you fit" [level=2] [ref=e244]
+                    - paragraph [ref=e247]:
+                      - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                      - link "Reactivate Premium" [ref=e248] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=Ey7pL9p4TUiL7r27c1kM9Q%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                    - list [ref=e255]:
+                      - listitem [ref=e256]:
+                        - link "Show match details" [ref=e258] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Af67690807fcdca98cb60a6677843af890f46ae5cabf4f8c79994282918f0b622%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Af67690807fcdca98cb60a6677843af890f46ae5cabf4f8c79994282918f0b622&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=LLMXnhMzRwWBX9dDf2XtgQ%3D%3D&customContext=jobPostingId%7E%3A4411361339%2CsubIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4411361339
+                          - generic [ref=e259]:
+                            - img [ref=e260]
+                            - paragraph [ref=e262]: Show match details
+                      - listitem [ref=e263]:
+                        - link "Tailor my resume" [ref=e265] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Tailor+my+resume&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Af67690807fcdca98cb60a6677843af890f46ae5cabf4f8c79994282918f0b622%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Af67690807fcdca98cb60a6677843af890f46ae5cabf4f8c79994282918f0b622&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=kifxNu%2FlTGmeirDiDcFTJQ%3D%3D&customContext=jobPostingId%7E%3A4411361339%2CsubIntent%7E%3AJobSeekerAgentIntent_RESUME_ASSISTANCE%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4411361339
+                          - generic [ref=e266]:
+                            - img [ref=e267]
+                            - paragraph [ref=e269]: Tailor my resume
+                      - listitem [ref=e270]:
+                        - link "Help me stand out" [ref=e272] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Af67690807fcdca98cb60a6677843af890f46ae5cabf4f8c79994282918f0b622%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Af67690807fcdca98cb60a6677843af890f46ae5cabf4f8c79994282918f0b622&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=a9baoW5JQzOuymfvHKNltQ%3D%3D&customContext=jobPostingId%7E%3A4411361339%2CsubIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4411361339
+                          - generic [ref=e273]:
+                            - img [ref=e274]
+                            - paragraph [ref=e276]: Help me stand out
+                  - generic [ref=e282]:
+                    - heading "About the job" [level=2] [ref=e284]
+                    - paragraph [ref=e285]:
+                      - generic [ref=e286]:
+                        - paragraph [ref=e287]:
+                          - strong [ref=e288]: "Job Title: Lead AI Engineer – Data / AI/ML"
+                        - paragraph [ref=e289]:
+                          - strong [ref=e290]: "Location: UAE"
+                        - paragraph [ref=e291]
+                        - paragraph [ref=e292]: We are supporting a large enterprise organisation in building a new AI capability.
+                        - paragraph [ref=e293]:
+                          - text: These are
+                          - strong [ref=e294]: highly hands-on roles
+                          - text: ", focused on building and deploying production-grade AI systems."
+                        - paragraph [ref=e295]:
+                          - text: You will play a key role in taking solutions from
+                          - strong [ref=e296]: POC → production
+                          - text: ", working across data, machine learning, and GenAI systems."
+                        - paragraph [ref=e297]
+                        - paragraph [ref=e298]:
+                          - strong [ref=e299]: Key Responsibilities
+                        - list [ref=e300]:
+                          - listitem [ref=e301]: Design, build, and deploy scalable AI systems and data pipelines
+                          - listitem [ref=e302]: Translate business use cases into robust technical solutions
+                          - listitem [ref=e303]: Develop APIs, workflows, and system integrations
+                          - listitem [ref=e304]: Ensure performance, scalability, and production readiness
+                          - listitem [ref=e305]: Lead delivery across small engineering pods
+                        - paragraph [ref=e306]
+                        - paragraph [ref=e307]:
+                          - strong [ref=e308]: AI/ML Engineering
+                        - list [ref=e309]:
+                          - listitem [ref=e310]: Build and deploy ML and GenAI systems into production
+                          - listitem [ref=e311]: Work with LLMs, RAG pipelines, and vector databases
+                          - listitem [ref=e312]: Use orchestration frameworks (e.g. LangChain or similar)
+                          - listitem [ref=e313]: Strong Python and system design experience
+                        - paragraph [ref=e314]
+                        - paragraph [ref=e315]:
+                          - strong [ref=e316]: Requirements
+                        - list [ref=e317]:
+                          - listitem [ref=e318]: Strong hands-on engineering background (Python essential)
+                          - listitem [ref=e319]: Proven experience deploying AI/ML/GenAI systems into production
+                          - listitem [ref=e320]: Experience working with APIs, cloud environments, and scalable systems
+                          - listitem [ref=e321]: Engineering-first mindset (70–80% hands-on)
+                          - listitem [ref=e322]: Ability to move from prototype to production environments
+                        - paragraph [ref=e323]
+                        - paragraph [ref=e324]:
+                          - text: This is an opportunity to join a team focused on
+                          - strong [ref=e325]: real-world AI deployment at scale
+                          - text: ", delivering systems that drive measurable business impact."
+                        - paragraph [ref=e326]
+                        - paragraph [ref=e327]: For more information, please apply or reach out for a confidential discussion.
+                        - button:
+                          - generic [ref=e329] [cursor=pointer]: … more
+                    - paragraph [ref=e330]: Requirements added by the job poster
+                    - paragraph [ref=e331]: • 4+ years of work experience with Artificial Intelligence (AI)
+                  - generic [ref=e336]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e337]
+                    - generic [ref=e338]:
+                      - paragraph [ref=e339]: Artificial Intelligence Engineer, Dubai, United Arab Emirates
+                      - generic [ref=e341]:
+                        - generic:
+                          - paragraph
+                        - generic [ref=e342]:
+                          - generic [ref=e343]: "Off"
+                          - generic [ref=e344] [cursor=pointer]:
+                            - switch "Tap to toggle setting"
+                  - generic [ref=e354]:
+                    - paragraph [ref=e356]: Job search faster with Premium
+                    - paragraph [ref=e357]: Access company insights like strategic priorities, headcount trends, and more
+                    - generic [ref=e358]:
+                      - figure [ref=e359]
+                      - figure [ref=e360]
+                      - figure [ref=e361]
+                      - paragraph [ref=e362]: Lovely and millions of other members use Premium
+                    - link "Reactivate Premium" [ref=e363] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=mDuURSbrRqqV6dsweUj9uw%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC
+                      - generic [ref=e365]: Reactivate Premium
+                    - paragraph [ref=e366]: Cancel anytime. No hidden fees.
+                  - generic [ref=e371]:
+                    - heading "About the company" [level=2] [ref=e373]
+                    - generic [ref=e374]:
+                      - generic [ref=e375]:
+                        - link "Auxo Talent 63,354 followers" [ref=e376] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/auxotalent/life/
+                          - generic [ref=e377]:
+                            - figure [ref=e378]
+                            - generic [ref=e379]:
+                              - paragraph [ref=e382]: Auxo Talent
+                              - paragraph [ref=e384]: 63,354 followers
+                        - button "Follow" [ref=e385] [cursor=pointer]:
+                          - generic [ref=e386]:
+                            - img [ref=e387]
+                            - generic [ref=e389]: Follow
+                      - generic [ref=e390]:
+                        - paragraph [ref=e392]: Staffing and Recruiting
+                        - paragraph [ref=e394]: •
+                        - paragraph [ref=e396]: 201-500 employees
+                        - paragraph [ref=e398]: •
+                        - paragraph [ref=e400]: 102 on LinkedIn
+                      - paragraph [ref=e401]:
+                        - generic [ref=e402]:
+                          - text: Auxo is a global STEMx workforce solutions partner, supporting the industries shaping the future of work. We bring together four specialist divisions across Technology, Advanced Engineering, Future Build and Frontier, connecting ambitious organisations with the talent and capability they need to grow. Our work spans permanent hiring, contract recruitment, executive search, global mobility, advisory services and complex workforce programmes delivered through Auxo XPO. This unified approach gives clients a single partner with deep expertise, wider reach and stronger delivery across fast changing markets. Auxo exists to help businesses stay competitive in a world where skills, industries and technologies evolve quickly. By combining specialist insight with global scale, we help clients build teams that drive progress. For candidates, we open doors to opportunities in the industries that will define tomorrow. Challenge. Growth. Tenacity. These values guide how we work and how we deliver for the people and organisations who trust us. The future, powered by talent.
+                          - button:
+                            - generic [ref=e404] [cursor=pointer]: … more
+                    - generic [ref=e408]:
+                      - generic [ref=e410]:
+                        - paragraph [ref=e411]: Interested in working with us in the future?
+                        - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e412] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                          - paragraph [ref=e413]:
+                            - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                            - link "Learn more" [ref=e414]:
+                              - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                              - strong [ref=e415]: Learn more
+                      - button "I’m interested" [ref=e417] [cursor=pointer]:
+                        - generic [ref=e419]: I’m interested
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Looking for talent?
+                - link "Post a job" [ref=e87] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e89]: Post a job
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - navigation [ref=e96]:
+                    - link "About" [ref=e97] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e98]: About
+                    - link "Accessibility" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e100]: Accessibility
+                    - link "Talent Solutions" [ref=e101] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e102]: Talent Solutions
+                    - link "Community Guidelines" [ref=e103] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e104]: Community Guidelines
+                    - link "Careers" [ref=e105] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e106]: Careers
+                    - link "Marketing Solutions" [ref=e107] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e108]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e109] [cursor=pointer]:
+                      - generic [ref=e110]:
+                        - paragraph [ref=e111]: Privacy & Terms
+                        - img [ref=e420]
+                    - link "Ad Choices" [ref=e113] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e114]: Ad Choices
+                    - link "Advertising" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e116]: Advertising
+                    - link "Sales Solutions" [ref=e117] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e118]: Sales Solutions
+                    - link "Mobile" [ref=e119] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e120]: Mobile
+                    - link "Small Business" [ref=e121] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e122]: Small Business
+                    - link "Safety Center" [ref=e123] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e124]: Safety Center
+                  - paragraph [ref=e126]: LinkedIn Corporation © 2026
+                - generic [ref=e127]:
+                  - list [ref=e128]:
+                    - listitem [ref=e129]:
+                      - generic [ref=e130]:
+                        - img [ref=e422]
+                        - generic [ref=e132]:
+                          - link "Questions?" [ref=e133] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e134]: Questions?
+                          - paragraph [ref=e135]: Visit our Help Center.
+                    - listitem [ref=e136]:
+                      - generic [ref=e137]:
+                        - img [ref=e424]
+                        - generic [ref=e139]:
+                          - link "Manage your account and privacy" [ref=e140] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e141]: Manage your account and privacy
+                          - paragraph [ref=e142]: Go to your Settings.
+                    - listitem [ref=e143]:
+                      - generic [ref=e144]:
+                        - img [ref=e426]
+                        - generic [ref=e146]:
+                          - link "Recommendation transparency" [ref=e147] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e148]: Recommendation transparency
+                          - paragraph [ref=e149]: Learn more about Recommended Content.
+                  - generic [ref=e151]:
+                    - paragraph [ref=e153]: Select language
+                    - generic [ref=e154]:
+                      - combobox "Select language" [ref=e155] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic [active]:
+    - generic:
+      - dialog "Apply to Auxo Talent" [ref=e430]:
+        - generic [ref=e431]: Dialog content start.
+        - button "Dismiss" [ref=e432] [cursor=pointer]:
+          - img [ref=e433]
+        - heading "Apply to Auxo Talent" [level=2] [ref=e437]
+        - region "Your job application progress is at 33 percent." [ref=e488]:
+          - generic [ref=e440]:
+            - progressbar [ref=e443]: "Current value: 33"
+            - note "Your job application progress is at 33 percent." [ref=e489]: 33%
+          - generic [ref=e446]:
+            - generic [ref=e490]:
+              - heading "Resume" [level=3] [ref=e491]
+              - generic [ref=e492]:
+                - generic [ref=e493]: Be sure to include an updated resume *
+                - generic [ref=e494]:
+                  - generic "Selected" [ref=e495] [cursor=pointer]:
+                    - text: PDF
+                    - paragraph [ref=e496]:
+                      - heading "amarsh-resume.pdf" [level=3] [ref=e531]
+                      - paragraph [ref=e498]: 332 KB · Uploaded on 5/12/2026
+                    - generic [ref=e532]:
+                      - button "Download resume amarsh-resume.pdf" [ref=e533]:
+                        - img [ref=e534]
+                      - radio "Deselect resume amarsh-resume.pdf" [checked]
+                      - generic [ref=e539]: Deselect resume amarsh-resume.pdf
+                  - generic "Select this resume" [ref=e507] [cursor=pointer]:
+                    - text: PDF
+                    - paragraph [ref=e508]:
+                      - heading "046-salt-senior-ai-engineer-2026-05-12.pdf" [level=3] [ref=e540]
+                      - paragraph [ref=e510]: 332 KB · Last used on 5/12/2026
+                    - generic [ref=e511]:
+                      - button "Download resume 046-salt-senior-ai-engineer-2026-05-12.pdf" [ref=e541]:
+                        - img [ref=e513]
+                      - radio "Select resume 046-salt-senior-ai-engineer-2026-05-12.pdf"
+                      - generic [ref=e518]: Select resume 046-salt-senior-ai-engineer-2026-05-12.pdf
+                - generic [ref=e519]:
+                  - generic [ref=e520]:
+                    - button "Upload resume button. Only, DOC, DOCX, PDF formats are supported. Max file size is (2 MB)." [ref=e522] [cursor=pointer]: Upload resume
+                    - paragraph [ref=e523]: DOC, DOCX, PDF (2 MB)
+                  - button "Show 4 more resumes" [ref=e542] [cursor=pointer]:
+                    - img [ref=e526]
+                    - generic [ref=e528]: Show 4 more resumes
+            - generic [ref=e480]:
+              - paragraph [ref=e481]: Submitting this application won’t change your LinkedIn profile.
+              - paragraph [ref=e482]:
+                - text: Application powered by LinkedIn.
+                - link "Visit help center to know more" [ref=e483] [cursor=pointer]:
+                  - /url: /help/linkedin/answer/71792?lang=en_US
+                  - text: Help Center
+            - generic [ref=e484]:
+              - button "Back to previous step" [ref=e529] [cursor=pointer]:
+                - generic [ref=e530]: Back
+              - button "Continue to next step" [ref=e485] [cursor=pointer]:
+                - generic [ref=e486]: Next
+        - generic [ref=e487]: Dialog content end.
+      - generic:
+        - generic:
+          - complementary
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e428]:
+    - generic [active] [ref=f26e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f26e3]
+          - alert
+      - region [ref=f26e4]
+      - generic [ref=f26e5]:
+        - generic [ref=f26e7]:
+          - button [ref=f26e130] [cursor=pointer]:
+            - generic [ref=f26e9]: Skip to search
+          - button [ref=f26e131] [cursor=pointer]:
+            - generic [ref=f26e11]: Skip to main content
+          - button [ref=f26e132] [cursor=pointer]:
+            - generic [ref=f26e13]: Keyboard shortcuts
+          - button [ref=f26e133] [cursor=pointer]:
+            - img [ref=f26e15]
+            - generic [ref=f26e17]: Close jump menu
+        - banner [ref=f26e134]:
+          - generic [ref=f26e19]:
+            - link [ref=f26e135] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img [ref=f26e136]:
+                - img [ref=f26e24]
+            - button [ref=f26e137] [cursor=pointer]:
+              - img [ref=f26e30]
+            - navigation [ref=f26e138]:
+              - list [ref=f26e33]:
+                - listitem [ref=f26e34]:
+                  - link [ref=f26e139] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f26e36]:
+                      - generic [ref=f26e39]: new feed updates notifications
+                      - img [ref=f26e141]
+                    - generic [ref=f26e143]: Home
+                - listitem [ref=f26e46]:
+                  - link [ref=f26e144] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - generic [ref=f26e48]:
+                      - generic [ref=f26e49]:
+                        - generic [ref=f26e50]: "3"
+                        - generic [ref=f26e51]: 3 new network updates notifications
+                      - img [ref=f26e146]
+                    - generic [ref=f26e148]: My Network
+                - listitem [ref=f26e58]:
+                  - link [ref=f26e149] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f26e151]
+                    - generic [ref=f26e153]: Jobs
+                - listitem [ref=f26e66]:
+                  - link [ref=f26e154] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f26e156]
+                    - generic [ref=f26e158]: Messaging
+                - listitem [ref=f26e74]:
+                  - link [ref=f26e159] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f26e76]:
+                      - generic [ref=f26e77]:
+                        - generic [ref=f26e78]: "9"
+                        - generic [ref=f26e79]: 9 new notifications
+                      - img [ref=f26e161]
+                    - generic [ref=f26e163]: Notifications
+                - listitem [ref=f26e86]:
+                  - button [ref=f26e164] [cursor=pointer]:
+                    - img [ref=f26e165]
+                    - generic [ref=f26e90]:
+                      - text: Me
+                      - img [ref=f26e91]
+                - listitem [ref=f26e93]:
+                  - button [ref=f26e166] [cursor=pointer]:
+                    - img [ref=f26e99]
+                    - generic [ref=f26e167]:
+                      - text: For Business
+                      - img [ref=f26e102]
+                - listitem [ref=f26e104]:
+                  - link [ref=f26e168] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=nav_spotlight_post_job&
+                    - img [ref=f26e170]
+                    - generic [ref=f26e175]: Post a job
+        - generic [ref=f26e178]:
+          - main [ref=f26e179]:
+            - generic [ref=f26e182]:
+              - generic [ref=f26e186]:
+                - generic [ref=f26e187]:
+                  - generic [ref=f26e188]:
+                    - link [ref=f26e189] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/auxotalent/life
+                      - img [ref=f26e192]
+                    - link [ref=f26e194] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/auxotalent/life
+                      - text: Auxo Talent
+                  - generic [ref=f26e195]:
+                    - button [ref=f26e198] [cursor=pointer]:
+                      - img [ref=f26e199]
+                      - generic [ref=f26e201]: Share
+                    - button [ref=f26e203] [cursor=pointer]:
+                      - img [ref=f26e204]
+                      - generic [ref=f26e206]: Show more options
+                - heading [level=1] [ref=f26e209]: Lead AI Engineer
+                - generic [ref=f26e212]:
+                  - generic [ref=f26e213]: Dubai, United Arab Emirates
+                  - generic [ref=f26e214]: ·
+                  - generic [ref=f26e216]: 3 days ago
+                  - generic [ref=f26e217]: ·
+                  - generic [ref=f26e218]: Over 100 applicants
+                  - paragraph [ref=f26e219]:
+                    - generic [ref=f26e220]: Promoted by hirer
+                    - generic [ref=f26e221]: ·
+                    - strong [ref=f26e223]: Actively reviewing applicants
+                - generic [ref=f26e224]:
+                  - button [ref=f26e225] [cursor=pointer]:
+                    - strong [ref=f26e227]: On-site
+                  - button [ref=f26e228] [cursor=pointer]:
+                    - strong [ref=f26e230]: Full-time
+                - generic [ref=f26e232]:
+                  - button [ref=f26e235] [cursor=pointer]:
+                    - img [ref=f26e236]
+                    - generic [ref=f26e238]: Easy Apply
+                  - button [ref=f26e239] [cursor=pointer]:
+                    - generic [ref=f26e240]: Save
+                    - generic [ref=f26e241]: Save Lead AI Engineer at Auxo Talent
+              - generic [ref=f26e242]:
+                - heading [level=2] [ref=f26e243]: How your profile and resume fit this job
+                - paragraph [ref=f26e244]:
+                  - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                  - link [ref=f26e245] [cursor=pointer]:
+                    - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=iVU54LF9QGWJ%2FQY5TWaYsg%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                    - text: Reactivate Premium
+                - generic [ref=f26e249]:
+                  - button [ref=f26e250] [cursor=pointer]:
+                    - img [ref=f26e251]
+                  - list [ref=f26e254]:
+                    - listitem [ref=f26e255]:
+                      - button [ref=f26e256] [cursor=pointer]:
+                        - img [ref=f26e257]
+                        - generic [ref=f26e259]: Show match details
+                    - listitem [ref=f26e260]:
+                      - button [ref=f26e261] [cursor=pointer]:
+                        - img [ref=f26e262]
+                        - generic [ref=f26e264]: Tailor my resume
+                    - listitem [ref=f26e265]:
+                      - button [ref=f26e266] [cursor=pointer]:
+                        - img [ref=f26e267]
+                        - generic [ref=f26e269]: Help me stand out
+                  - button [ref=f26e270] [cursor=pointer]:
+                    - img [ref=f26e271]
+              - generic [ref=f26e274]:
+                - article [ref=f26e275]:
+                  - generic [ref=f26e277]:
+                    - heading [level=2] [ref=f26e278]: About the job
+                    - paragraph [ref=f26e280]:
+                      - paragraph [ref=f26e282]:
+                        - strong [ref=f26e284]: "Job Title: Lead AI Engineer – Data / AI/ML"
+                      - paragraph [ref=f26e286]:
+                        - strong [ref=f26e288]: "Location: UAE"
+                      - paragraph [ref=f26e290]
+                      - paragraph [ref=f26e292]: We are supporting a large enterprise organisation in building a new AI capability.
+                      - paragraph [ref=f26e294]:
+                        - text: These are
+                        - strong [ref=f26e296]: highly hands-on roles
+                        - text: ", focused on building and deploying production-grade AI systems."
+                      - paragraph [ref=f26e298]:
+                        - text: You will play a key role in taking solutions from
+                        - strong [ref=f26e300]: POC → production
+                        - text: ", working across data, machine learning, and GenAI systems."
+                      - paragraph [ref=f26e302]
+                      - paragraph [ref=f26e304]:
+                        - strong [ref=f26e306]: Key Responsibilities
+                      - list [ref=f26e308]:
+                        - listitem [ref=f26e309]: Design, build, and deploy scalable AI systems and data pipelines
+                        - listitem [ref=f26e310]: Translate business use cases into robust technical solutions
+                        - listitem [ref=f26e311]: Develop APIs, workflows, and system integrations
+                        - listitem [ref=f26e312]: Ensure performance, scalability, and production readiness
+                        - listitem [ref=f26e313]: Lead delivery across small engineering pods
+                      - paragraph [ref=f26e315]
+                      - paragraph [ref=f26e317]:
+                        - strong [ref=f26e319]: AI/ML Engineering
+                      - list [ref=f26e321]:
+                        - listitem [ref=f26e322]: Build and deploy ML and GenAI systems into production
+                        - listitem [ref=f26e323]: Work with LLMs, RAG pipelines, and vector databases
+                        - listitem [ref=f26e324]: Use orchestration frameworks (e.g. LangChain or similar)
+                        - listitem [ref=f26e325]: Strong Python and system design experience
+                      - paragraph [ref=f26e327]
+                      - paragraph [ref=f26e329]:
+                        - strong [ref=f26e331]: Requirements
+                      - list [ref=f26e333]:
+                        - listitem [ref=f26e334]: Strong hands-on engineering background (Python essential)
+                        - listitem [ref=f26e335]: Proven experience deploying AI/ML/GenAI systems into production
+                        - listitem [ref=f26e336]: Experience working with APIs, cloud environments, and scalable systems
+                        - listitem [ref=f26e337]: Engineering-first mindset (70–80% hands-on)
+                        - listitem [ref=f26e338]: Ability to move from prototype to production environments
+                      - paragraph [ref=f26e340]
+                      - paragraph [ref=f26e342]:
+                        - text: This is an opportunity to join a team focused on
+                        - strong [ref=f26e344]: real-world AI deployment at scale
+                        - text: ", delivering systems that drive measurable business impact."
+                      - paragraph [ref=f26e346]
+                      - paragraph [ref=f26e348]: For more information, please apply or reach out for a confidential discussion.
+                - button [ref=f26e350] [cursor=pointer]:
+                  - img [ref=f26e351]
+                  - generic [ref=f26e353]: See more
+              - generic [ref=f26e355]:
+                - generic [ref=f26e356]:
+                  - heading [level=2] [ref=f26e357]: Set alert for similar jobs
+                  - generic [ref=f26e359]: Artificial Intelligence Engineer, Dubai, United Arab Emirates
+                - generic [ref=f26e361] [cursor=pointer]:
+                  - generic [ref=f26e362]: "Off"
+                  - generic [ref=f26e363]: Set alert
+                  - switch
+              - generic [ref=f26e369]:
+                - heading [level=3] [ref=f26e370]: Job search faster with Premium
+                - paragraph [ref=f26e371]: Access company insights like strategic priorities, headcount trends, and more
+                - generic [ref=f26e372]:
+                  - list [ref=f26e374]:
+                    - listitem [ref=f26e375]
+                    - listitem [ref=f26e377]
+                    - listitem [ref=f26e379]
+                  - paragraph [ref=f26e381]: Rahul and millions of other members use Premium
+                - link [ref=f26e382] [cursor=pointer]:
+                  - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_match_upsell%3AJob+Seeker%3AIn-Product&utype=job&referenceId=hrrE6hKRTOypTVW4%2B07FPA%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_MATCH&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2Flead-ai-engineer-at-auxo-talent-4411361339%2F
+                  - text: Reactivate Premium
+                - paragraph [ref=f26e383]: Cancel anytime. No hidden fees.
+              - generic [ref=f26e385]:
+                - generic [ref=f26e386]:
+                  - heading [level=2] [ref=f26e387]: About the company
+                  - generic [ref=f26e388]:
+                    - generic [ref=f26e389]:
+                      - link [ref=f26e391] [cursor=pointer]:
+                        - /url: /company/auxotalent/life/
+                        - img [ref=f26e392]
+                      - generic [ref=f26e393]:
+                        - link [ref=f26e395] [cursor=pointer]:
+                          - /url: /company/auxotalent/life/
+                          - text: Auxo Talent
+                        - generic [ref=f26e396]: 63,354 followers
+                    - button [ref=f26e397] [cursor=pointer]:
+                      - img [ref=f26e398]
+                      - generic [ref=f26e400]: Follow
+                  - generic [ref=f26e401]:
+                    - text: Staffing and Recruiting
+                    - generic [ref=f26e402]: • 201-500 employees
+                    - generic [ref=f26e403]: • 952 on LinkedIn
+                  - paragraph [ref=f26e404]:
+                    - generic [ref=f26e405]:
+                      - text: Auxo is a global STEMx workforce solutions partner, supporting the industries shaping the future of work. We bring together four specialist divisions across Technology, Advanced Engineering, Future Build and Frontier, connecting ambitious organisations with the talent and capability they need to grow. Our work spans permanent hiring, contract recruitment, executive search, global mobility, advisory services and complex workforce programmes delivered through Auxo XPO. This unified approach gives clients a single partner with deep expertise, wider reach and stronger delivery across fast changing markets. Auxo exists to help businesses stay competitive in a world where skills, industries and technologies evolve quickly. By combining specialist insight with global scale, we help clients build teams that drive progress. For candidates, we open doors to opportunities in the industries that will define tomorrow. Challenge. Growth. Tenacity. These values guide how we work and how we deliver for the people and organisations who trust us. The future, powered by talent.
+                      - generic [ref=f26e406]:
+                        - generic [ref=f26e407]: …
+                        - button [ref=f26e408] [cursor=pointer]: show more
+                - link [ref=f26e410] [cursor=pointer]:
+                  - /url: /company/auxotalent/life/
+                  - text: Show more
+          - complementary [ref=f26e411]:
+            - generic [ref=f26e413]:
+              - paragraph [ref=f26e414]: Looking for talent?
+              - link [ref=f26e415] [cursor=pointer]:
+                - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=flagship3_job_detail
+                - text: Post a job
