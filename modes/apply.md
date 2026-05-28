@@ -10,6 +10,7 @@ Interactive mode for when the candidate is filling out an application form in Ch
 ## Workflow
 
 ```text
+0. DEDUP       → Check applications.md for existing Applied/Responded/Interview/Offer entry for same company+role → STOP if found
 1. DETECT      → Read active Chrome tab (screenshot/URL/title)
 2. IDENTIFY    → Extract company + role from the page
 3. SEARCH      → Match against existing reports in reports/
@@ -19,6 +20,18 @@ Interactive mode for when the candidate is filling out an application form in Ch
 7. GENERATE    → For each question, generate a personalized response
 8. PRESENT     → Show formatted responses for copy-paste
 ```
+
+## Step 0 — Deduplication check (MANDATORY, runs before everything else)
+
+Before touching the browser or filling any field:
+
+1. Extract company name and role title from the target URL or page title
+2. Search `data/applications.md` for an entry matching that company + role with status `Applied`, `Responded`, `Interview`, `Offer`, or `Rejected`
+3. **If a match is found → STOP immediately.** Do not fill any fields. Report:
+   > "Already applied to [Company] — [Role] on [date] (tracker entry #NNN). Skipping to avoid duplicate."
+4. **If no match → proceed to Step 1.**
+
+This check applies to both interactive apply sessions and automated batch apply runs.
 
 ## Step 1 — Detect the job
 

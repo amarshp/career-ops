@@ -1,0 +1,513 @@
+- generic [ref=e2]:
+  - generic:
+    - heading "1 notification" [level=2] [ref=e450]
+    - alert [ref=e452]:
+      - generic [ref=e453]:
+        - generic [ref=e454]:
+          - img [ref=e455]
+          - paragraph [ref=e457]:
+            - text: Job moved to
+            - strong [ref=e458]: In progress
+            - text: under
+            - link "Clicked apply" [ref=e459] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs-tracker/?stage=clicked_apply
+              - strong [ref=e460]: Clicked apply
+            - text: .
+        - button "Close" [ref=e461] [cursor=pointer]:
+          - img [ref=e463]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e156]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e158] [cursor=pointer]:
+            - img "LinkedIn" [ref=e159]
+          - generic [ref=e161]:
+            - status [ref=e162]
+            - search [ref=e163]:
+              - generic [ref=e164]:
+                - img [ref=e166]
+                - textbox "Search" [ref=e168]
+          - generic [ref=e20]:
+            - figure [ref=e173]
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "Home, 1 new notification" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e30]: Home
+                - listitem [ref=e31]:
+                  - link "My Network, 1 new notification" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - generic [ref=e33]:
+                      - img [ref=e34]
+                      - generic [ref=e175]: "2"
+                    - generic [ref=e36]: My Network
+                - listitem [ref=e37]:
+                  - link "Jobs, 0 new notifications" [ref=e38] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e40]
+                    - generic [ref=e42]: Jobs
+                - listitem [ref=e43]:
+                  - link "Messaging, 0 new notifications" [ref=e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e46]
+                    - generic [ref=e48]: Messaging
+                - listitem [ref=e49]:
+                  - link "Notifications, 8 new notifications" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e51]:
+                      - img [ref=e52]
+                      - generic [ref=e176]: "8"
+                    - generic [ref=e54]: Notifications
+                - listitem [ref=e55]:
+                  - button "Me" [ref=e56] [cursor=pointer]:
+                    - figure [ref=e58]
+                    - generic [ref=e59]:
+                      - text: Me
+                      - img [ref=e177]
+            - navigation [ref=e63]:
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - button "For Business" [ref=e66] [cursor=pointer]:
+                    - img [ref=e68]
+                    - generic [ref=e70]:
+                      - text: For Business
+                      - img [ref=e179]
+                - listitem [ref=e72]:
+                  - link "Hire with AI" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job
+                    - img [ref=e181]
+                    - generic [ref=e76]: Hire with AI
+      - main [ref=e77]:
+        - generic [ref=e78]:
+          - toolbar
+          - main [ref=e79]:
+            - generic [ref=e81]:
+              - generic [ref=e188]:
+                - generic [ref=e191]:
+                  - generic [ref=e193]:
+                    - generic [ref=e194]:
+                      - generic [ref=e195]:
+                        - link "Company, DataCamp." [ref=e197] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/datacampinc/life/
+                          - generic "Company, DataCamp." [ref=e198]:
+                            - figure [ref=e199]:
+                              - img "Company logo for, DataCamp." [ref=e200]
+                            - paragraph [ref=e201]:
+                              - link "DataCamp" [ref=e202]:
+                                - /url: https://www.linkedin.com/company/datacampinc/life/
+                        - button "More options" [ref=e203] [cursor=pointer]:
+                          - img [ref=e205]
+                      - paragraph [ref=e208]: Principal AI Engineer - AI Tutor
+                      - paragraph [ref=e209]: Dubai, Dubai, United Arab Emirates · 5 days ago · 56 people clicked apply
+                      - paragraph [ref=e211]: Responses managed off LinkedIn
+                    - generic [ref=e212]:
+                      - link "Hybrid" [ref=e214] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/view/principal-ai-engineer-ai-tutor-at-datacamp-4410996118/
+                        - generic [ref=e216]: Hybrid
+                      - link "Full-time" [ref=e218] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/view/principal-ai-engineer-ai-tutor-at-datacamp-4410996118/
+                        - generic [ref=e220]: Full-time
+                    - generic [ref=e225]:
+                      - link "Apply on company website" [ref=e465] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fgrnh%2Ese%2F9du87i5t1us&urlhash=v2Bw&isSdui=true
+                        - generic [ref=e466]:
+                          - img [ref=e467]
+                          - generic [ref=e469]: Apply
+                      - button "Save the job" [ref=e233] [cursor=pointer]:
+                        - generic [ref=e235]: Save
+                  - generic [ref=e472]:
+                    - generic [ref=e473]:
+                      - paragraph [ref=e474]: Did you finish applying?
+                      - paragraph [ref=e475]:
+                        - text: You'll find this job under
+                        - strong [ref=e476]: In progress
+                        - text: in your
+                        - link "job tracker" [ref=e477] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs-tracker/?stage=clicked_apply
+                          - strong [ref=e478]: job tracker
+                        - text: until you confirm.
+                    - generic [ref=e479]:
+                      - link "Yes" [ref=e480] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/view/principal-ai-engineer-ai-tutor-at-datacamp-4410996118/
+                        - generic [ref=e482]: "Yes"
+                      - button "No" [ref=e483] [cursor=pointer]:
+                        - generic [ref=e485]: "No"
+                - generic [ref=e236]:
+                  - generic [ref=e489]:
+                    - heading "Use AI to assess how you fit" [level=2] [ref=e491]
+                    - paragraph [ref=e494]:
+                      - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                      - link "Reactivate Premium" [ref=e495] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=xFs80xCtSwinRUfcIrxF3A%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                    - list [ref=e502]:
+                      - listitem [ref=e503]:
+                        - link "Show match details" [ref=e505] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A1ff4ab23f502345066a3e6d6d42ab0ab5d3d070248f67ff81017caf18d290246%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3A1ff4ab23f502345066a3e6d6d42ab0ab5d3d070248f67ff81017caf18d290246&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=EpA5JYRUQgWivB04bib6TQ%3D%3D&customContext=jobPostingId%7E%3A4410996118%2CsubIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4410996118
+                          - generic [ref=e506]:
+                            - img [ref=e507]
+                            - paragraph [ref=e509]: Show match details
+                      - listitem [ref=e510]:
+                        - link "Tailor my resume" [ref=e512] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Tailor+my+resume&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A1ff4ab23f502345066a3e6d6d42ab0ab5d3d070248f67ff81017caf18d290246%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3A1ff4ab23f502345066a3e6d6d42ab0ab5d3d070248f67ff81017caf18d290246&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=tS%2Ba3nUmTW2fgQ5sWUH6PA%3D%3D&customContext=jobPostingId%7E%3A4410996118%2CsubIntent%7E%3AJobSeekerAgentIntent_RESUME_ASSISTANCE%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4410996118
+                          - generic [ref=e513]:
+                            - img [ref=e514]
+                            - paragraph [ref=e516]: Tailor my resume
+                      - listitem [ref=e517]:
+                        - link "Help me stand out" [ref=e519] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A1ff4ab23f502345066a3e6d6d42ab0ab5d3d070248f67ff81017caf18d290246%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3A1ff4ab23f502345066a3e6d6d42ab0ab5d3d070248f67ff81017caf18d290246&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=PptSCGAuQbOkrpvAP0QNzA%3D%3D&customContext=jobPostingId%7E%3A4410996118%2CsubIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4410996118
+                          - generic [ref=e520]:
+                            - img [ref=e521]
+                            - paragraph [ref=e523]: Help me stand out
+                  - generic [ref=e281]:
+                    - heading "About the job" [level=2] [ref=e283]
+                    - paragraph [ref=e284]:
+                      - generic [ref=e285]:
+                        - strong [ref=e286]: About DataCamp
+                        - text: DataCamp's mission is to empower everyone with the data and AI skills essential for 21st-century success. By providing practical, engaging learning experiences, DataCamp equips learners and organizations of all sizes to harness the power of data and AI. As a trusted partner to over
+                        - strong [ref=e287]: 17 million learners
+                        - text: and
+                        - strong [ref=e288]: 6,000+ companies
+                        - text: ", including 80% of the Fortune 1000, DataCamp is leading the charge in addressing the critical data and AI skills shortage."
+                        - strong [ref=e289]: About the role
+                        - text: Research has consistently shown that one-on-one tutoring dramatically outperforms traditional classroom instruction—a finding known as Bloom's 2 Sigma Problem. Despite decades of awareness, no solution has successfully delivered personalized tutoring at scale. Until now.
+                        - text: We are building an AI tutoring system designed to emulate and eventually surpass the best human tutors. You will work on the core AI system that delivers real-time, adaptive learning experiences to learners.
+                        - strong [ref=e290]: If you're excited about building the future of human learning, this role is for you. This role can be done remotely from anyone of the following; United States, United Kingdom, Belgium, Portugal OR UAE
+                        - strong [ref=e291]: About you
+                        - text: At DataCamp, we seek individuals who embody our core values of data-driven decision-making, action, transparency, ownership, and customer focus. You thrive in a fast-paced, high-performing environment and are driven by a passion for making a meaningful impact. You're adaptable, embracing change and ambiguity with enthusiasm. Your initiative and entrepreneurial spirit push you beyond just meeting targets—you aim to understand the "why" behind our goals and take ownership to drive the business forward. You're a collaborative team player who values transparency and always seeks to improve and innovate. If this sounds like you, we encourage you to apply!
+                        - strong [ref=e292]: Responsibilities
+                        - list [ref=e293]:
+                          - listitem [ref=e294]:
+                            - strong [ref=e295]: Build and evolve the core AI tutoring system
+                            - text: ", including prompt architectures, agentic workflows, and real-time adaptive behaviors."
+                          - listitem [ref=e296]:
+                            - strong [ref=e297]: Run rigorous experimentation and evaluation
+                            - text: ", developing custom metrics and frameworks to measure learning effectiveness and improve model reliability."
+                          - listitem [ref=e298]:
+                            - strong [ref=e299]: Design and implement scalable, maintainable software
+                            - text: ", integrating AI capabilities with platform systems, content pipelines, and user experience components."
+                          - listitem [ref=e300]:
+                            - strong [ref=e301]: Collaborate cross-functionally
+                            - text: with educators, content creators, and product teams to translate pedagogical goals into technical solutions.
+                          - listitem [ref=e302]:
+                            - strong [ref=e303]: Prototype and productionize novel model interactions
+                            - text: ", leveraging emerging research and capabilities to advance the tutor's intelligence."
+                          - listitem [ref=e304]:
+                            - strong [ref=e305]: Ensure quality, safety, and observability
+                            - text: through monitoring, testing, guardrails, and iterative refinement of model behavior.
+                          - listitem [ref=e306]:
+                            - strong [ref=e307]: Share knowledge and elevate teammates
+                            - text: ", contributing to a culture of clarity, simplicity, and continuous learning."
+                        - strong [ref=e308]: Qualifications
+                        - strong [ref=e309]: Technical
+                        - list [ref=e310]:
+                          - listitem [ref=e311]: 1+ years building complex LLM-based systems, with strong prompt engineering intuition and experience designing agentic workflows.
+                          - listitem [ref=e312]: Ability to design meaningful evaluation methods, including custom metrics and frameworks when off-the-shelf options fall short.
+                          - listitem [ref=e313]: Strong software engineering fundamentals, architectural thinking, and fluency in Python; comfortable working with production infrastructure, cloud environments, and CI/CD.
+                          - listitem [ref=e314]: Actively follows AI research and emerging capabilities, applying new ideas creatively to real problems.
+                        - strong [ref=e315]: Product & Pedagogy
+                        - list [ref=e316]:
+                          - listitem [ref=e317]: Strong empathy for learners and content creators; able to translate pedagogical goals into system behavior and product decisions.
+                          - listitem [ref=e318]: Ability to reason holistically across AI behavior, content structure, platform features, and user experience.
+                          - listitem [ref=e319]: Familiarity with learning science or a desire to develop expertise.
+                        - strong [ref=e320]: Character & Collaboration
+                        - list [ref=e321]:
+                          - listitem [ref=e322]: Drawn to difficult, ambiguous problems with no clear blueprint; persistent in exploring and refining solutions.
+                          - listitem [ref=e323]: Preference for elegance and simplicity in system design.
+                          - listitem [ref=e324]: Communicates clearly across mediums and enjoys mentoring and collaborating in small, high-ownership teams.
+                        - strong [ref=e325]: Why Datacamp?
+                        - text: "Joining DataCamp means becoming part of a dynamic, creative, and international start-up. Here are just a few of the reasons why you'll love being on our team:"
+                        - list [ref=e326]:
+                          - listitem [ref=e327]: "Exciting challenges: Face new technical challenges daily, keeping your work engaging and rewarding."
+                          - listitem [ref=e328]: "Competitive compensation: We offer a competitive salary with attractive benefits."
+                          - listitem [ref=e329]: "Flexibility: Benefit from flexible working hours because the future is flexible!"
+                          - listitem [ref=e330]: "Continuous learning: Access a yearly learning budget for conferences & training to support your professional growth."
+                          - listitem [ref=e331]: "Global retreats: Participate in international company retreats, fostering a global team spirit."
+                          - listitem [ref=e332]: "Equipment: Yearly refreshment of your IT Equipment budget for your home working setup."
+                          - listitem [ref=e333]: "Amazing team: Collaborate with a truly exceptional team—seriously, we're awesome!"
+                        - button:
+                          - generic [ref=e335] [cursor=pointer]: … more
+                  - generic [ref=e340]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e341]
+                    - generic [ref=e342]:
+                      - paragraph [ref=e343]: Artificial Intelligence Engineer, Dubai, Dubai, United Arab Emirates
+                      - switch "Tap to toggle setting" [ref=e344] [cursor=pointer]:
+                        - generic [ref=e345]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e346]:
+                            - generic [ref=e347]: "Off"
+                            - generic [ref=e348]:
+                              - switch
+                  - generic [ref=e358]:
+                    - paragraph [ref=e360]: Job search faster with Premium
+                    - paragraph [ref=e361]: Access company insights like strategic priorities, headcount trends, and more
+                    - generic [ref=e362]:
+                      - figure [ref=e363]
+                      - figure [ref=e364]
+                      - figure [ref=e365]
+                      - paragraph [ref=e366]: Lovely and millions of other members use Premium
+                    - link "Reactivate Premium" [ref=e367] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=iFwxXIM4TOaAdWe0RPz21A%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC
+                      - generic [ref=e369]: Reactivate Premium
+                    - paragraph [ref=e370]: Cancel anytime. No hidden fees.
+                  - generic [ref=e375]:
+                    - heading "About the company" [level=2] [ref=e377]
+                    - generic [ref=e378]:
+                      - generic [ref=e379]:
+                        - link "DataCamp 562,635 followers" [ref=e380] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/datacampinc/life/
+                          - generic [ref=e381]:
+                            - figure [ref=e382]
+                            - generic [ref=e383]:
+                              - paragraph [ref=e386]: DataCamp
+                              - paragraph [ref=e388]: 562,635 followers
+                        - button "Follow" [ref=e389] [cursor=pointer]:
+                          - generic [ref=e390]:
+                            - img [ref=e391]
+                            - generic [ref=e393]: Follow
+                      - generic [ref=e394]:
+                        - paragraph [ref=e396]: E-Learning Providers
+                        - paragraph [ref=e398]: •
+                        - paragraph [ref=e400]: 201-500 employees
+                        - paragraph [ref=e402]: •
+                        - paragraph [ref=e404]: 1,915 on LinkedIn
+                      - paragraph [ref=e405]:
+                        - generic [ref=e406]:
+                          - text: There is incredible power in data and AI—but only if you know what to do with it. DataCamp teaches companies and individuals the skills to work with data and AI in the real world. Our mission is to democratize data and AI skills for everyone. Companies and teams of every size use DataCamp to close their skill gaps and make better data-driven decisions. We work with 4000+ companies 3000+ academic organizations 14+ million DataCamp learners And a global learning community spread across 180+ countries. At DataCamp, we believe that everyone deserves access to high-quality education and data and AI skill development for a more secure future. From our first-class courses, projects, code-alongs, certification programs, and DataLab—we are an all-in-one platform on a mission to democratize data and AI education for all. Want to learn on the go? Download DataCamp Mobile 📲 and master in-demand skills through daily 5-minute coding challenges. Download now 👉 https://tinyurl.com/3mtauuz2
+                          - button:
+                            - generic [ref=e408] [cursor=pointer]: … more
+                      - generic [ref=e409]:
+                        - generic [ref=e410]:
+                          - heading "Commitments" [level=3] [ref=e411]
+                          - button "Help" [ref=e412] [cursor=pointer]:
+                            - img [ref=e414]
+                        - generic [ref=e417]:
+                          - paragraph [ref=e418]: Social impact
+                          - paragraph [ref=e419]:
+                            - generic [ref=e420]:
+                              - text: "DataCamp wants to make the world a more data-literate place. As part of our DataCamp Donates program, we’re allocating free DataCamp scholarships to learners from underprivileged socioeconomic backgrounds who want to learn data and AI skills. How we do this: - Champion nonprofit organizations: free training and networking for diverse communities. - Support students directly: empowering students with top tools for real-world readiness. - Train scientists with in-demand skills: boosting scientific research with enhanced data skills. - Get real people real jobs: equipping learners for their dream jobs. To this date, we’ve provided free data science scholarships to 1+ million teachers, students, and disadvantaged individuals."
+                              - button:
+                                - generic [ref=e422] [cursor=pointer]: … more
+                        - link "Learn more" [ref=e423] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/datacampinc/about/
+                          - generic [ref=e425]: Learn more
+                    - generic [ref=e429]:
+                      - generic [ref=e431]:
+                        - paragraph [ref=e432]: Interested in working with us in the future?
+                        - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e433] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                          - paragraph [ref=e434]:
+                            - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                            - link "Learn more" [ref=e435]:
+                              - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                              - strong [ref=e436]: Learn more
+                      - button "I’m interested" [ref=e438] [cursor=pointer]:
+                        - generic [ref=e440]: I’m interested
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Looking for talent?
+                - link "Post a job" [ref=e87] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e89]: Post a job
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - navigation [ref=e96]:
+                    - link "About" [ref=e97] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e98]: About
+                    - link "Accessibility" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e100]: Accessibility
+                    - link "Talent Solutions" [ref=e101] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e102]: Talent Solutions
+                    - link "Community Guidelines" [ref=e103] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e104]: Community Guidelines
+                    - link "Careers" [ref=e105] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e106]: Careers
+                    - link "Marketing Solutions" [ref=e107] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e108]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e109] [cursor=pointer]:
+                      - generic [ref=e110]:
+                        - paragraph [ref=e111]: Privacy & Terms
+                        - img [ref=e441]
+                    - link "Ad Choices" [ref=e113] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e114]: Ad Choices
+                    - link "Advertising" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e116]: Advertising
+                    - link "Sales Solutions" [ref=e117] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e118]: Sales Solutions
+                    - link "Mobile" [ref=e119] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e120]: Mobile
+                    - link "Small Business" [ref=e121] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e122]: Small Business
+                    - link "Safety Center" [ref=e123] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e124]: Safety Center
+                  - paragraph [ref=e126]: LinkedIn Corporation © 2026
+                - generic [ref=e127]:
+                  - list [ref=e128]:
+                    - listitem [ref=e129]:
+                      - generic [ref=e130]:
+                        - img [ref=e443]
+                        - generic [ref=e132]:
+                          - link "Questions?" [ref=e133] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e134]: Questions?
+                          - paragraph [ref=e135]: Visit our Help Center.
+                    - listitem [ref=e136]:
+                      - generic [ref=e137]:
+                        - img [ref=e445]
+                        - generic [ref=e139]:
+                          - link "Manage your account and privacy" [ref=e140] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e141]: Manage your account and privacy
+                          - paragraph [ref=e142]: Go to your Settings.
+                    - listitem [ref=e143]:
+                      - generic [ref=e144]:
+                        - img [ref=e447]
+                        - generic [ref=e146]:
+                          - link "Recommendation transparency" [ref=e147] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e148]: Recommendation transparency
+                          - paragraph [ref=e149]: Learn more about Recommended Content.
+                  - generic [ref=e151]:
+                    - paragraph [ref=e153]: Select language
+                    - generic [ref=e154]:
+                      - combobox "Select language" [ref=e155] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e449]:
+    - generic [active] [ref=f1e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f1e3]
+          - alert
+      - region [ref=f1e4]
+      - generic [ref=f1e5]:
+        - generic [ref=f1e7]:
+          - button "Skip to search" [ref=f1e8] [cursor=pointer]:
+            - generic [ref=f1e9]: Skip to search
+          - button "Skip to main content" [ref=f1e10] [cursor=pointer]:
+            - generic [ref=f1e11]: Skip to main content
+          - button "Keyboard shortcuts" [ref=f1e12] [cursor=pointer]:
+            - generic [ref=f1e13]: Keyboard shortcuts
+          - button "Close jump menu" [ref=f1e14] [cursor=pointer]:
+            - img [ref=f1e15]
+            - generic [ref=f1e17]: Close jump menu
+        - banner "Global Navigation" [ref=f1e18]:
+          - generic [ref=f1e19]:
+            - link "LinkedIn" [ref=f1e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f1e23]:
+                - img [ref=f1e24]
+            - button "Click to start a search" [ref=f1e28] [cursor=pointer]:
+              - img [ref=f1e30]
+            - navigation "Primary Navigation" [ref=f1e32]:
+              - list [ref=f1e33]:
+                - listitem [ref=f1e34]:
+                  - link "new feed updates notifications Home" [ref=f1e35] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f1e36]:
+                      - generic [ref=f1e39]: new feed updates notifications
+                      - img [ref=f1e43]
+                    - generic "Home" [ref=f1e45]
+                - listitem [ref=f1e46]:
+                  - link "1 new network update notification My Network" [ref=f1e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - generic [ref=f1e48]:
+                      - generic [ref=f1e49]:
+                        - generic [ref=f1e50]: "1"
+                        - generic [ref=f1e51]: 1 new network update notification
+                      - img [ref=f1e55]
+                    - generic "My Network" [ref=f1e57]
+                - listitem [ref=f1e58]:
+                  - link "Jobs" [ref=f1e59] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f1e63]
+                    - generic "Jobs" [ref=f1e65]
+                - listitem [ref=f1e66]:
+                  - link "Messaging" [ref=f1e67] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f1e71]
+                    - generic "Messaging" [ref=f1e73]
+                - listitem [ref=f1e74]:
+                  - link "8 new notifications Notifications" [ref=f1e75] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f1e76]:
+                      - generic [ref=f1e77]:
+                        - generic [ref=f1e78]: "8"
+                        - generic [ref=f1e79]: 8 new notifications
+                      - img [ref=f1e83]
+                    - generic "Notifications" [ref=f1e85]
+                - listitem [ref=f1e86]:
+                  - button "Amarsh Pedapati Me" [ref=f1e88] [cursor=pointer]:
+                    - img "Amarsh Pedapati" [ref=f1e89]
+                    - generic [ref=f1e90]:
+                      - text: Me
+                      - img [ref=f1e91]
+                - listitem [ref=f1e93]:
+                  - button "For Business" [ref=f1e95] [cursor=pointer]:
+                    - img [ref=f1e99]
+                    - generic "For Business" [ref=f1e101]:
+                      - text: For Business
+                      - img [ref=f1e102]
+                - listitem [ref=f1e104]:
+                  - link "Post a job" [ref=f1e105] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=nav_spotlight_post_job&
+                    - img [ref=f1e109]
+                    - generic "Post a job" [ref=f1e114]

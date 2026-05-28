@@ -1,0 +1,494 @@
+- generic [ref=e2]:
+  - generic:
+    - heading "‏1‏ ‏أشعار واحد‏" [level=2] [ref=e308]
+    - alert [ref=e310]:
+      - generic [ref=e311]:
+        - generic [ref=e312]:
+          - img [ref=e313]
+          - paragraph [ref=e315]:
+            - text: Job moved to
+            - strong [ref=e316]: In progress
+            - text: under
+            - link "Clicked apply" [ref=e317] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs-tracker/?stage=clicked_apply
+              - strong [ref=e318]: Clicked apply
+            - text: .
+        - button "Close" [ref=e319] [cursor=pointer]:
+          - img [ref=e321]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: التخطي إلى المحتوى الرئيسي
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e323]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "‏LinkedIn" [ref=e325] [cursor=pointer]:
+            - img "‏LinkedIn" [ref=e326]
+          - generic [ref=e19]:
+            - status [ref=e20]
+            - search [ref=e21]:
+              - generic [ref=e22]:
+                - img [ref=e328]
+                - textbox "بحث" [ref=e25]
+          - generic [ref=e27]:
+            - figure [ref=e334]
+            - navigation [ref=e30]:
+              - list [ref=e31]:
+                - listitem [ref=e32]:
+                  - button "الصفحة الرئيسية‏, ‏١‏ إشعار واحد جديد‏" [ref=e33] [cursor=pointer]:
+                    - img [ref=e35]
+                    - generic [ref=e38]: الصفحة الرئيسية
+                - listitem [ref=e39]:
+                  - link "شبكتي‏, ‏١‏ إشعار واحد جديد‏" [ref=e40] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - generic [ref=e41]:
+                      - img [ref=e42]
+                      - generic [ref=e44]: ‏٢‏
+                    - generic [ref=e45]: شبكتي
+                - listitem [ref=e46]:
+                  - link "الوظائف‏, ‏٠‏ إشعار جديد‏" [ref=e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e49]
+                    - generic [ref=e51]: الوظائف
+                - listitem [ref=e52]:
+                  - link "المراسلة‏, ‏٠‏ إشعار جديد‏" [ref=e53] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e55]
+                    - generic [ref=e57]: الرسائل
+                - listitem [ref=e58]:
+                  - link "الإشعارات‏, ‏٨‏ إشعار جديد‏" [ref=e59] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e60]:
+                      - img [ref=e61]
+                      - generic [ref=e63]: ‏٨‏
+                    - generic [ref=e64]: الإشعارات
+                - listitem [ref=e65]:
+                  - button "صفحتي" [ref=e66] [cursor=pointer]:
+                    - figure [ref=e68]
+                    - generic [ref=e69]:
+                      - text: صفحتي
+                      - img [ref=e335]
+            - navigation [ref=e73]:
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - button "للأعمال" [ref=e76] [cursor=pointer]:
+                    - img [ref=e78]
+                    - generic [ref=e80]:
+                      - text: للأعمال
+                      - img [ref=e337]
+                - listitem [ref=e82]:
+                  - link "التوظيف باستخدام الذكاء الاصطناعي" [ref=e83] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job
+                    - img [ref=e339]
+                    - generic [ref=e86]: التوظيف باستخدام الذكاء الاصطناعي
+      - main [ref=e87]:
+        - generic [ref=e88]:
+          - toolbar
+          - main [ref=e89]:
+            - generic [ref=e91]:
+              - generic [ref=e95]:
+                - generic [ref=e98]:
+                  - generic [ref=e100]:
+                    - generic [ref=e101]:
+                      - generic [ref=e102]:
+                        - link "شركة ‏Stellar Technologies‏." [ref=e104] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/stellartechnologiesae/life/
+                          - generic "شركة ‏Stellar Technologies‏." [ref=e105]:
+                            - figure [ref=e106]:
+                              - img "شعار شركة ‏Stellar Technologies‏." [ref=e107]
+                            - paragraph [ref=e108]:
+                              - link "‏Stellar Technologies‏" [ref=e109]:
+                                - /url: https://www.linkedin.com/company/stellartechnologiesae/life/
+                        - button "المزيد من الخيارات" [ref=e110] [cursor=pointer]:
+                          - img [ref=e343]
+                      - paragraph [ref=e114]: Machine Learning Engineer – Generative AI (LLMs / RAG / Agentic AI)
+                      - paragraph [ref=e115]: ‏أبو ظبي أبو ظبي الإمارات العربية المتحدة‏ · ‏‏منذ ‏٧‏ ‏من الشهور‏ · ‏⁦⁩نقر أكثر من ١٠٠ شخص فوق التقدم⁦⁩
+                      - paragraph [ref=e117]: ‏⁦⁩الردود المُدارة خارج LinkedIn
+                    - link "دوام كامل" [ref=e120] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/machine-learning-engineer-%E2%80%93-generative-ai-llms-rag-agentic-ai-at-stellar-technologies-4332333199/
+                      - generic [ref=e122]: دوام كامل
+                    - generic [ref=e127]:
+                      - link "التقدم على موقع الشركة الإلكتروني" [ref=e345] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fstellartechnologies%2Eae%2Fjobs%2Fmachine-learning-engineer-generative-ai-llms-rag-agentic-ai%2F&urlhash=8CsB&isSdui=true
+                        - generic [ref=e346]:
+                          - img [ref=e347]
+                          - generic [ref=e349]: تطبيق
+                      - button "حفظ الوظيفة" [ref=e134] [cursor=pointer]:
+                        - generic [ref=e136]: حفظ
+                  - generic [ref=e352]:
+                    - generic [ref=e353]:
+                      - paragraph [ref=e354]: هل انتهيت من التقدم؟
+                      - paragraph [ref=e355]:
+                        - text: ستجد هذه الوظيفة ضمن قسم ⁦
+                        - strong [ref=e356]: ⁩قيد التنفيذ⁦
+                        - text: ⁩ في ⁦
+                        - link "⁩⁦⁩تتبع الموظفين⁦⁩⁦" [ref=e357] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs-tracker/?stage=clicked_apply
+                          - text: ⁩⁦
+                          - strong [ref=e358]: ⁩تتبع الموظفين⁦
+                          - text: ⁩⁦
+                        - text: ⁩ حتى تقوم بالتأكيد.
+                    - generic [ref=e359]:
+                      - link "نعم" [ref=e360] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/view/machine-learning-engineer-%E2%80%93-generative-ai-llms-rag-agentic-ai-at-stellar-technologies-4332333199/
+                        - generic [ref=e362]: نعم
+                      - button "لا" [ref=e363] [cursor=pointer]:
+                        - generic [ref=e365]: لا
+                - generic [ref=e137]:
+                  - generic [ref=e143]:
+                    - paragraph [ref=e144]: عرض ترتيبك مقارنةً بـ 100 من الأشخاص الآخرين الذين نقروا فوق التقدم
+                    - paragraph [ref=e145]: قم بالوصول إلى بيانات المتقدمين الحصرية واطَّلع على الوظائف التي تحظى بأعلى الفرص لتلقي رد بشأنها والمزيد.
+                    - link "إعادة تنشيط Premium" [ref=e146] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_summary_card%3AJob+Seeker%3AIn-Product&utype=job&referenceId=J%2FS%2F52kOQ3aBywapos2y9w%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_SUMMARY_CARD
+                      - generic [ref=e147]:
+                        - img [ref=e366]
+                        - paragraph [ref=e149]: إعادة تنشيط Premium
+                  - generic [ref=e373]:
+                    - heading "لمحة حول هذه الوظيفة" [level=2] [ref=e375]
+                    - paragraph [ref=e376]:
+                      - generic [ref=e377]:
+                        - strong [ref=e378]: Role Summary
+                        - text: Stellar Technologies is seeking a
+                        - strong [ref=e379]: Machine Learning Engineer (GenAI)
+                        - text: to design, build, and deploy next-generation AI systems combining
+                        - strong [ref=e380]: Large Language Models (LLMs)
+                        - text: ","
+                        - strong [ref=e381]: Retrieval-Augmented Generation (RAG)
+                        - text: ", and"
+                        - strong [ref=e382]: agentic AI frameworks
+                        - text: .
+                        - text: In this role, you will bridge model development and production engineering — developing scalable AI pipelines, integrating real-time APIs, and ensuring high-performance AI services that power enterprise-grade solutions. You will work at the intersection of machine learning, cloud infrastructure, and applied research, collaborating with top engineers and data scientists to deliver intelligent, production-ready AI capabilities.
+                        - strong [ref=e384]: Key Responsibilities
+                        - list [ref=e385]:
+                          - listitem [ref=e386]: Develop and optimize AI systems leveraging LLMs, RAG, and agentic AI frameworks (LangChain, LangGraph).
+                          - listitem [ref=e387]: Build and deploy production-grade ML pipelines with real-time inference and retrieval components.
+                          - listitem [ref=e388]: Design and manage APIs and streaming services to integrate AI models into enterprise platforms.
+                          - listitem [ref=e389]: Implement containerized, orchestrated deployments using Docker, Kubernetes, and Azure ML.
+                          - listitem [ref=e390]: Automate data preprocessing, model training, evaluation, and versioning pipelines.
+                          - listitem [ref=e391]: Collaborate with cross-functional teams to integrate models into front-end, analytics, and automation workflows.
+                          - listitem [ref=e392]: Ensure governance, compliance, and security of deployed AI workloads.
+                          - listitem [ref=e393]: Conduct performance benchmarking and optimize inference latency and cost.
+                          - listitem [ref=e394]: Monitor AI systems in production using observability frameworks (logging, metrics, tracing).
+                          - listitem [ref=e395]: Participate in architecture discussions to enhance scalability and reliability of AI services.
+                        - strong [ref=e396]: Required Skills & Experience
+                        - list [ref=e397]:
+                          - listitem [ref=e398]: Strong hands-on experience with LLMs, RAG, and agentic frameworks (LangChain, LangGraph, Semantic Kernel, etc.).
+                          - listitem [ref=e399]: Proficiency in Python, with deep understanding of ML libraries like PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers.
+                          - listitem [ref=e400]: Solid experience in API and microservices engineering (FastAPI, Flask).
+                          - listitem [ref=e401]: Familiarity with streaming architectures and real-time data handling.
+                          - listitem [ref=e402]: Knowledge of cloud platforms (Azure preferred), including Azure AI, Cognitive Services, and ML Ops.
+                          - listitem [ref=e403]: Experience with containerization and orchestration (Docker, Kubernetes).
+                          - listitem [ref=e404]: Understanding of vector databases (Pinecone, Weaviate, FAISS) and retrieval mechanisms.
+                          - listitem [ref=e405]: Experience in CI/CD, model deployment, and production monitoring.
+                        - strong [ref=e406]: Preferred Skills
+                        - list [ref=e407]:
+                          - listitem [ref=e408]: Exposure to GPU-based inference optimization and serverless deployment.
+                          - listitem [ref=e409]: Knowledge of observability and monitoring tools for AI (Prometheus, Grafana, Azure Monitor).
+                          - listitem [ref=e410]: Experience in model fine-tuning, prompt engineering, or agentic orchestration.
+                          - listitem [ref=e411]: Understanding of AI governance, ethical AI, and data privacy frameworks.
+                        - strong [ref=e412]: Soft Skills
+                        - list [ref=e413]:
+                          - listitem [ref=e414]: Strong analytical and problem-solving mindset.
+                          - listitem [ref=e415]: Excellent collaboration and communication skills.
+                          - listitem [ref=e416]: Passion for innovation, experimentation, and applied AI.
+                        - strong [ref=e417]: "Job Category:"
+                        - text: Software Engineer
+                        - strong [ref=e418]: "Job Type:"
+                        - text: Full Time
+                        - strong [ref=e419]: "Job Location:"
+                        - text: Abu Dhabi
+                        - button:
+                          - generic [ref=e421] [cursor=pointer]: … المزيد
+                  - generic [ref=e425]:
+                    - heading "تحديد التنبيه للوظائف المشابهة" [level=2] [ref=e426]
+                    - generic [ref=e427]:
+                      - paragraph [ref=e428]: ‏مهندس التعليم الآلي‏، ‏أبو ظبي أبو ظبي الإمارات العربية المتحدة‏
+                      - switch "أنقر لتحريك مفتاح الإعدادات" [ref=e429] [cursor=pointer]:
+                        - generic [ref=e430]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e431]:
+                            - generic [ref=e432]: إيقاف
+                            - generic [ref=e433]:
+                              - switch
+                  - generic [ref=e442]:
+                    - paragraph [ref=e444]: يمكنك البحث عن وظيفة بشكل أسرع من خلال حساب Premium
+                    - paragraph [ref=e445]: يمكنك الوصول إلى بيانات الشركة مثل الأولويات الإستراتيجية واتجاهات عدد الموظفين وأكثر من ذلك
+                    - generic [ref=e446]:
+                      - figure [ref=e447]
+                      - figure [ref=e448]
+                      - figure [ref=e449]
+                      - paragraph [ref=e450]: يستخدم ‏Lovely‏ والملايين من الأعضاء الآخرين حساب Premium
+                    - link "إعادة تنشيط Premium" [ref=e451] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=MlYzqa7mRk%2Bt6UkrraSVXQ%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC
+                      - generic [ref=e453]: إعادة تنشيط Premium
+                    - paragraph [ref=e454]: يمكنك الإلغاء في أي وقت. لا توجد رسوم خفية.
+                  - generic [ref=e458]:
+                    - heading "نبذة عن الشركة" [level=2] [ref=e460]
+                    - generic [ref=e461]:
+                      - generic [ref=e462]:
+                        - link "Stellar Technologies ‏٢٬٥٥٦‏ ‏متابع‏" [ref=e463] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/stellartechnologiesae/life/
+                          - generic [ref=e464]:
+                            - figure [ref=e465]
+                            - generic [ref=e466]:
+                              - paragraph [ref=e469]: Stellar Technologies
+                              - paragraph [ref=e471]: ‏٢٬٥٥٦‏ ‏متابع‏
+                        - button "متابعة" [ref=e472] [cursor=pointer]:
+                          - generic [ref=e473]:
+                            - img [ref=e474]
+                            - generic [ref=e476]: متابعة
+                      - generic [ref=e477]:
+                        - paragraph [ref=e479]: الخدمات والاستشارات في مجال تكنولوجيا المعلومات
+                        - paragraph [ref=e481]: •
+                        - paragraph [ref=e483]: ‏201-500‏ ‏من الموظفين‏
+                        - paragraph [ref=e485]: •
+                        - paragraph [ref=e487]: ‏١١‏ على LinkedIn
+                      - paragraph [ref=e488]:
+                        - generic [ref=e489]:
+                          - text: "We are a leading software development and IT outsourcing company headquartered in Dubai with state-of-the-art development centers in Mumbai, Bangalore, and Pondicherry. Since our inception in 2020, our team of over 250+ highly qualified professionals has been committed to offering comprehensive technology solutions for both mainstream and niche tech stacks. Our expertise spans a wide range of domains, including but not limited to: 🚀 Web Development 📱 Mobile App Development 🌐 E-commerce Solutions 📊 Data Analytics ☁️ Cloud Computing 💻 Enterprise Solutions 🔒 Cybersecurity With a client-centric approach, we strive to build long-term partnerships by delivering exceptional quality and value. Our dedicated team of professionals is committed to staying at the forefront of technology trends, ensuring we can provide cutting-edge solutions to drive our clients' success. Follow us to stay updated on our latest projects, industry insights, and career opportunities. Contact us today to discuss how we can work collaboratively to reach your business objectives. For more information, visit our website: www.stellartechnologies.ae"
+                          - button:
+                            - generic [ref=e491] [cursor=pointer]: … المزيد
+                      - generic [ref=e492]:
+                        - generic [ref=e493]:
+                          - heading "الالتزامات" [level=3] [ref=e494]
+                          - button "مساعدة" [ref=e495] [cursor=pointer]:
+                            - img [ref=e497]
+                        - generic [ref=e499]:
+                          - generic [ref=e500]:
+                            - paragraph [ref=e501]: التوازن بين العمل والحياة الشخصية
+                            - paragraph [ref=e502]:
+                              - generic [ref=e503]:
+                                - text: We understand the importance of work-life balance in fostering a healthy and productive work environment. We are committed to creating a culture that supports the well-being of our employees, ensuring they have the flexibility and resources needed to maintain a harmonious balance between work and personal life. By prioritizing work-life balance, we empower our team to deliver their best while enjoying a fulfilling personal life.
+                                - button:
+                                  - generic [ref=e505] [cursor=pointer]: … المزيد
+                          - generic [ref=e506]:
+                            - paragraph [ref=e507]: النمو المهني والتعلم
+                            - paragraph [ref=e508]:
+                              - generic [ref=e509]:
+                                - text: We value continuous learning and professional development. We are committed to providing our employees with ample opportunities for career growth, learning, and upskilling. From mentorship programs to training initiatives, we empower our team to expand their knowledge, explore new technologies, and enhance their skills, enabling them to excel in their careers and reach their full potential.
+                                - button:
+                                  - generic [ref=e511] [cursor=pointer]: … المزيد
+                        - link "معرفة المزيد" [ref=e512] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/stellartechnologiesae/about/
+                          - generic [ref=e514]: معرفة المزيد
+                    - generic [ref=e518]:
+                      - generic [ref=e520]:
+                        - paragraph [ref=e521]: هل أنت مهتم بالعمل معنا في المستقبل؟
+                        - link "شارِك ملفك الشخصي بشكل خاص مع خبراء التوظيف لدينا وسيتم تصنيفك بأنك تبدي اهتمامًا لما يصل إلى عام وسيتم إخطارك بالوظائف والتحديثات. ⁦⁩⁦⁩معرفة المزيد⁦⁩" [ref=e522] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                          - paragraph [ref=e523]:
+                            - text: شارِك ملفك الشخصي بشكل خاص مع خبراء التوظيف لدينا وسيتم تصنيفك بأنك تبدي اهتمامًا لما يصل إلى عام وسيتم إخطارك بالوظائف والتحديثات. ⁦
+                            - generic [ref=e524]:
+                              - text: ⁩
+                              - link "⁦⁩معرفة المزيد⁦⁩" [ref=e525]:
+                                - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                                - text: ⁦
+                                - strong [ref=e526]: ⁩معرفة المزيد⁦
+                                - text: ⁩
+                      - button "أنا مهتم" [ref=e528] [cursor=pointer]:
+                        - generic [ref=e530]: أنا مهتم
+              - generic [ref=e237]:
+                - paragraph [ref=e238]: هل تبحث عن مواهب؟
+                - link "نشر وظيفة" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e241]: نشر وظيفة
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - navigation [ref=e248]:
+                    - link "نبذة عنا" [ref=e249] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e250]: نبذة عنا
+                    - link "إمكانية الوصول" [ref=e251] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e252]: إمكانية الوصول
+                    - link "حلول المواهب" [ref=e253] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e254]: حلول المواهب
+                    - link "إرشادات المجتمع" [ref=e255] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e256]: إرشادات المجتمع
+                    - link "المهن" [ref=e257] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e258]: المهن
+                    - link "حلول التسويق" [ref=e259] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e260]: حلول التسويق
+                    - button "الخصوصية والبنود" [ref=e261] [cursor=pointer]:
+                      - generic [ref=e262]:
+                        - paragraph [ref=e263]: الخصوصية والبنود
+                        - img [ref=e531]
+                    - link "خيارات الإعلانات" [ref=e265] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e266]: خيارات الإعلانات
+                    - link "الإعلان والدعاية" [ref=e267] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e268]: الإعلان والدعاية
+                    - link "‏Sales Solutions" [ref=e269] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e270]: ‏Sales Solutions
+                    - link "الجوال" [ref=e271] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e272]: الجوال
+                    - link "الأعمال التجارية الصغيرة" [ref=e273] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e274]: الأعمال التجارية الصغيرة
+                    - link "مركز السلامة" [ref=e275] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e276]: مركز السلامة
+                  - paragraph [ref=e278]: شركة LinkedIn ©‏ ‏٢٠٢٦‏
+                - generic [ref=e279]:
+                  - list [ref=e280]:
+                    - listitem [ref=e281]:
+                      - generic [ref=e282]:
+                        - img [ref=e533]
+                        - generic [ref=e284]:
+                          - link "هل لديك أسئلة؟" [ref=e285] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e286]: هل لديك أسئلة؟
+                          - paragraph [ref=e287]: برجاء زيارة مركز المساعدة الخاص بنا.
+                    - listitem [ref=e288]:
+                      - generic [ref=e289]:
+                        - img [ref=e535]
+                        - generic [ref=e291]:
+                          - link "إدارة حسابك وإعدادات الخصوصية" [ref=e292] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e293]: إدارة حسابك وإعدادات الخصوصية
+                          - paragraph [ref=e294]: الانتقال إلى الإعدادات.
+                    - listitem [ref=e295]:
+                      - generic [ref=e296]:
+                        - img [ref=e537]
+                        - generic [ref=e298]:
+                          - link "شفافية التوصيات" [ref=e299] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e300]: شفافية التوصيات
+                          - paragraph [ref=e301]: معرفة المزيد عن المحتوى الموصى به.
+                  - generic [ref=e303]:
+                    - paragraph [ref=e305]: تحديد اللغة
+                    - generic [ref=e306]:
+                      - combobox "تحديد اللغة" [ref=e307] [cursor=pointer]:
+                        - option "العربية (العربية)" [selected]
+                        - option "‏বাংলা (البنغالية)"
+                        - option "‏Čeština (التشيكية)"
+                        - option "‏Dansk (الدنمركية)"
+                        - option "‏Deutsch (الألمانية)"
+                        - option "‏Ελληνικά (اليونانية)"
+                        - option "‏English (الإنجليزية)"
+                        - option "‏Español (الإسبانية)"
+                        - option "فارسي (الفارسية)"
+                        - option "‏Suomi (الفنلندية)"
+                        - option "‏Français (الفرنسية)"
+                        - option "‏हिंदी (الهندية)"
+                        - option "‏Magyar (المجرية)"
+                        - option "‏Bahasa Indonesia (الإندونيسية)"
+                        - option "‏Italiano (الإيطالية)"
+                        - option "עברית (العبرية)"
+                        - option "‏日本語 (اليابانية)"
+                        - option "‏한국어 (الكورية)"
+                        - option "‏मराठी (الماراثية)"
+                        - option "‏Bahasa Malaysia (الماليزية)"
+                        - option "‏Nederlands (الهولندية)"
+                        - option "‏Norsk (النرويجية)"
+                        - option "‏ਪੰਜਾਬੀ (البنجابية)"
+                        - option "‏Polski (البولندية)"
+                        - option "‏Português (البرتغالية)"
+                        - option "‏Română (الرومانية)"
+                        - option "‏Русский (الروسية)"
+                        - option "‏Svenska (السويدية)"
+                        - option "‏తెలుగు (التيلوغوية)"
+                        - option "‏ภาษาไทย (التايلاندية)"
+                        - option "‏Tagalog (التاغلوغية)"
+                        - option "‏Türkçe (التركية)"
+                        - option "‏Українська (الأوكرانية)"
+                        - option "‏Tiếng Việt (الفيتنامية)"
+                        - option "‏简体中文 (الصينية المبسطة)"
+                        - option "‏正體中文 (الصينية التقليدية)"
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e539]:
+    - generic [active] [ref=f23e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f23e3]
+          - alert
+      - region [ref=f23e4]
+      - generic [ref=f23e5]:
+        - generic [ref=f23e7]:
+          - button "Skip to search" [ref=f23e8] [cursor=pointer]:
+            - generic [ref=f23e9]: Skip to search
+          - button "Skip to main content" [ref=f23e10] [cursor=pointer]:
+            - generic [ref=f23e11]: Skip to main content
+          - button "Keyboard shortcuts" [ref=f23e12] [cursor=pointer]:
+            - generic [ref=f23e13]: Keyboard shortcuts
+          - button "Close jump menu" [ref=f23e14] [cursor=pointer]:
+            - img [ref=f23e15]
+            - generic [ref=f23e17]: Close jump menu
+        - banner "Global Navigation" [ref=f23e18]:
+          - generic [ref=f23e19]:
+            - link "LinkedIn" [ref=f23e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img "LinkedIn" [ref=f23e23]:
+                - img [ref=f23e24]
+            - button "Click to start a search" [ref=f23e28] [cursor=pointer]:
+              - img [ref=f23e30]
+            - navigation "Primary Navigation" [ref=f23e32]:
+              - list [ref=f23e33]:
+                - listitem [ref=f23e34]:
+                  - link "new feed updates notifications Home" [ref=f23e35] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f23e36]:
+                      - generic [ref=f23e39]: new feed updates notifications
+                      - img [ref=f23e43]
+                    - generic "Home" [ref=f23e45]
+                - listitem [ref=f23e46]:
+                  - link "1 new network update notification My Network" [ref=f23e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - generic [ref=f23e48]:
+                      - generic [ref=f23e49]:
+                        - generic [ref=f23e50]: "1"
+                        - generic [ref=f23e51]: 1 new network update notification
+                      - img [ref=f23e55]
+                    - generic "My Network" [ref=f23e57]
+                - listitem [ref=f23e58]:
+                  - link "Jobs" [ref=f23e59] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f23e63]
+                    - generic "Jobs" [ref=f23e65]
+                - listitem [ref=f23e66]:
+                  - link "Messaging" [ref=f23e67] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f23e71]
+                    - generic "Messaging" [ref=f23e73]
+                - listitem [ref=f23e74]:
+                  - link "8 new notifications Notifications" [ref=f23e75] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f23e76]:
+                      - generic [ref=f23e77]:
+                        - generic [ref=f23e78]: "8"
+                        - generic [ref=f23e79]: 8 new notifications
+                      - img [ref=f23e83]
+                    - generic "Notifications" [ref=f23e85]
+                - listitem [ref=f23e86]:
+                  - button "Amarsh Pedapati Me" [ref=f23e88] [cursor=pointer]:
+                    - img "Amarsh Pedapati" [ref=f23e89]
+                    - generic [ref=f23e90]:
+                      - text: Me
+                      - img [ref=f23e91]
+                - listitem [ref=f23e93]:
+                  - button "For Business" [ref=f23e95] [cursor=pointer]:
+                    - img [ref=f23e99]
+                    - generic "For Business" [ref=f23e101]:
+                      - text: For Business
+                      - img [ref=f23e102]
+                - listitem [ref=f23e104]:
+                  - link "Post a job" [ref=f23e105] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=nav_spotlight_post_job&
+                    - img [ref=f23e109]
+                    - generic "Post a job" [ref=f23e114]

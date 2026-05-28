@@ -1,0 +1,918 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - button [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: Skip to main content
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e156]
+    - generic [ref=e11]:
+      - banner [ref=e13]:
+        - generic [ref=e16]:
+          - button "LinkedIn" [ref=e158] [cursor=pointer]:
+            - img "LinkedIn" [ref=e159]
+          - generic [ref=e161]:
+            - status [ref=e162]
+            - search [ref=e163]:
+              - generic [ref=e164]:
+                - img [ref=e166]
+                - textbox "Search" [ref=e168]
+          - generic [ref=e20]:
+            - figure [ref=e173]
+            - navigation [ref=e23]:
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - button "Home, 1 new notification" [ref=e26] [cursor=pointer]:
+                    - img [ref=e28]
+                    - generic [ref=e30]: Home
+                - listitem [ref=e31]:
+                  - link "My Network, 3 new notifications" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - generic [ref=e33]:
+                      - img [ref=e34]
+                      - generic [ref=e175]: "3"
+                    - generic [ref=e36]: My Network
+                - listitem [ref=e37]:
+                  - link "Jobs, 0 new notifications" [ref=e38] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e40]
+                    - generic [ref=e42]: Jobs
+                - listitem [ref=e43]:
+                  - link "Messaging, 0 new notifications" [ref=e44] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e46]
+                    - generic [ref=e48]: Messaging
+                - listitem [ref=e49]:
+                  - link "Notifications, 9 new notifications" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e51]:
+                      - img [ref=e52]
+                      - generic [ref=e176]: "9"
+                    - generic [ref=e54]: Notifications
+                - listitem [ref=e55]:
+                  - button "Me" [ref=e56] [cursor=pointer]:
+                    - figure [ref=e58]
+                    - generic [ref=e59]:
+                      - text: Me
+                      - img [ref=e177]
+            - navigation [ref=e63]:
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - button "For Business" [ref=e66] [cursor=pointer]:
+                    - img [ref=e68]
+                    - generic [ref=e70]:
+                      - text: For Business
+                      - img [ref=e179]
+                - listitem [ref=e72]:
+                  - link "Hire with AI" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job
+                    - img [ref=e181]
+                    - generic [ref=e76]: Hire with AI
+      - main [ref=e77]:
+        - generic [ref=e78]:
+          - toolbar
+          - main [ref=e79]:
+            - generic [ref=e81]:
+              - generic [ref=e188]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - generic [ref=e195]:
+                      - link "Company, Beam AI." [ref=e197] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/beam-ai/life/
+                        - generic "Company, Beam AI." [ref=e198]:
+                          - figure [ref=e199]:
+                            - img "Company logo for, Beam AI." [ref=e200]
+                          - paragraph [ref=e201]:
+                            - link "Beam AI" [ref=e202]:
+                              - /url: https://www.linkedin.com/company/beam-ai/life/
+                      - button "More options" [ref=e203] [cursor=pointer]:
+                        - img [ref=e205]
+                    - paragraph [ref=e208]: Senior AI Agent Engineer
+                    - paragraph [ref=e209]: Dubai, Dubai, United Arab Emirates · 2 months ago · Over 100 applicants
+                    - paragraph [ref=e211]: No response insights available yet
+                  - generic [ref=e212]:
+                    - link "300K AED/yr - 360K AED/yr" [ref=e214] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/senior-ai-agent-engineer-at-beam-ai-4381401814/
+                      - generic [ref=e216]: 300K AED/yr - 360K AED/yr
+                    - link "Hybrid" [ref=e218] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/senior-ai-agent-engineer-at-beam-ai-4381401814/
+                      - generic [ref=e220]: Hybrid
+                    - link "Full-time" [ref=e222] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/senior-ai-agent-engineer-at-beam-ai-4381401814/
+                      - generic [ref=e224]: Full-time
+                  - generic [ref=e229]:
+                    - link "Easy Apply to this job" [ref=e231] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4381401814/apply/?openSDUIApplyFlow=true&trackingId=D%2BX8jw7ATiW4w0YsOn3Dpw%3D%3D
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - generic [ref=e235]: Easy Apply
+                    - button "Save the job" [ref=e237] [cursor=pointer]:
+                      - generic [ref=e239]: Save
+                - generic [ref=e240]:
+                  - generic [ref=e245]:
+                    - heading "Use AI to assess how you fit" [level=2] [ref=e247]
+                    - paragraph [ref=e250]:
+                      - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                      - link "Reactivate Premium" [ref=e251] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=GOw3Sup9SWWxd%2BhJZwhWsA%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                    - list [ref=e258]:
+                      - listitem [ref=e259]:
+                        - link "Show match details" [ref=e261] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Acd81399ffbd69edb2e727a75a584453e92ed54c450d4babf9bc9dbdcdcb72efd%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Acd81399ffbd69edb2e727a75a584453e92ed54c450d4babf9bc9dbdcdcb72efd&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=%2B97bJCF8Qf%2B7aWwM0HaUzw%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2CjobPostingId%7E%3A4381401814%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4381401814
+                          - generic [ref=e262]:
+                            - img [ref=e263]
+                            - paragraph [ref=e265]: Show match details
+                      - listitem [ref=e266]:
+                        - link "Tailor my resume" [ref=e268] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Tailor+my+resume&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Acd81399ffbd69edb2e727a75a584453e92ed54c450d4babf9bc9dbdcdcb72efd%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Acd81399ffbd69edb2e727a75a584453e92ed54c450d4babf9bc9dbdcdcb72efd&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=zFd1dV8EQeGAToOf2FBgbg%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_RESUME_ASSISTANCE%2CjobPostingId%7E%3A4381401814%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4381401814
+                          - generic [ref=e269]:
+                            - img [ref=e270]
+                            - paragraph [ref=e272]: Tailor my resume
+                      - listitem [ref=e273]:
+                        - link "Help me stand out" [ref=e275] [cursor=pointer]:
+                          - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3Acd81399ffbd69edb2e727a75a584453e92ed54c450d4babf9bc9dbdcdcb72efd%7Eurn%3Ali%3AguideJobs%3AACoAAErEabQBKGDNc1FILicIBbSxIriUt9YTxQQ&contextUrns=urn%3Ali%3Aguide%3Acd81399ffbd69edb2e727a75a584453e92ed54c450d4babf9bc9dbdcdcb72efd&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=vixellHWRHqsLcwuLRbu1A%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2CjobPostingId%7E%3A4381401814%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4381401814
+                          - generic [ref=e276]:
+                            - img [ref=e277]
+                            - paragraph [ref=e279]: Help me stand out
+                  - generic [ref=e285]:
+                    - heading "About the job" [level=2] [ref=e287]
+                    - paragraph [ref=e288]:
+                      - generic [ref=e289]:
+                        - text: Beam's engineering team is building the core infrastructure for self-learning agents, turning AI into reliable, production-grade systems. We work across the full stack, from frontend to infra, solving for real-time orchestration, tool integration, and complex workflow execution. This is a high-trust, high-impact environment where engineers move fast, ship often, and help shape both the product and the platform as we scale. If you care about building with clarity, speed, and depth, you'll do your best work here. To learn more, visit https://beam.ai/.
+                        - strong [ref=e291]: About The Team
+                        - text: Beam's AI Agent Deployment team sits at the intersection of AI, product, and client impact. We partner closely with customers to understand their workflows, design intelligent automation solutions, and ensure our agents deliver real business value. Our work spans workflow design, agent configuration, technical integration, and ongoing optimization. We collaborate with engineering, ML, and product teams to translate abstract problems into scalable, agentic systems that work in the real world. This is a high-context, high-ownership environment where Deployment engineers operate with autonomy, move fast, and shape both how Beam's platform evolves and how our customers succeed.
+                        - strong [ref=e292]: About The Role
+                        - text: As a Senior Solutions Engineer, you'll sit at the intersection of AI, product, and customer success. You own the full lifecycle of automation delivery, from discovery through deployment, working directly with enterprise clients to turn complex workflows into scalable, AI-powered solutions using Beam's Agent OS.
+                        - text: This is a high-context, high-ownership role. You'll spend your time in client conversations, prompt engineering, workflow decomposition, integration planning, and close collaboration with product and engineering. You'll shape not just individual client outcomes but the platform itself through structured feedback from the field.
+                        - strong [ref=e293]: Responsibilities
+                        - text: "Your work will involve both prompt engineering excellence and close customer collaboration. You will be expected to:"
+                        - list [ref=e294]:
+                          - listitem [ref=e295]: Partner with enterprise customers to identify automation opportunities, gather requirements, and translate business problems into agent-powered solutions
+                          - listitem [ref=e296]: Design and build agentic automations using Beam's Agent OS. This includes scoping workflows, engineering prompts, and configuring integrations
+                          - listitem [ref=e297]: "Manage delivery end-to-end: timelines, client expectations, and stakeholder communication across technical and executive audiences"
+                          - listitem [ref=e298]: Troubleshoot and iterate on live automations by diagnosing issues, refining prompts, and improving performance
+                          - listitem [ref=e299]: Collaborate with product and engineering to scope features, surface platform gaps, and feed customer insights back into the roadmap
+                          - listitem [ref=e300]: Act as a strategic advisor to clients on AI adoption, workflow automation best practices, and integration architecture
+                        - strong [ref=e301]: Requirements
+                        - list [ref=e302]:
+                          - listitem [ref=e303]: 2-3 years in a client-facing technical role such as Solutions Engineer, Implementation Consultant, Deployment Engineer, Customer Engineer, or similar
+                          - listitem [ref=e304]: Strong project management and communication skills. You can run delivery timelines, manage client expectations, and explain technical concepts clearly to both engineers and executives
+                          - listitem [ref=e305]: Demonstrated prompt engineering expertise. You've systematically written, tested, and optimized prompts in production or near-production settings
+                          - listitem [ref=e306]: Experience automating workflows with AI. You've used AI to automate real business processes, not just experimented in sandboxes
+                          - listitem [ref=e307]: Solid API knowledge and integration experience. You're comfortable scoping and coordinating API-based integrations with external systems
+                          - listitem [ref=e308]: Analytical, process-driven thinking. You can take a messy business workflow, break it into structured components, and design an automation approach
+                        - strong [ref=e309]: Nice to Have
+                        - list [ref=e310]:
+                          - listitem [ref=e311]: AI/ML background or hands-on experience applying AI to business workflows
+                          - listitem [ref=e312]: Experience in a fast-paced startup environment
+                        - strong [ref=e313]: How We Hire
+                        - list [ref=e314]:
+                          - listitem [ref=e315]: "Our process includes a case study where you'll work on a realistic automation challenge: designing an extraction prompt, building a project plan, and presenting your approach. We want to see how you think, not just what you know"
+                        - strong [ref=e316]: Benefits
+                        - text: At Beam, we're building an environment where ambitious people can do their best work, with clarity, purpose, and room to grow. We're thoughtful about what we build, how we work, and who we hire. The problems we're solving are real. The systems we're building are complex. And the people here care deeply, about craft, about speed, and about doing work that actually matters. You won't find rigid hierarchies or endless process here. You'll find high trust, high standards, and a team driven by curiosity, ownership, and long-term thinking.
+                        - text: "Our culture is shaped by our values in action:"
+                        - list [ref=e317]:
+                          - listitem [ref=e318]: "AI-native thinking: Every teammate thinks in agentic workflows, uses AI tools daily, and looks for leverage through automation. AI isn't just what we build, it's how we operate"
+                          - listitem [ref=e319]: "Customer obsession: We build with urgency and empathy, speak to customers early and often, and measure success through their outcomes"
+                          - listitem [ref=e320]: "Speed as a habit: We ship fast, learn faster, and prioritize unblocking over perfection. We favour small experiments with tight feedback loops"
+                          - listitem [ref=e321]: "Leverage-focused execution: We hire high-impact players, invest in the 20% that drives 80% of results, and value candid feedback"
+                          - listitem [ref=e322]: "Highly aligned, loosely coupled: We align on outcomes, not tasks. You'll work independently, but never in isolation"
+                          - listitem [ref=e323]: "Data-driven, human-guided: We seek clarity over comfort, speak up early, and use feedback to grow together"
+                        - text: If this sounds like the kind of work you want to do and the kind of team you want to grow with, we'd love to hear from you!
+                        - button:
+                          - generic [ref=e325] [cursor=pointer]: … more
+                  - generic [ref=e330]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e331]
+                    - generic [ref=e332]:
+                      - paragraph [ref=e333]: Artificial Intelligence Engineer, Dubai, Dubai, United Arab Emirates
+                      - generic [ref=e335]:
+                        - generic:
+                          - paragraph
+                        - generic [ref=e336]:
+                          - generic [ref=e337]: "Off"
+                          - generic [ref=e338] [cursor=pointer]:
+                            - switch "Tap to toggle setting"
+                  - generic [ref=e348]:
+                    - paragraph [ref=e350]: Job search faster with Premium
+                    - paragraph [ref=e351]: Access company insights like strategic priorities, headcount trends, and more
+                    - generic [ref=e352]:
+                      - figure [ref=e353]
+                      - figure [ref=e354]
+                      - figure [ref=e355]
+                      - paragraph [ref=e356]: Varun and millions of other members use Premium
+                    - link "Reactivate Premium" [ref=e357] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=Jm5ppjw5RbinvUwHDO3dGA%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC
+                      - generic [ref=e359]: Reactivate Premium
+                    - paragraph [ref=e360]: Cancel anytime. No hidden fees.
+                  - generic [ref=e365]:
+                    - heading "About the company" [level=2] [ref=e367]
+                    - generic [ref=e368]:
+                      - generic [ref=e369]:
+                        - link "Beam AI 22,637 followers" [ref=e370] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/beam-ai/life/
+                          - generic [ref=e371]:
+                            - figure [ref=e372]
+                            - generic [ref=e373]:
+                              - paragraph [ref=e376]: Beam AI
+                              - paragraph [ref=e378]: 22,637 followers
+                        - button "Follow" [ref=e379] [cursor=pointer]:
+                          - generic [ref=e380]:
+                            - img [ref=e381]
+                            - generic [ref=e383]: Follow
+                      - generic [ref=e384]:
+                        - paragraph [ref=e386]: Software Development
+                        - paragraph [ref=e388]: •
+                        - paragraph [ref=e390]: 51-200 employees
+                        - paragraph [ref=e392]: •
+                        - paragraph [ref=e394]: 62 on LinkedIn
+                      - paragraph [ref=e395]:
+                        - generic [ref=e396]: AI agents that actually work in your business. While others struggle to get agents into production, Beam AI delivers reliable automation for Fortune 500 companies and scale-ups. Automate finance, HR, and operations workflows that reduce operational costs and scale your team's impact.
+                    - generic [ref=e400]:
+                      - generic [ref=e402]:
+                        - paragraph [ref=e403]: Interested in working with us in the future?
+                        - link "Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates. Learn more" [ref=e404] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                          - paragraph [ref=e405]:
+                            - text: Privately share your profile with our recruiters – you’ll be noted as expressing interest for up to a year and be notified about jobs and updates.
+                            - link "Learn more" [ref=e406]:
+                              - /url: https://www.linkedin.com/help/linkedin/answer/a1380509/
+                              - strong [ref=e407]: Learn more
+                      - button "I’m interested" [ref=e409] [cursor=pointer]:
+                        - generic [ref=e411]: I’m interested
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Looking for talent?
+                - link "Post a job" [ref=e87] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e89]: Post a job
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - navigation [ref=e96]:
+                    - link "About" [ref=e97] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e98]: About
+                    - link "Accessibility" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e100]: Accessibility
+                    - link "Talent Solutions" [ref=e101] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e102]: Talent Solutions
+                    - link "Community Guidelines" [ref=e103] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e104]: Community Guidelines
+                    - link "Careers" [ref=e105] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e106]: Careers
+                    - link "Marketing Solutions" [ref=e107] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e108]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e109] [cursor=pointer]:
+                      - generic [ref=e110]:
+                        - paragraph [ref=e111]: Privacy & Terms
+                        - img [ref=e412]
+                    - link "Ad Choices" [ref=e113] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e114]: Ad Choices
+                    - link "Advertising" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e116]: Advertising
+                    - link "Sales Solutions" [ref=e117] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e118]: Sales Solutions
+                    - link "Mobile" [ref=e119] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e120]: Mobile
+                    - link "Small Business" [ref=e121] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e122]: Small Business
+                    - link "Safety Center" [ref=e123] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e124]: Safety Center
+                  - paragraph [ref=e126]: LinkedIn Corporation © 2026
+                - generic [ref=e127]:
+                  - list [ref=e128]:
+                    - listitem [ref=e129]:
+                      - generic [ref=e130]:
+                        - img [ref=e414]
+                        - generic [ref=e132]:
+                          - link "Questions?" [ref=e133] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e134]: Questions?
+                          - paragraph [ref=e135]: Visit our Help Center.
+                    - listitem [ref=e136]:
+                      - generic [ref=e137]:
+                        - img [ref=e416]
+                        - generic [ref=e139]:
+                          - link "Manage your account and privacy" [ref=e140] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e141]: Manage your account and privacy
+                          - paragraph [ref=e142]: Go to your Settings.
+                    - listitem [ref=e143]:
+                      - generic [ref=e144]:
+                        - img [ref=e418]
+                        - generic [ref=e146]:
+                          - link "Recommendation transparency" [ref=e147] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e148]: Recommendation transparency
+                          - paragraph [ref=e149]: Learn more about Recommended Content.
+                  - generic [ref=e151]:
+                    - paragraph [ref=e153]: Select language
+                    - generic [ref=e154]:
+                      - combobox "Select language" [ref=e155] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic [active]:
+    - generic:
+      - dialog "Apply to Beam AI" [ref=e422]:
+        - generic [ref=e423]: Dialog content start.
+        - button "Dismiss" [ref=e424] [cursor=pointer]:
+          - img [ref=e425]
+        - heading "Apply to Beam AI" [level=2] [ref=e429]
+        - region "Your job application progress is at 0 percent." [ref=e431]:
+          - generic [ref=e432]:
+            - progressbar [ref=e435]: "Current value: 0"
+            - note "Your job application progress is at 0 percent." [ref=e436]: 0%
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - generic [ref=e440]:
+                - heading "Contact info" [level=3] [ref=e441]
+                - generic [ref=e442]:
+                  - img "Amarsh Pedapati" [ref=e444]
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: Amarsh Pedapati
+                    - generic [ref=e447]: Senior AI Engineer at OpenText | Ex-Data Scientist at Blend360 | IIT Hyderabad ’23 (AI)
+                    - generic [ref=e448]: Hyderabad, Telangana, India
+                - generic [ref=e453]:
+                  - generic [ref=e454]: First name*
+                  - textbox "First name*" [ref=e455]: Amarsh
+                - generic [ref=e460]:
+                  - generic [ref=e461]: Last name*
+                  - textbox "Last name*" [ref=e462]: Pedapati
+                - generic [ref=e465]:
+                  - generic [ref=e466]:
+                    - generic [ref=e467]: Phone country code
+                    - generic [ref=e468]: Phone country code
+                  - combobox "Phone country code" [ref=e469]:
+                    - option "Select an option"
+                    - option "India (+91)" [selected]
+                    - option "Afghanistan (+93)"
+                    - option "Albania (+355)"
+                    - option "Algeria (+213)"
+                    - option "American Samoa (+1)"
+                    - option "Andorra (+376)"
+                    - option "Angola (+244)"
+                    - option "Anguilla (+1)"
+                    - option "Antarctica (+0)"
+                    - option "Antigua & Barbuda (+1)"
+                    - option "Argentina (+54)"
+                    - option "Armenia (+374)"
+                    - option "Aruba (+297)"
+                    - option "Australia (+61)"
+                    - option "Austria (+43)"
+                    - option "Azerbaijan (+994)"
+                    - option "Bahamas (+1)"
+                    - option "Bahrain (+973)"
+                    - option "Bangladesh (+880)"
+                    - option "Barbados (+1)"
+                    - option "Belarus (+375)"
+                    - option "Belgium (+32)"
+                    - option "Belize (+501)"
+                    - option "Benin (+229)"
+                    - option "Bermuda (+1)"
+                    - option "Bhutan (+975)"
+                    - option "Bolivia (+591)"
+                    - option "Bosnia & Herzegovina (+387)"
+                    - option "Botswana (+267)"
+                    - option "Bouvet Island (+0)"
+                    - option "Brazil (+55)"
+                    - option "British Indian Ocean Territory (+246)"
+                    - option "British Virgin Islands (+1)"
+                    - option "Brunei (+673)"
+                    - option "Bulgaria (+359)"
+                    - option "Burkina Faso (+226)"
+                    - option "Burundi (+257)"
+                    - option "Cambodia (+855)"
+                    - option "Cameroon (+237)"
+                    - option "Canada (+1)"
+                    - option "Cape Verde (+238)"
+                    - option "Caribbean Netherlands (+599)"
+                    - option "Cayman Islands (+1)"
+                    - option "Central African Republic (+236)"
+                    - option "Chad (+235)"
+                    - option "Chile (+56)"
+                    - option "China (+86)"
+                    - option "Christmas Island (+61)"
+                    - option "Cocos (Keeling) Islands (+61)"
+                    - option "Colombia (+57)"
+                    - option "Comoros (+269)"
+                    - option "Congo - Brazzaville (+242)"
+                    - option "Congo - Kinshasa (+243)"
+                    - option "Cook Islands (+682)"
+                    - option "Costa Rica (+506)"
+                    - option "Croatia (+385)"
+                    - option "Cuba (+53)"
+                    - option "Curaçao (+599)"
+                    - option "Cyprus (+357)"
+                    - option "Czechia (+420)"
+                    - option "Côte d’Ivoire (+225)"
+                    - option "Denmark (+45)"
+                    - option "Djibouti (+253)"
+                    - option "Dominica (+1)"
+                    - option "Dominican Republic (+1)"
+                    - option "Ecuador (+593)"
+                    - option "Egypt (+20)"
+                    - option "El Salvador (+503)"
+                    - option "Equatorial Guinea (+240)"
+                    - option "Eritrea (+291)"
+                    - option "Estonia (+372)"
+                    - option "Eswatini (+268)"
+                    - option "Ethiopia (+251)"
+                    - option "Falkland Islands (+500)"
+                    - option "Faroe Islands (+298)"
+                    - option "Fiji (+679)"
+                    - option "Finland (+358)"
+                    - option "France (+33)"
+                    - option "French Guiana (+594)"
+                    - option "French Polynesia (+689)"
+                    - option "French Southern Territories (+0)"
+                    - option "Gabon (+241)"
+                    - option "Gambia (+220)"
+                    - option "Georgia (+995)"
+                    - option "Germany (+49)"
+                    - option "Ghana (+233)"
+                    - option "Gibraltar (+350)"
+                    - option "Greece (+30)"
+                    - option "Greenland (+299)"
+                    - option "Grenada (+1)"
+                    - option "Guadeloupe (+590)"
+                    - option "Guam (+1)"
+                    - option "Guatemala (+502)"
+                    - option "Guernsey (+44)"
+                    - option "Guinea (+224)"
+                    - option "Guinea-Bissau (+245)"
+                    - option "Guyana (+592)"
+                    - option "Haiti (+509)"
+                    - option "Heard & McDonald Islands (+0)"
+                    - option "Honduras (+504)"
+                    - option "Hong Kong SAR China (+852)"
+                    - option "Hungary (+36)"
+                    - option "Iceland (+354)"
+                    - option "Indonesia (+62)"
+                    - option "Iran (+98)"
+                    - option "Iraq (+964)"
+                    - option "Ireland (+353)"
+                    - option "Isle of Man (+44)"
+                    - option "Israel (+972)"
+                    - option "Italy (+39)"
+                    - option "Jamaica (+1)"
+                    - option "Japan (+81)"
+                    - option "Jersey (+44)"
+                    - option "Jordan (+962)"
+                    - option "Kazakhstan (+7)"
+                    - option "Kenya (+254)"
+                    - option "Kiribati (+686)"
+                    - option "Kuwait (+965)"
+                    - option "Kyrgyzstan (+996)"
+                    - option "Laos (+856)"
+                    - option "Latvia (+371)"
+                    - option "Lebanon (+961)"
+                    - option "Lesotho (+266)"
+                    - option "Liberia (+231)"
+                    - option "Libya (+218)"
+                    - option "Liechtenstein (+423)"
+                    - option "Lithuania (+370)"
+                    - option "Luxembourg (+352)"
+                    - option "Macao SAR China (+853)"
+                    - option "Madagascar (+261)"
+                    - option "Malawi (+265)"
+                    - option "Malaysia (+60)"
+                    - option "Maldives (+960)"
+                    - option "Mali (+223)"
+                    - option "Malta (+356)"
+                    - option "Marshall Islands (+692)"
+                    - option "Martinique (+596)"
+                    - option "Mauritania (+222)"
+                    - option "Mauritius (+230)"
+                    - option "Mayotte (+262)"
+                    - option "Mexico (+52)"
+                    - option "Micronesia (+691)"
+                    - option "Moldova (+373)"
+                    - option "Monaco (+377)"
+                    - option "Mongolia (+976)"
+                    - option "Montenegro (+382)"
+                    - option "Montserrat (+1)"
+                    - option "Morocco (+212)"
+                    - option "Mozambique (+258)"
+                    - option "Myanmar (Burma) (+95)"
+                    - option "Namibia (+264)"
+                    - option "Nauru (+674)"
+                    - option "Nepal (+977)"
+                    - option "Netherlands (+31)"
+                    - option "New Caledonia (+687)"
+                    - option "New Zealand (+64)"
+                    - option "Nicaragua (+505)"
+                    - option "Niger (+227)"
+                    - option "Nigeria (+234)"
+                    - option "Niue (+683)"
+                    - option "Norfolk Island (+672)"
+                    - option "North Korea (+850)"
+                    - option "North Macedonia (+389)"
+                    - option "Northern Mariana Islands (+1)"
+                    - option "Norway (+47)"
+                    - option "Oman (+968)"
+                    - option "Pakistan (+92)"
+                    - option "Palau (+680)"
+                    - option "Palestinian Territories (+970)"
+                    - option "Panama (+507)"
+                    - option "Papua New Guinea (+675)"
+                    - option "Paraguay (+595)"
+                    - option "Peru (+51)"
+                    - option "Philippines (+63)"
+                    - option "Pitcairn Islands (+0)"
+                    - option "Poland (+48)"
+                    - option "Portugal (+351)"
+                    - option "Puerto Rico (+1)"
+                    - option "Qatar (+974)"
+                    - option "Romania (+40)"
+                    - option "Russia (+7)"
+                    - option "Rwanda (+250)"
+                    - option "Réunion (+262)"
+                    - option "Samoa (+685)"
+                    - option "San Marino (+378)"
+                    - option "Saudi Arabia (+966)"
+                    - option "Senegal (+221)"
+                    - option "Serbia (+381)"
+                    - option "Seychelles (+248)"
+                    - option "Sierra Leone (+232)"
+                    - option "Singapore (+65)"
+                    - option "Sint Maarten (+1)"
+                    - option "Slovakia (+421)"
+                    - option "Slovenia (+386)"
+                    - option "Solomon Islands (+677)"
+                    - option "Somalia (+252)"
+                    - option "South Africa (+27)"
+                    - option "South Georgia & South Sandwich Islands (+0)"
+                    - option "South Korea (+82)"
+                    - option "South Sudan (+211)"
+                    - option "Spain (+34)"
+                    - option "Sri Lanka (+94)"
+                    - option "St. Barthélemy (+590)"
+                    - option "St. Helena (+290)"
+                    - option "St. Kitts & Nevis (+1)"
+                    - option "St. Lucia (+1)"
+                    - option "St. Martin (+590)"
+                    - option "St. Pierre & Miquelon (+508)"
+                    - option "St. Vincent & Grenadines (+1)"
+                    - option "Sudan (+249)"
+                    - option "Suriname (+597)"
+                    - option "Svalbard & Jan Mayen (+47)"
+                    - option "Sweden (+46)"
+                    - option "Switzerland (+41)"
+                    - option "Syria (+963)"
+                    - option "São Tomé & Príncipe (+239)"
+                    - option "Taiwan (+886)"
+                    - option "Tajikistan (+992)"
+                    - option "Tanzania (+255)"
+                    - option "Thailand (+66)"
+                    - option "Timor-Leste (+670)"
+                    - option "Togo (+228)"
+                    - option "Tokelau (+690)"
+                    - option "Tonga (+676)"
+                    - option "Trinidad & Tobago (+1)"
+                    - option "Tunisia (+216)"
+                    - option "Turkey (+90)"
+                    - option "Turkmenistan (+993)"
+                    - option "Turks & Caicos Islands (+1)"
+                    - option "Tuvalu (+688)"
+                    - option "U.S. Outlying Islands (+0)"
+                    - option "U.S. Virgin Islands (+1)"
+                    - option "Uganda (+256)"
+                    - option "Ukraine (+380)"
+                    - option "United Arab Emirates (+971)"
+                    - option "United Kingdom (+44)"
+                    - option "United States (+1)"
+                    - option "Uruguay (+598)"
+                    - option "Uzbekistan (+998)"
+                    - option "Vanuatu (+678)"
+                    - option "Vatican City (+39)"
+                    - option "Venezuela (+58)"
+                    - option "Vietnam (+84)"
+                    - option "Wallis & Futuna (+681)"
+                    - option "Western Sahara (+212)"
+                    - option "Yemen (+967)"
+                    - option "Zambia (+260)"
+                    - option "Åland Islands (+358)"
+                    - option "Zimbabwe (+263)"
+                - generic [ref=e474]:
+                  - generic [ref=e475]: Mobile phone number
+                  - textbox "Mobile phone number" [ref=e476]: "9959822444"
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - generic [ref=e481]: Email address
+                    - generic [ref=e482]: Email address
+                    - text: "*"
+                  - generic [ref=e483]: Required
+                  - combobox "Email address *" [ref=e484]:
+                    - option "Select an option"
+                    - option "amarsh.pedapati@gmail.com" [selected]
+              - generic [ref=e486]:
+                - paragraph [ref=e488]: The hiring team may use your phone number to contact you about this job.
+                - paragraph [ref=e490]: The hiring team may use your phone number to contact you about this job.
+            - generic [ref=e491]:
+              - paragraph [ref=e492]: Submitting this application won’t change your LinkedIn profile.
+              - paragraph [ref=e493]:
+                - text: Application powered by Workable.
+                - link "Visit help center to know more" [ref=e494] [cursor=pointer]:
+                  - /url: /help/linkedin/answer/71792?lang=en_US
+                  - text: Help Center
+            - button "Continue to next step" [ref=e496] [cursor=pointer]:
+              - generic [ref=e497]: Next
+        - generic [ref=e498]: Dialog content end.
+      - generic:
+        - generic:
+          - complementary
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e420]:
+    - generic [active] [ref=f62e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f62e3]
+          - alert
+      - region [ref=f62e4]
+      - generic [ref=f62e5]:
+        - generic [ref=f62e7]:
+          - button [ref=f62e130] [cursor=pointer]:
+            - generic [ref=f62e9]: Skip to search
+          - button [ref=f62e131] [cursor=pointer]:
+            - generic [ref=f62e11]: Skip to main content
+          - button [ref=f62e132] [cursor=pointer]:
+            - generic [ref=f62e13]: Keyboard shortcuts
+          - button [ref=f62e133] [cursor=pointer]:
+            - img [ref=f62e15]
+            - generic [ref=f62e17]: Close jump menu
+        - banner [ref=f62e134]:
+          - generic [ref=f62e19]:
+            - link [ref=f62e135] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/?nis=true
+              - img [ref=f62e136]:
+                - img [ref=f62e24]
+            - button [ref=f62e137] [cursor=pointer]:
+              - img [ref=f62e30]
+            - navigation [ref=f62e138]:
+              - list [ref=f62e33]:
+                - listitem [ref=f62e34]:
+                  - link [ref=f62e139] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f62e36]:
+                      - generic [ref=f62e39]: new feed updates notifications
+                      - img [ref=f62e141]
+                    - generic [ref=f62e143]: Home
+                - listitem [ref=f62e46]:
+                  - link [ref=f62e144] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - generic [ref=f62e48]:
+                      - generic [ref=f62e49]:
+                        - generic [ref=f62e50]: "3"
+                        - generic [ref=f62e51]: 3 new network updates notifications
+                      - img [ref=f62e146]
+                    - generic [ref=f62e148]: My Network
+                - listitem [ref=f62e58]:
+                  - link [ref=f62e149] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f62e151]
+                    - generic [ref=f62e153]: Jobs
+                - listitem [ref=f62e66]:
+                  - link [ref=f62e154] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f62e156]
+                    - generic [ref=f62e158]: Messaging
+                - listitem [ref=f62e74]:
+                  - link [ref=f62e159] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f62e76]:
+                      - generic [ref=f62e77]:
+                        - generic [ref=f62e78]: "9"
+                        - generic [ref=f62e79]: 9 new notifications
+                      - img [ref=f62e161]
+                    - generic [ref=f62e163]: Notifications
+                - listitem [ref=f62e86]:
+                  - button [ref=f62e164] [cursor=pointer]:
+                    - img [ref=f62e165]
+                    - generic [ref=f62e90]:
+                      - text: Me
+                      - img [ref=f62e91]
+                - listitem [ref=f62e93]:
+                  - button [ref=f62e166] [cursor=pointer]:
+                    - img [ref=f62e99]
+                    - generic [ref=f62e167]:
+                      - text: For Business
+                      - img [ref=f62e102]
+                - listitem [ref=f62e104]:
+                  - link [ref=f62e168] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=nav_spotlight_post_job&
+                    - img [ref=f62e170]
+                    - generic [ref=f62e175]: Post a job
+        - generic [ref=f62e178]:
+          - main [ref=f62e179]:
+            - generic [ref=f62e182]:
+              - generic [ref=f62e186]:
+                - generic [ref=f62e187]:
+                  - generic [ref=f62e188]:
+                    - link [ref=f62e189] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/beam-ai/life
+                      - img [ref=f62e192]
+                    - link [ref=f62e194] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/beam-ai/life
+                      - text: Beam AI
+                  - generic [ref=f62e195]:
+                    - button [ref=f62e198] [cursor=pointer]:
+                      - img [ref=f62e199]
+                      - generic [ref=f62e201]: Share
+                    - button [ref=f62e203] [cursor=pointer]:
+                      - img [ref=f62e204]
+                      - generic [ref=f62e206]: Show more options
+                - heading [level=1] [ref=f62e209]: Senior AI Agent Engineer
+                - generic [ref=f62e212]:
+                  - generic [ref=f62e213]: Dubai, Dubai, United Arab Emirates
+                  - generic [ref=f62e214]: ·
+                  - generic [ref=f62e216]: 2 months ago
+                  - generic [ref=f62e217]: ·
+                  - generic [ref=f62e218]: Over 100 applicants
+                  - paragraph [ref=f62e219]:
+                    - generic [ref=f62e220]: No response insights available yet
+                - generic [ref=f62e221]:
+                  - button [ref=f62e222] [cursor=pointer]:
+                    - strong [ref=f62e224]: AED300K/yr - AED360K/yr
+                  - button [ref=f62e225] [cursor=pointer]:
+                    - strong [ref=f62e227]: Hybrid
+                  - button [ref=f62e228] [cursor=pointer]:
+                    - strong [ref=f62e230]: Full-time
+                - generic [ref=f62e232]:
+                  - button [ref=f62e235] [cursor=pointer]:
+                    - img [ref=f62e236]
+                    - generic [ref=f62e238]: Easy Apply
+                  - button [ref=f62e239] [cursor=pointer]:
+                    - generic [ref=f62e240]: Save
+                    - generic [ref=f62e241]: Save Senior AI Agent Engineer at Beam AI
+              - generic [ref=f62e242]:
+                - heading [level=2] [ref=f62e243]: How your profile and resume fit this job
+                - paragraph [ref=f62e244]:
+                  - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                  - link [ref=f62e245] [cursor=pointer]:
+                    - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=9q8fDfFbT8CKMD2Cs3M0Yw%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                    - text: Reactivate Premium
+                - generic [ref=f62e249]:
+                  - button [ref=f62e250] [cursor=pointer]:
+                    - img [ref=f62e251]
+                  - list [ref=f62e254]:
+                    - listitem [ref=f62e255]:
+                      - button [ref=f62e256] [cursor=pointer]:
+                        - img [ref=f62e257]
+                        - generic [ref=f62e259]: Show match details
+                    - listitem [ref=f62e260]:
+                      - button [ref=f62e261] [cursor=pointer]:
+                        - img [ref=f62e262]
+                        - generic [ref=f62e264]: Tailor my resume
+                    - listitem [ref=f62e265]:
+                      - button [ref=f62e266] [cursor=pointer]:
+                        - img [ref=f62e267]
+                        - generic [ref=f62e269]: Help me stand out
+                  - button [ref=f62e270] [cursor=pointer]:
+                    - img [ref=f62e271]
+              - generic [ref=f62e274]:
+                - article [ref=f62e275]:
+                  - generic [ref=f62e277]:
+                    - heading [level=2] [ref=f62e278]: About the job
+                    - paragraph [ref=f62e280]:
+                      - text: Beam's engineering team is building the core infrastructure for self-learning agents, turning AI into reliable, production-grade systems. We work across the full stack, from frontend to infra, solving for real-time orchestration, tool integration, and complex workflow execution. This is a high-trust, high-impact environment where engineers move fast, ship often, and help shape both the product and the platform as we scale. If you care about building with clarity, speed, and depth, you'll do your best work here. To learn more, visit https://beam.ai/.
+                      - strong [ref=f62e282]: About The Team
+                      - text: Beam's AI Agent Deployment team sits at the intersection of AI, product, and client impact. We partner closely with customers to understand their workflows, design intelligent automation solutions, and ensure our agents deliver real business value. Our work spans workflow design, agent configuration, technical integration, and ongoing optimization. We collaborate with engineering, ML, and product teams to translate abstract problems into scalable, agentic systems that work in the real world. This is a high-context, high-ownership environment where Deployment engineers operate with autonomy, move fast, and shape both how Beam's platform evolves and how our customers succeed.
+                      - strong [ref=f62e284]: About The Role
+                      - text: As a Senior Solutions Engineer, you'll sit at the intersection of AI, product, and customer success. You own the full lifecycle of automation delivery, from discovery through deployment, working directly with enterprise clients to turn complex workflows into scalable, AI-powered solutions using Beam's Agent OS. This is a high-context, high-ownership role. You'll spend your time in client conversations, prompt engineering, workflow decomposition, integration planning, and close collaboration with product and engineering. You'll shape not just individual client outcomes but the platform itself through structured feedback from the field.
+                      - strong [ref=f62e286]: Responsibilities
+                      - text: "Your work will involve both prompt engineering excellence and close customer collaboration. You will be expected to:"
+                      - list [ref=f62e288]:
+                        - listitem [ref=f62e289]: Partner with enterprise customers to identify automation opportunities, gather requirements, and translate business problems into agent-powered solutions
+                        - listitem [ref=f62e290]: Design and build agentic automations using Beam's Agent OS. This includes scoping workflows, engineering prompts, and configuring integrations
+                        - listitem [ref=f62e291]: "Manage delivery end-to-end: timelines, client expectations, and stakeholder communication across technical and executive audiences"
+                        - listitem [ref=f62e292]: Troubleshoot and iterate on live automations by diagnosing issues, refining prompts, and improving performance
+                        - listitem [ref=f62e293]: Collaborate with product and engineering to scope features, surface platform gaps, and feed customer insights back into the roadmap
+                        - listitem [ref=f62e294]: Act as a strategic advisor to clients on AI adoption, workflow automation best practices, and integration architecture
+                      - strong [ref=f62e296]: Requirements
+                      - list [ref=f62e298]:
+                        - listitem [ref=f62e299]: 2-3 years in a client-facing technical role such as Solutions Engineer, Implementation Consultant, Deployment Engineer, Customer Engineer, or similar
+                        - listitem [ref=f62e300]: Strong project management and communication skills. You can run delivery timelines, manage client expectations, and explain technical concepts clearly to both engineers and executives
+                        - listitem [ref=f62e301]: Demonstrated prompt engineering expertise. You've systematically written, tested, and optimized prompts in production or near-production settings
+                        - listitem [ref=f62e302]: Experience automating workflows with AI. You've used AI to automate real business processes, not just experimented in sandboxes
+                        - listitem [ref=f62e303]: Solid API knowledge and integration experience. You're comfortable scoping and coordinating API-based integrations with external systems
+                        - listitem [ref=f62e304]: Analytical, process-driven thinking. You can take a messy business workflow, break it into structured components, and design an automation approach
+                      - strong [ref=f62e306]: Nice to Have
+                      - list [ref=f62e308]:
+                        - listitem [ref=f62e309]: AI/ML background or hands-on experience applying AI to business workflows
+                        - listitem [ref=f62e310]: Experience in a fast-paced startup environment
+                      - strong [ref=f62e312]: How We Hire
+                      - list [ref=f62e314]:
+                        - listitem [ref=f62e315]: "Our process includes a case study where you'll work on a realistic automation challenge: designing an extraction prompt, building a project plan, and presenting your approach. We want to see how you think, not just what you know"
+                      - strong [ref=f62e317]: Benefits
+                      - text: "At Beam, we're building an environment where ambitious people can do their best work, with clarity, purpose, and room to grow. We're thoughtful about what we build, how we work, and who we hire. The problems we're solving are real. The systems we're building are complex. And the people here care deeply, about craft, about speed, and about doing work that actually matters. You won't find rigid hierarchies or endless process here. You'll find high trust, high standards, and a team driven by curiosity, ownership, and long-term thinking. Our culture is shaped by our values in action:"
+                      - list [ref=f62e319]:
+                        - listitem [ref=f62e320]: "AI-native thinking: Every teammate thinks in agentic workflows, uses AI tools daily, and looks for leverage through automation. AI isn't just what we build, it's how we operate"
+                        - listitem [ref=f62e321]: "Customer obsession: We build with urgency and empathy, speak to customers early and often, and measure success through their outcomes"
+                        - listitem [ref=f62e322]: "Speed as a habit: We ship fast, learn faster, and prioritize unblocking over perfection. We favour small experiments with tight feedback loops"
+                        - listitem [ref=f62e323]: "Leverage-focused execution: We hire high-impact players, invest in the 20% that drives 80% of results, and value candid feedback"
+                        - listitem [ref=f62e324]: "Highly aligned, loosely coupled: We align on outcomes, not tasks. You'll work independently, but never in isolation"
+                        - listitem [ref=f62e325]: "Data-driven, human-guided: We seek clarity over comfort, speak up early, and use feedback to grow together"
+                      - text: If this sounds like the kind of work you want to do and the kind of team you want to grow with, we'd love to hear from you!
+                - button [ref=f62e327] [cursor=pointer]:
+                  - img [ref=f62e328]
+                  - generic [ref=f62e330]: See more
+              - generic [ref=f62e332]:
+                - generic [ref=f62e333]:
+                  - heading [level=2] [ref=f62e334]: Set alert for similar jobs
+                  - generic [ref=f62e336]: Artificial Intelligence Engineer, Dubai, Dubai, United Arab Emirates
+                - generic [ref=f62e338] [cursor=pointer]:
+                  - generic [ref=f62e339]: "Off"
+                  - generic [ref=f62e340]: Set alert
+                  - switch
+              - generic [ref=f62e346]:
+                - heading [level=3] [ref=f62e347]: Job search faster with Premium
+                - paragraph [ref=f62e348]: Access company insights like strategic priorities, headcount trends, and more
+                - generic [ref=f62e349]:
+                  - list [ref=f62e351]:
+                    - listitem [ref=f62e352]
+                    - listitem [ref=f62e354]
+                    - listitem [ref=f62e356]
+                  - paragraph [ref=f62e358]: Mansi and millions of other members use Premium
+                - link [ref=f62e359] [cursor=pointer]:
+                  - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_match_upsell%3AJob+Seeker%3AIn-Product&utype=job&referenceId=%2F7jfLOiuQdq8elYUYyHfrg%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_MATCH&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2Fsenior-ai-agent-engineer-at-beam-ai-4381401814%2F
+                  - text: Reactivate Premium
+                - paragraph [ref=f62e360]: Cancel anytime. No hidden fees.
+              - generic [ref=f62e362]:
+                - generic [ref=f62e363]:
+                  - heading [level=2] [ref=f62e364]: About the company
+                  - generic [ref=f62e365]:
+                    - generic [ref=f62e366]:
+                      - link [ref=f62e368] [cursor=pointer]:
+                        - /url: /company/beam-ai/life/
+                        - img [ref=f62e369]
+                      - generic [ref=f62e370]:
+                        - link [ref=f62e372] [cursor=pointer]:
+                          - /url: /company/beam-ai/life/
+                          - text: Beam AI
+                        - generic [ref=f62e373]: 22,637 followers
+                    - button [ref=f62e374] [cursor=pointer]:
+                      - img [ref=f62e375]
+                      - generic [ref=f62e377]: Follow
+                  - generic [ref=f62e378]:
+                    - text: Software Development
+                    - generic [ref=f62e379]: • 51-200 employees
+                    - generic [ref=f62e380]: • 62 on LinkedIn
+                  - paragraph [ref=f62e381]:
+                    - generic [ref=f62e382]:
+                      - text: AI agents that actually work in your business. While others struggle to get agents into production, Beam AI delivers reliable automation for Fortune 500 companies and scale-ups. Automate finance, HR, and operations workflows that reduce operational costs and scale your team's impact.
+                      - generic [ref=f62e383]:
+                        - generic [ref=f62e384]: …
+                        - button [ref=f62e385] [cursor=pointer]: show more
+                - link [ref=f62e387] [cursor=pointer]:
+                  - /url: /company/beam-ai/life/
+                  - text: Show more
+          - complementary [ref=f62e388]:
+            - generic [ref=f62e390]:
+              - paragraph [ref=f62e391]: Looking for talent?
+              - link [ref=f62e392] [cursor=pointer]:
+                - /url: https://www.linkedin.com/talent/job-posting-redirect?trk=flagship3_job_detail
+                - text: Post a job

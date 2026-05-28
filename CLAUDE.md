@@ -50,17 +50,21 @@ AI-powered job search automation built on Claude Code: pipeline tracking, offer 
 
 | File | Function |
 |------|----------|
-| `data/applications.md` | Application tracker |
+| `data/applications.xlsx` | Operational application tracker source of truth (`Applications` sheet) |
+| `data/applications.md` | Legacy/import tracker used by merge scripts |
 | `data/pipeline.md` | Inbox of pending URLs |
 | `data/scan-history.tsv` | Scanner dedup history |
 | `portals.yml` | Query and company config |
 | `templates/cv-template.html` | HTML template for CVs |
 | `templates/cv-template.tex` | LaTeX/Overleaf template for CVs |
 | `generate-pdf.mjs` | Playwright: HTML to PDF |
+| `generate-docx-resumes.ps1` | Amarsh-specific tailored resume generator using the latest Word template |
 | `generate-latex.mjs` | LaTeX CV validator + pdflatex compiler |
 | `article-digest.md` | Compact proof points from portfolio (optional) |
 | `interview-prep/story-bank.md` | Accumulated STAR+R stories across evaluations |
 | `interview-prep/{company}-{role}.md` | Company-specific interview intel reports |
+| `modes/apply-automation.md` | Playwright automation playbook: CapSolver, form filling, portal configs (READ THIS for apply sessions) |
+| `OPERATIONS.md` | Operational guide: region switching, cleanup rules, session index format |
 | `analyze-patterns.mjs` | Pattern analysis script (JSON output) |
 | `followup-cadence.mjs` | Follow-up cadence calculator (JSON output) |
 | `data/follow-ups.md` | Follow-up history tracker |
@@ -169,6 +173,15 @@ If `data/applications.md` doesn't exist, create it:
 |---|------|---------|------|-------|--------|-----|--------|-------|
 ```
 
+For daily work, `data/applications.xlsx` is the source of truth. Create or refresh it with:
+```powershell
+powershell -ExecutionPolicy Bypass -File .\export-applications-xlsx.ps1
+```
+
+The workbook must keep all jobs in the single `Applications` sheet, including newly scanned jobs. Keep `SKIP` and `Discarded` rows present but filtered out by default, sort latest unapplied jobs to the top, and do not include the old `PDF` flag column. Use `Resume Path` for the generated tailored resume location.
+
+For Amarsh's applications, use the finalized Word resume template configured in `config/profile.yml` (`resume_template_docx`) and the `generate-docx-resumes.ps1` workflow. Run it directly in the current PowerShell host (example: `& .\generate-docx-resumes.ps1 -Ids 108,109`) so Word COM conversion works reliably. Do not use the repo HTML template for application resumes unless the user explicitly asks for that template.
+
 #### Step 5: Get to know the user (important for quality)
 
 After the basics are set up, proactively ask for more context. The more you know, the better your evaluations will be:
@@ -272,7 +285,7 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 
 **This system is designed for quality, not quantity.** The goal is to help the user find and apply to roles where there is a genuine match -- not to spam companies with mass applications.
 
-- **NEVER submit an application without the user reviewing it first.** Fill forms, draft answers, generate PDFs -- but always STOP before clicking Submit/Send/Apply. The user makes the final call.
+- **Submit applications only after explicit user authorization and review.** Fill forms, draft answers, generate PDFs, and submit only when the user has authorized submission for the specific application or batch and has had a chance to review the application data. Stop for CAPTCHAs, OTPs, password prompts, or any field requiring user-only judgment.
 - **Strongly discourage low-fit applications.** If a score is below 4.0/5, explicitly recommend against applying. The user's time and the recruiter's time are both valuable. Only proceed if the user has a specific reason to override the score.
 - **Quality over speed.** A well-targeted application to 5 companies beats a generic blast to 50. Guide the user toward fewer, better applications.
 - **Respect recruiters' time.** Every application a human reads costs someone's attention. Only send what's worth reading.
@@ -314,6 +327,8 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 - Batch in `batch/` (gitignored except scripts and prompt)
 - Report numbering: sequential 3-digit zero-padded, max existing + 1
 - **RULE: After each batch of evaluations, run `node merge-tracker.mjs`** to merge tracker additions and avoid duplications.
+- **RULE: After each scan, evaluation batch, resume generation batch, or application attempt, refresh `data/applications.xlsx` with `powershell -ExecutionPolicy Bypass -File .\export-applications-xlsx.ps1`.**
+- **RULE: `data/applications.xlsx` is the operational source of truth. Keep all jobs on the `Applications` sheet, retain skipped/discarded rows behind filters, keep latest unapplied jobs at the top, and do not add a `PDF` column.**
 - **RULE: NEVER create new entries in applications.md if company+role already exists.** Update the existing entry.
 
 ### TSV Format for Tracker Additions
@@ -340,12 +355,14 @@ Write one TSV file per evaluation to `batch/tracker-additions/{num}-{company-slu
 ### Pipeline Integrity
 
 1. **NEVER edit applications.md to ADD new entries** -- Write TSV in `batch/tracker-additions/` and `merge-tracker.mjs` handles the merge.
-2. **YES you can edit applications.md to UPDATE status/notes of existing entries.**
+2. **YES you can edit applications.md to UPDATE status/notes of existing entries.** Exception: in parallel multi-region sessions, write update patches as TSV too (see OPERATIONS.md → "Parallel Sessions").
+3. **Report numbers in parallel sessions**: Use `node scripts/claim-num.mjs` to get the next number. Never compute `max(reports/) + 1` manually when multiple sessions are running -- two sessions reading simultaneously will claim the same number.
 3. All reports MUST include `**URL:**` in the header (between Score and PDF). Include `**Legitimacy:** {tier}` (see Block G in `modes/oferta.md`).
 4. All statuses MUST be canonical (see `templates/states.yml`).
 5. Health check: `node verify-pipeline.mjs`
 6. Normalize statuses: `node normalize-statuses.mjs`
 7. Dedup: `node dedup-tracker.mjs`
+8. Refresh Excel source of truth: `powershell -ExecutionPolicy Bypass -File .\export-applications-xlsx.ps1`
 
 ### Canonical States (applications.md)
 
@@ -366,3 +383,47 @@ Write one TSV file per evaluation to `batch/tracker-additions/{num}-{company-slu
 - No markdown bold (`**`) in status field
 - No dates in status field (use the date column)
 - No extra text (use the notes column)
+
+### Apply Session Rules (MANDATORY)
+
+These rules are enforced on EVERY apply run. See `OPERATIONS.md` for the full operational guide.
+
+**0. Region tag in notes (CRITICAL):**
+- Every TSV written to `batch/tracker-additions/` MUST start the notes field with a region tag: `[UAE]`, `[SGP]`, `[USA]`, etc.
+- Example notes: `[SGP] Applied via Greenhouse. AI Engineer role at Grab, Singapore.`
+- This is the only way to filter applications by region in `data/applications.md`.
+- When scanning portals, use the `region:` field in `portals.yml` to scope queries to the right region.
+
+**1. Deduplication (CRITICAL):**
+- Before applying to ANY role, check `data/applications.md` for an existing entry with the same company+role in status Applied/Responded/Interview/Offer/Rejected.
+- **If found, STOP. Do not apply again.** Report the duplicate and move on.
+- See `modes/apply.md` Step 0 for the full check.
+
+**2. Save JD for every applied job (CRITICAL):**
+- Before submitting any application, save the job description to `jds/{num}-{company-slug}-{role-slug}-{YYYY-MM-DD}.md`
+- Extract from the page snapshot or the JD page content
+- Template and format documented in `OPERATIONS.md`
+- This is non-negotiable. No JD saved = incomplete application.
+
+**3. Temp file cleanup (end of session):**
+- DELETE: `*.png` captcha screenshots in project root, `batch/tracker-additions/merged/*.tsv`
+- **NEVER DELETE**: `output/*` (resumes, cover letters, PDFs), `jds/*`, `reports/*`, `data/*`
+
+**4. Session index (end of session):**
+- After every batch, generate `batch/session-logs/{YYYY-MM-DD}-{region}.md` with the session summary
+- Format documented in `OPERATIONS.md`
+
+**5. Region and constraints:**
+- All geo, company, compensation, and skip rules live in `modes/_profile.md`
+- To switch region, update `_profile.md` per `OPERATIONS.md` instructions
+- Per-session overrides are allowed but do not persist unless written to `_profile.md`
+
+**6. Session start checklist:**
+- Read `modes/apply-automation.md` (the full automation playbook: Playwright commands, CapSolver patterns, portal-specific configs, error handling)
+- Read `modes/_profile.md` (constraints, targeting, blocked portals)
+- Read `data/applications.md` (current state, dedup baseline)
+- Confirm target region + goal with user
+- For each job: dedup check, save JD, fill form, submit, write TSV
+- End of session: merge tracker, export Excel, generate index, cleanup temps
+
+**IMPORTANT:** `modes/apply-automation.md` is the execution reference for all browser automation. It contains the exact Playwright tool calls, CapSolver API patterns, token injection code, and portal-specific playbooks. Read it BEFORE attempting any apply action.

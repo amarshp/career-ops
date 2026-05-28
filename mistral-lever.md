@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - dialog "cookieconsent" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 🍪
+      - heading "Privacy Notice" [level=4] [ref=e6]
+      - paragraph [ref=e7]:
+        - text: This website uses cookies to improve your web experience. By using the site, you agree to the use of cookies.
+        - link "Cookie Policy" [ref=e8] [cursor=pointer]:
+          - /url: https://legal.mistral.ai/terms/applicant-privacy-policy
+      - button "Dismiss" [ref=e10] [cursor=pointer]
+  - link "Mistral AI logo" [ref=e13] [cursor=pointer]:
+    - /url: https://jobs.lever.co/mistral
+    - img "Mistral AI logo" [ref=e14]
+  - generic [ref=e16]:
+    - generic [ref=e18]:
+      - heading "Applied AI, Technical Lead, Forward Deployed AI Engineer - Abu Dhabi" [level=2] [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e21]: Abu Dhabi
+        - generic [ref=e22]: Solutions /
+        - generic [ref=e23]: Full-time /
+        - generic [ref=e24]: On-site
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Submit your application" [level=4] [ref=e28]
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - text: Resume/CV
+                - generic [ref=e33]: ✱
+              - link "ATTACH RESUME/CV Resume/CV ✱" [ref=e35] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e36]
+                - generic [ref=e38]: ATTACH RESUME/CV
+                - button "Resume/CV ✱ ATTACH RESUME/CV" [ref=e39]
+          - listitem [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - text: Full name
+                - generic [ref=e43]: ✱
+              - textbox "Full name ✱" [ref=e45]
+          - listitem [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - text: Email
+                - generic [ref=e49]: ✱
+              - textbox "Email ✱" [ref=e51]
+          - listitem [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: Phone
+              - textbox "Phone" [ref=e56]
+          - listitem [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: Current location
+              - textbox "Current location" [ref=e61]
+          - listitem [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: Current company
+              - textbox "Current company" [ref=e66]
+      - generic [ref=e67]:
+        - heading "Links" [level=4] [ref=e68]
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - text: LinkedIn URL
+                - generic [ref=e73]: ✱
+              - textbox "LinkedIn URL ✱" [ref=e75]
+          - listitem [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Twitter URL
+              - textbox "Twitter URL" [ref=e80]
+          - listitem [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: GitHub URL
+              - textbox "GitHub URL" [ref=e85]
+          - listitem [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]: Google Scholar URL
+              - textbox "Google Scholar URL" [ref=e90]
+          - listitem [ref=e91]:
+            - generic [ref=e92]:
+              - generic [ref=e93]: Design Portfolio URL
+              - textbox "Design Portfolio URL" [ref=e95]
+      - generic [ref=e96]:
+        - heading "Applied AI Engineer" [level=4] [ref=e97]
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e102]:
+                - text: Do you have the authorization to work in the country you are applying to?
+                - generic [ref=e103]: ✱
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - generic [ref=e107] [cursor=pointer]:
+                    - checkbox "Yes" [ref=e108]
+                    - generic [ref=e109]: "Yes"
+                - listitem [ref=e110]:
+                  - generic [ref=e111] [cursor=pointer]:
+                    - checkbox "No" [ref=e112]
+                    - generic [ref=e113]: "No"
+          - listitem [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e117]:
+                - text: What languages are you fluent in?
+                - generic [ref=e118]: ✱
+              - textbox [ref=e120]
+      - generic [ref=e121]:
+        - heading "AAIE | Forward Deployed" [level=4] [ref=e122]
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e127]:
+                - text: What’s your most complex LLM project? Please provide context (scale of data, technical complexities, fine-tuning, ...) In case you have very few LLM experiment, please present an AI project.
+                - generic [ref=e128]: ✱
+              - textbox [ref=e130]
+          - listitem [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e134]:
+                - text: What do you optimize for in life?
+                - generic [ref=e135]: ✱
+              - textbox [ref=e137]
+          - listitem [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e141]:
+                - text: How intensely do you like working?
+                - generic [ref=e142]: ✱
+              - textbox [ref=e144]
+          - listitem [ref=e145]:
+            - generic [ref=e146]:
+              - generic [ref=e148]:
+                - text: What should we know about you?
+                - generic [ref=e149]: ✱
+              - textbox [ref=e151]
+      - generic [ref=e152]:
+        - separator [ref=e153]
+        - heading "Demographic Survey for Mistral AI" [level=4] [ref=e154]
+        - paragraph [ref=e155]: We invite you to complete this optional survey to help us evaluate our diversity and inclusion efforts. Submission of the information on this form is strictly voluntary and refusal to provide it will not subject you to any adverse treatment or affect your job application. Information obtained will be kept separate from your name or job application. This information will be kept secure and confidential and will be used solely to evaluate our diversity and inclusion efforts.
+        - list [ref=e156]:
+          - listitem [ref=e157]:
+            - generic [ref=e159]: What gender do you identify as?
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - generic [ref=e163] [cursor=pointer]:
+                  - radio "Female" [ref=e164]
+                  - generic [ref=e165]: Female
+              - listitem [ref=e166]:
+                - generic [ref=e167] [cursor=pointer]:
+                  - radio "Male" [ref=e168]
+                  - generic [ref=e169]: Male
+              - listitem [ref=e170]:
+                - generic [ref=e171] [cursor=pointer]:
+                  - radio "Prefer not to respond" [ref=e172]
+                  - generic [ref=e173]: Prefer not to respond
+      - button "Submit application" [ref=e175] [cursor=pointer]
+  - generic [ref=e177]:
+    - paragraph [ref=e178]:
+      - link "Mistral AI Home Page" [ref=e179] [cursor=pointer]:
+        - /url: https://mistral.ai
+    - link "Jobs powered by Lever logo" [ref=e180] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=e181]: Jobs powered by
+      - img "Lever logo" [ref=e182]

@@ -12,7 +12,8 @@
  */
 
 import { execSync, execFileSync } from 'child_process';
-import { readFileSync, existsSync, readdirSync } from 'fs';
+import { readFileSync, existsSync, readdirSync, rmSync } from 'fs';
+import { tmpdir } from 'os';
 import { join, dirname } from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 
@@ -41,6 +42,9 @@ function run(cmd, args = [], opts = {}) {
 
 function fileExists(path) { return existsSync(join(ROOT, path)); }
 function readFile(path) { return readFileSync(join(ROOT, path), 'utf-8'); }
+function gitGrep(pattern, pathspecs) {
+  return run('git', ['grep', '-n', pattern, '--', ...pathspecs]);
+}
 
 console.log('\n🧪 career-ops test suite\n');
 
@@ -141,11 +145,18 @@ try {
 
 if (!QUICK) {
   console.log('\n4. Dashboard build');
-  const goBuild = run('cd dashboard && go build -o /tmp/career-dashboard-test . 2>&1');
-  if (goBuild !== null) {
-    pass('Dashboard compiles');
+  const goVersion = run('go', ['version']);
+  if (goVersion === null) {
+    warn('Dashboard build skipped (Go toolchain not installed)');
   } else {
-    fail('Dashboard build failed');
+    const dashboardBinary = join(tmpdir(), process.platform === 'win32' ? 'career-dashboard-test.exe' : 'career-dashboard-test');
+    const goBuild = run('go', ['build', '-o', dashboardBinary, '.'], { cwd: join(ROOT, 'dashboard') });
+    if (goBuild !== null) {
+      rmSync(dashboardBinary, { force: true });
+      pass('Dashboard compiles');
+    } else {
+      fail('Dashboard build failed');
+    }
   }
 } else {
   console.log('\n4. Dashboard build (skipped --quick)');
@@ -200,15 +211,16 @@ const scanExtensions = ['md', 'yml', 'html', 'mjs', 'sh', 'go', 'json'];
 const allowedFiles = [
   // English README + localized translations (all legitimately credit Santiago)
   'README.md', 'README.es.md', 'README.ja.md', 'README.ko-KR.md',
-  'README.pt-BR.md', 'README.ru.md',
+  'README.pt-BR.md', 'README.ru.md', 'README.cn.md', 'README.zh-TW.md',
   // Standard project files
   'LICENSE', 'CITATION.cff', 'CONTRIBUTING.md',
   'package.json', '.github/FUNDING.yml', 'CLAUDE.md', 'go.mod', 'test-all.mjs',
+  'TRADEMARK.md', '.claude-plugin/marketplace.json', '.claude-plugin/plugin.json',
   // Community / governance files (added in v1.3.0, all legitimately reference the maintainer)
   'CODE_OF_CONDUCT.md', 'GOVERNANCE.md', 'SECURITY.md', 'SUPPORT.md',
   '.github/SECURITY.md',
   // Dashboard credit string
-  'dashboard/internal/ui/screens/pipeline.go',
+  'dashboard/internal/ui/screens/pipeline.go', 'dashboard/internal/ui/screens/progress.go',
 ];
 
 // Build pathspec for git grep — only scan tracked files matching these
@@ -216,13 +228,11 @@ const allowedFiles = [
 // untracked files (debate artifacts, AI tool scratch, local plans/) and
 // gitignored files can't trigger false positives because they were never
 // going to reach a commit anyway.
-const grepPathspec = scanExtensions.map(e => `'*.${e}'`).join(' ');
+const grepPathspec = scanExtensions.map(e => `*.${e}`);
 
 let leakFound = false;
 for (const pattern of leakPatterns) {
-  const result = run(
-    `git grep -n "${pattern}" -- ${grepPathspec} 2>/dev/null`
-  );
+  const result = gitGrep(pattern, grepPathspec);
   if (result) {
     for (const line of result.split('\n')) {
       const file = line.split(':')[0];
@@ -243,13 +253,18 @@ console.log('\n7. Absolute path check');
 
 // Same git grep approach: only scans tracked files. Untracked AI tool
 // outputs, local debate artifacts, etc. can't false-positive here.
-const absPathResult = run(
-  `git grep -n "/Users/" -- '*.mjs' '*.sh' '*.md' '*.go' '*.yml' 2>/dev/null | grep -v README.md | grep -v LICENSE | grep -v CLAUDE.md | grep -v test-all.mjs`
-);
-if (!absPathResult) {
+const absPathIgnoreFiles = ['README.md', 'LICENSE', 'CLAUDE.md', 'test-all.mjs'];
+const absPathResult = gitGrep('/Users/', ['*.mjs', '*.sh', '*.md', '*.go', '*.yml']);
+const absPathLines = absPathResult
+  ? absPathResult
+      .split('\n')
+      .filter(Boolean)
+      .filter(line => !absPathIgnoreFiles.some(file => line.startsWith(`${file}:`)))
+  : [];
+if (absPathLines.length === 0) {
   pass('No absolute paths in code files');
 } else {
-  for (const line of absPathResult.split('\n').filter(Boolean)) {
+  for (const line of absPathLines) {
     fail(`Absolute path: ${line.slice(0, 100)}`);
   }
 }

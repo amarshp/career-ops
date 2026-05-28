@@ -1,8 +1,13 @@
 # Personal data (user fills these)
 cv.md
+article-digest.md
 data/applications.md
+data/applications.md.bak
 data/pipeline.md
 data/scan-history.tsv
+data/follow-ups.md
+data/target-companies.md
+data/market-scan-*.md
 reports/*.md
 !reports/.gitkeep
 output/*
@@ -35,6 +40,14 @@ modes/_profile.md
 node_modules/
 bun.lock
 
+# Playwright browser profiles and caches (large, machine-specific)
+.playwright-*/
+profiles/*/
+
+# Temporary files
+temp_resume_b64.txt
+data/num-counter.txt
+
 # OS
 .DS_Store
 *.mov
@@ -44,4 +57,6 @@ bun.lock
 .claude/settings.local.json
 .claude/memory/
 career-dashboard
+career-dashboard.exe
+dashboard/career-dashboard.exe
 package-lock.json

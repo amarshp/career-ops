@@ -1,0 +1,186 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - figure [ref=e6]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: https://deriv.com/careers
+        - img [ref=e8]
+    - generic [ref=e12]:
+      - paragraph [ref=e13]:
+        - text: Deriv.com
+        - generic [ref=e14]: "| Full time"
+      - heading "Staff Applied AI Engineer" [level=1] [ref=e15]
+      - paragraph [ref=e16]:
+        - text: Dubai, United Arab Emirates
+        - generic [ref=e17]: "| Posted on 06/04/2026"
+      - generic [ref=e18]:
+        - button "I'm interested" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: I'm interested
+        - link "Share job via email" [ref=e22] [cursor=pointer]:
+          - /url: mailto:?subject=Opening%20for%20Staff%20Applied%20AI%20Engineer&body=Hey%2C%0A%0ADeriv.com%20is%20looking%20for%20Staff%20Applied%20AI%20Engineer%20%0A%0Ahttps%3A%2F%2Fderiv.zohorecruit.eu%2Fjobs%2FCareers%2F47807000091943363%2FStaff-Applied-AI-Engineer%3Fsource%3DlinkedIn
+          - button "Share job via email" [ref=e24]:
+            - generic [ref=e25]: Share job via email
+      - generic [ref=e26]:
+        - generic [ref=e27]: Share this job with your network
+        - generic [ref=e29]:
+          - text: 
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "" [ref=e32] [cursor=pointer]:
+                - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fzrec.eu%2FfM7Tp%3Fsource%3DlinkedIn
+                - generic [ref=e33]: 
+            - listitem [ref=e34]:
+              - link [ref=e35] [cursor=pointer]:
+                - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fzrec.eu%2FfM7Tp%3Fsource%3DlinkedIn&text=Deriv.com%20is%20hiring%20for%20Staff%20Applied%20AI%20Engineer.%20Know%20more%20about%20the%20job%20opening%20here%3A&via=Deriv.com&hashtags=Deriv.com
+            - listitem [ref=e37]:
+              - link "" [ref=e38] [cursor=pointer]:
+                - /url: https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fderiv.zohorecruit.eu%2Fjobs%2FCareers%2F47807000091943363%2FStaff-Applied-AI-Engineer%3Fsource%3DlinkedIn%26t%3D229
+                - generic [ref=e39]: 
+            - listitem [ref=e40]:
+              - link "" [ref=e41] [cursor=pointer]:
+                - /url: https://wa.me/?text=Deriv.com%20is%20hiring%20for%20Staff%20Applied%20AI%20Engineer.%20Know%20more%20about%20the%20job%20opening%20here%3A https%3A%2F%2Fzrec.eu%2FfM7Tp%3Fsource%3DlinkedIn
+                - generic [ref=e42]: 
+            - listitem [ref=e43]:
+              - link "" [ref=e44] [cursor=pointer]:
+                - /url: https://telegram.me/share/url?url=https%3A%2F%2Fzrec.eu%2FfM7Tp%3Fsource%3DlinkedIn&text=Deriv.com%20is%20hiring%20for%20Staff%20Applied%20AI%20Engineer.%20Know%20more%20about%20the%20job%20opening%20here%3A
+                - generic [ref=e45]: 
+            - listitem [ref=e46]:
+              - link "" [ref=e47] [cursor=pointer]:
+                - /url: https://zrec.eu/fM7Tp?source=linkedIn
+                - generic [ref=e48]: 
+    - generic [ref=e52]:
+      - list [ref=e53]:
+        - listitem [ref=e54]:
+          - link "Job listing" [ref=e55] [cursor=pointer]:
+            - /url: https://deriv.zohorecruit.eu/jobs/Careers
+        - listitem [ref=e56]:
+          - generic [ref=e57]: Job details
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - heading "Job Information" [level=3] [ref=e60]
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - generic [ref=e63]: Job Opening ID
+              - generic [ref=e64]: ZR_2146_JOB
+            - listitem [ref=e65]:
+              - generic [ref=e66]: Industry
+              - generic [ref=e67]: Artificial Intelligence (AI)
+            - listitem [ref=e68]:
+              - generic [ref=e69]: Date Opened
+              - generic [ref=e70]: 06/04/2026
+            - listitem [ref=e71]:
+              - generic [ref=e72]: Job Type
+              - generic [ref=e73]: Full time
+            - listitem [ref=e74]:
+              - generic [ref=e75]: City
+              - generic [ref=e76]: Dubai
+            - listitem [ref=e77]:
+              - generic [ref=e78]: Country
+              - generic [ref=e79]: United Arab Emirates
+        - generic [ref=e80]:
+          - heading "Job Description" [level=3] [ref=e81]
+          - generic [ref=e83]:
+            - generic [ref=e85]: The challenge
+            - generic [ref=e88]: Getting an AI to work once is luck; getting it to work a million times is engineering. Any junior with an API key can write a prompt that looks like magic, but you’ll be here for the "last mile"—when latency spikes, models hallucinate, and the system collapses under scale. You won't be building another prototype; you are here to solve coordination problems that don't have StackOverflow answers yet, turning fragile miracles into boring, reliable infrastructure for a business that demands "autonomous operations" but has no map to get there.
+            - generic [ref=e90]:
+              - text: See what we’re shipping at
+              - link "Deriv<ed>" [ref=e91] [cursor=pointer]:
+                - /url: https://derivai.substack.com
+              - text: .
+            - separator [ref=e94]
+            - generic [ref=e95]: Why this matters
+            - generic [ref=e97]: Deriv's mission is Trading for Anyone, Anywhere, Anytime. This scale demands AI that works in production, not prototypes that demo well.
+            - generic [ref=e99]: "We're already here: AI resolving 65%+ of customer enquiries, writing and reviewing code, and processing invoices. We've proved what's possible—now we're scaling it. You will lead the technical implementation of our next generation of agentic systems, creating co-intelligence that collaborates, debates, and decides alongside humans."
+            - separator [ref=e102]
+            - generic [ref=e103]: Why Deriv
+            - generic [ref=e105]: We're in production, not planning.
+            - list [ref=e106]:
+              - listitem [ref=e107]:
+                - text: •
+                - generic [ref=e108]: 400+ users on our internal workflow orchestration platform.
+              - listitem [ref=e109]:
+                - text: •
+                - generic [ref=e110]: Open-source Spec-to-PR transforming product specs into full implementations.
+              - listitem [ref=e111]:
+                - text: •
+                - generic [ref=e112]: "Real money, real regulations: Our AI handles financial transactions and compliance checks."
+            - generic [ref=e113]: You'll join a transformation that's underway, not one waiting for approval.
+            - separator [ref=e116]
+            - generic [ref=e117]: What you'll do
+            - list [ref=e118]:
+              - listitem [ref=e119]: "• Architect scalable solutions: You’ll break down ambiguous, function-wide problems into shippable technical architectures. You won't just solve the immediate bug; you'll design the systems that prevent it."
+              - listitem [ref=e120]: "• Own the outcome: You won’t just build a feature; you’ll ensure it solves the business problem, monitoring it from deployment through to adoption."
+              - listitem [ref=e121]: "• Elevate engineering standards: You’ll review code and design docs not just to catch errors, but to raise the bar for the entire team. You’ll document knowledge so it doesn't stay in your head."
+              - listitem [ref=e122]: "• Bridge the gap: You will facilitate agreement between engineering, compliance, and ops when they all want different things—translating \"make it safe\" and \"make it fast\" into \"here is the architecture\"."
+              - listitem [ref=e123]: "• Balance quality and speed: You’ll make strategic calls on technical debt vs. shipping speed, knowing when to hack a prototype and when to engineer a platform."
+            - separator [ref=e126]
+            - generic [ref=e127]: Who you are
+            - list [ref=e128]:
+              - listitem [ref=e129]:
+                - text: •
+                - generic [ref=e141]:
+                  - generic [ref=e142]: "You have 7+ years of software engineering experience:"
+                  - text: At least 3 years building production AI systems. Not prototypes - systems that handle real traffic at scale.
+              - listitem [ref=e143]:
+                - text: •
+                - generic [ref=e149]: "You’ve shipped production AI:"
+                - generic [ref=e154]: Not notebooks. Not demos. Systems that handle real traffic, break in unexpected ways, and teach you things papers didn't mention.
+              - listitem [ref=e155]:
+                - text: •
+                - generic [ref=e161]: "You operate across paradigms:"
+                - generic [ref=e166]: You are comfortable with SQL and with prompt engineering. You pick the right tool, not your favourite tool.
+              - listitem [ref=e167]:
+                - text: •
+                - generic [ref=e173]: "You lead through uncertainty:"
+                - generic [ref=e178]: When the path isn't clear, you facilitate the problem-solving discussions that get the team moving.
+              - listitem [ref=e179]:
+                - text: •
+                - generic [ref=e180]:
+                  - generic [ref=e186]: "You think in systems:"
+                  - generic [ref=e191]: You see the structural flaws behind the symptoms. You don't just optimise code; you optimise how the organisation solves problems.
+            - separator [ref=e194]
+            - generic [ref=e195]: Tech stack
+            - list [ref=e196]:
+              - listitem [ref=e197]:
+                - text: •
+                - generic [ref=e203]: Languages
+                - generic [ref=e208]: ": Python, TypeScript"
+              - listitem [ref=e209]:
+                - text: •
+                - generic [ref=e215]: AI/ML
+                - generic [ref=e220]: ": OpenAI APIs, Anthropic APIs, LangGraph, Custom ML Pipelines"
+              - listitem [ref=e221]:
+                - text: •
+                - generic [ref=e226]:
+                  - generic [ref=e232]: Infrastructure
+                  - generic [ref=e237]: ": AWS, PostgreSQL, Redis, Docker, LangFuse, Vector Databases, Graph Databases"
+            - separator [ref=e240]
+            - generic [ref=e241]: The honest reality
+            - paragraph [ref=e242]:
+              - generic [ref=e247]: This is demanding work. You’ll make decisions with incomplete data and live with the consequences. You’ll navigate organisational complexity, convincing stakeholders to change how they work to accommodate the systems you build.
+            - paragraph [ref=e248]:
+              - generic [ref=e253]: You’ll balance moving fast with getting it right when real money is at stake. But you’ll build systems that actually run. You’ll solve problems that matter. And you’ll work with people who’ve done this at scale.
+          - button "I'm interested" [ref=e257] [cursor=pointer]:
+            - generic [ref=e258]: I'm interested
+  - contentinfo [ref=e260]:
+    - generic [ref=e261]:
+      - generic [ref=e266]:
+        - text: Deriv.com collects and processes personal data in accordance with applicable data protection laws. If you are a European job applicant, refer to
+        - link "Privacy Notice" [ref=e267] [cursor=pointer]:
+          - /url: https://deriv.zohorecruit.eu/privacy-policy?pagename=Careers
+        - text: for further details.
+      - list [ref=e268]:
+        - listitem [ref=e269]:
+          - link "View all jobs" [ref=e270] [cursor=pointer]:
+            - /url: https://deriv.zohorecruit.eu/jobs/Careers
+            - generic [ref=e271]: View all jobs
+        - listitem [ref=e272]:
+          - link "Visit website" [ref=e273] [cursor=pointer]:
+            - /url: https://deriv.com/careers
+            - generic [ref=e274]: Visit website
+        - listitem [ref=e275]:
+          - link "Privacy Notice" [ref=e276] [cursor=pointer]:
+            - /url: https://docs.deriv.com/regulatory/eu-job-application-privacy-policy.pdf
+            - generic [ref=e277]: Privacy Notice
+    - link "Powered by" [ref=e278] [cursor=pointer]:
+      - /url: https://www.zoho.eu/recruit
+      - paragraph [ref=e279]: Powered by

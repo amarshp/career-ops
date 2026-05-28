@@ -10,13 +10,19 @@
  * Zero Claude API tokens — pure HTTP + JSON.
  *
  * Usage:
- *   node scan.mjs                  # scan all enabled companies
+ *   node scan.mjs                  # scan ATS APIs (Greenhouse/Ashby/Lever)
+ *   node scan.mjs --deep           # ATS + LinkedIn + G42 Phenom + MBZUAI
+ *   node scan.mjs --source linkedin # scan LinkedIn Guest API only
+ *   node scan.mjs --source phenom   # scan G42 Phenom API only
+ *   node scan.mjs --source wordpress # scan MBZUAI WordPress API only
+ *   node scan.mjs --source all      # all sources
  *   node scan.mjs --dry-run        # preview without writing files
- *   node scan.mjs --company Cohere # scan a single company
+ *   node scan.mjs --company Cohere # scan a single company (ATS only)
  */
 
 import { readFileSync, writeFileSync, appendFileSync, existsSync, mkdirSync } from 'fs';
 import yaml from 'js-yaml';
+import { scanPhenom, scanWordPressCareers, scanLinkedInGuest } from './scan-deep.mjs';
 const parseYaml = yaml.load;
 
 // ── Config ──────────────────────────────────────────────────────────
@@ -252,8 +258,16 @@ async function parallelFetch(tasks, limit) {
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
+  const deep = args.includes('--deep');
+  const sourceIdx = args.indexOf('--source');
+  const sourceFilter = sourceIdx !== -1 ? args[sourceIdx + 1]?.toLowerCase() : null;
   const companyFlag = args.indexOf('--company');
   const filterCompany = companyFlag !== -1 ? args[companyFlag + 1]?.toLowerCase() : null;
+
+  const runAts = !sourceFilter || sourceFilter === 'ats' || sourceFilter === 'all';
+  const runPhenomScan = deep || sourceFilter === 'phenom' || sourceFilter === 'all';
+  const runWpScan = deep || sourceFilter === 'wordpress' || sourceFilter === 'all';
+  const runLiScan = deep || sourceFilter === 'linkedin' || sourceFilter === 'all';
 
   // 1. Read portals.yml
   if (!existsSync(PORTALS_PATH)) {
@@ -265,74 +279,110 @@ async function main() {
   const companies = config.tracked_companies || [];
   const titleFilter = buildTitleFilter(config.title_filter);
 
-  // 2. Filter to enabled companies with detectable APIs
-  const targets = companies
-    .filter(c => c.enabled !== false)
-    .filter(c => !filterCompany || c.name.toLowerCase().includes(filterCompany))
-    .map(c => ({ ...c, _api: detectApi(c) }))
-    .filter(c => c._api !== null);
-
-  const skippedCount = companies.filter(c => c.enabled !== false).length - targets.length;
-
-  console.log(`Scanning ${targets.length} companies via API (${skippedCount} skipped — no API detected)`);
-  if (dryRun) console.log('(dry run — no files will be written)\n');
-
-  // 3. Load dedup sets
+  // 2. Load dedup sets
   const seenUrls = loadSeenUrls();
   const seenCompanyRoles = loadSeenCompanyRoles();
-
-  // 4. Fetch all APIs
   const date = new Date().toISOString().slice(0, 10);
   let totalFound = 0;
   let totalFiltered = 0;
   let totalDupes = 0;
   const newOffers = [];
   const errors = [];
+  const sources = [];
 
-  const tasks = targets.map(company => async () => {
-    const { type, url } = company._api;
-    try {
-      const json = await fetchJson(url);
-      const jobs = PARSERS[type](json, company.name);
-      totalFound += jobs.length;
+  if (dryRun) console.log('(dry run — no files will be written)\n');
 
-      for (const job of jobs) {
-        if (!titleFilter(job.title)) {
-          totalFiltered++;
-          continue;
-        }
-        if (seenUrls.has(job.url)) {
-          totalDupes++;
-          continue;
-        }
-        const key = `${job.company.toLowerCase()}::${job.title.toLowerCase()}`;
-        if (seenCompanyRoles.has(key)) {
-          totalDupes++;
-          continue;
-        }
-        // Mark as seen to avoid intra-scan dupes
-        seenUrls.add(job.url);
-        seenCompanyRoles.add(key);
-        newOffers.push({ ...job, source: `${type}-api` });
-      }
-    } catch (err) {
-      errors.push({ company: company.name, error: err.message });
+  function dedupAndCollect(jobs) {
+    totalFound += jobs.length;
+    for (const job of jobs) {
+      if (seenUrls.has(job.url)) { totalDupes++; continue; }
+      const key = `${job.company.toLowerCase()}::${job.title.toLowerCase()}`;
+      if (seenCompanyRoles.has(key)) { totalDupes++; continue; }
+      seenUrls.add(job.url);
+      seenCompanyRoles.add(key);
+      newOffers.push(job);
     }
-  });
+  }
 
-  await parallelFetch(tasks, CONCURRENCY);
+  // ── Phase 1: ATS APIs (Greenhouse, Ashby, Lever) ──────────────────
+  if (runAts) {
+    const targets = companies
+      .filter(c => c.enabled !== false)
+      .filter(c => !filterCompany || c.name.toLowerCase().includes(filterCompany))
+      .map(c => ({ ...c, _api: detectApi(c) }))
+      .filter(c => c._api !== null);
 
-  // 5. Write results
+    console.log(`ATS scan: ${targets.length} companies`);
+    sources.push(`ATS(${targets.length})`);
+
+    const tasks = targets.map(company => async () => {
+      const { type, url } = company._api;
+      try {
+        const json = await fetchJson(url);
+        const jobs = PARSERS[type](json, company.name);
+        const filtered = jobs.filter(j => titleFilter(j.title));
+        totalFiltered += jobs.length - filtered.length;
+        dedupAndCollect(filtered.map(j => ({ ...j, source: `${type}-api` })));
+      } catch (err) {
+        errors.push({ company: company.name, error: err.message });
+      }
+    });
+
+    await parallelFetch(tasks, CONCURRENCY);
+  }
+
+  // ── Phase 2: G42 Phenom API ───────────────────────────────────────
+  if (runPhenomScan) {
+    console.log('Scanning G42 Group (Phenom API)...');
+    sources.push('Phenom/G42');
+    try {
+      const { results, filtered } = await scanPhenom(titleFilter);
+      totalFiltered += filtered;
+      dedupAndCollect(results);
+      console.log(`  G42: ${results.length} UAE AI jobs found (${filtered} filtered out)`);
+    } catch (err) {
+      errors.push({ company: 'G42 Group (Phenom)', error: err.message });
+    }
+  }
+
+  // ── Phase 3: MBZUAI WordPress API ─────────────────────────────────
+  if (runWpScan) {
+    console.log('Scanning MBZUAI (WordPress API)...');
+    sources.push('WordPress/MBZUAI');
+    try {
+      const { results, filtered } = await scanWordPressCareers(titleFilter);
+      totalFiltered += filtered;
+      dedupAndCollect(results);
+      console.log(`  MBZUAI: ${results.length} matching jobs found (${filtered} filtered out)`);
+    } catch (err) {
+      errors.push({ company: 'MBZUAI (WordPress)', error: err.message });
+    }
+  }
+
+  // ── Phase 4: LinkedIn Guest API ───────────────────────────────────
+  if (runLiScan) {
+    console.log('Scanning LinkedIn (Guest API — this takes ~60s)...');
+    sources.push('LinkedIn');
+    try {
+      const { results, filtered } = await scanLinkedInGuest(titleFilter);
+      totalFiltered += filtered;
+      dedupAndCollect(results);
+    } catch (err) {
+      errors.push({ company: 'LinkedIn (Guest)', error: err.message });
+    }
+  }
+
+  // ── Write results ─────────────────────────────────────────────────
   if (!dryRun && newOffers.length > 0) {
     appendToPipeline(newOffers);
     appendToScanHistory(newOffers, date);
   }
 
-  // 6. Print summary
-  console.log(`\n${'━'.repeat(45)}`);
+  // ── Summary ───────────────────────────────────────────────────────
+  console.log(`\n${'━'.repeat(50)}`);
   console.log(`Portal Scan — ${date}`);
-  console.log(`${'━'.repeat(45)}`);
-  console.log(`Companies scanned:     ${targets.length}`);
+  console.log(`Sources: ${sources.join(', ')}`);
+  console.log(`${'━'.repeat(50)}`);
   console.log(`Total jobs found:      ${totalFound}`);
   console.log(`Filtered by title:     ${totalFiltered} removed`);
   console.log(`Duplicates:            ${totalDupes} skipped`);
@@ -348,7 +398,7 @@ async function main() {
   if (newOffers.length > 0) {
     console.log('\nNew offers:');
     for (const o of newOffers) {
-      console.log(`  + ${o.company} | ${o.title} | ${o.location || 'N/A'}`);
+      console.log(`  + [${o.source}] ${o.company} | ${o.title} | ${o.location || 'N/A'}`);
     }
     if (dryRun) {
       console.log('\n(dry run — run without --dry-run to save results)');
