@@ -292,14 +292,89 @@ The session reads this guide, uses claim-num.mjs for numbers, writes TSVs only, 
 
 ## Quick Reference: Session Prompts
 
-**Continue Gulf batch:**
-> "Continue Gulf AI apply batch. Currently at 103 applied. Target: 150."
+### Parallel session rules (CRITICAL)
 
-**Start Singapore batch:**
-> "Start Singapore AI apply batch. Target: 50 roles. SGD 8K+ floor."
+Running multiple CC windows simultaneously? Follow these rules to avoid rate limiting:
 
-**Start USA Remote batch:**
-> "Start USA Remote AI apply batch. Target: 30 roles. USD 150K+ floor."
+1. **Stagger starts** — launch sessions 10–15 min apart, not simultaneously
+2. **Scan with `--region` flag** — each session only hits its own companies:
+   ```
+   node scan.mjs --region UAE
+   node scan.mjs --region SGP
+   node scan.mjs --region UK
+   node scan.mjs --region DE
+   node scan.mjs --region NL
+   node scan.mjs --region AUS
+   node scan.mjs --region CA
+   node scan.mjs --region GULF_PLUS
+   node scan.mjs --region REMOTE
+   ```
+3. **Claim report numbers atomically** — use `node scripts/claim-num.mjs`, never compute manually
+4. **Write TSVs only** — never edit `data/applications.md` directly in parallel sessions
+5. **Dashboard** — run `npm run dashboard:html` in any window to see live counts across all sessions
+
+### Session start prompts
+
+**Remote (100 target):**
+```
+Apply to worldwide remote AI jobs. Target: 100 submitted. Region tag: [REMOTE]. Norms: config/resume-norms/remote.md. Scan with: node scan.mjs --region REMOTE. Parallel session: use node scripts/claim-num.mjs, write TSVs only. Hard-skip: 8+ YOE required → skip. Not building AI → skip.
+/goal 100 applications with [REMOTE] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
+
+**UK (100 target):**
+```
+Apply to UK AI jobs, targeting London. Target: 100 submitted. Region tag: [UK]. Norms: config/resume-norms/uk.md. Scan with: node scan.mjs --region UK. Resume: A4, no photo, "Require UK Skilled Worker visa sponsorship" in summary. Parallel session: use node scripts/claim-num.mjs, write TSVs only. Hard-skip: 8+ YOE → skip. Not building AI → skip.
+/goal 100 applications with [UK] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
+
+**Singapore (100 target):**
+```
+Apply to Singapore AI jobs. Target: 100 submitted. Region tag: [SGP]. Norms: config/resume-norms/sgp.md. Scan with: node scan.mjs --region SGP. Resume: A4, no photo, "Require Employment Pass (EP) sponsorship" in summary, 2-page max. Parallel session: use node scripts/claim-num.mjs, write TSVs only. Hard-skip: 8+ YOE → skip. Not building AI → skip.
+/goal 100 applications with [SGP] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
+
+**UAE top-up (target: reach 150):**
+```
+Continue UAE AI apply batch. Currently at 103 applied. Target: 150. Region tag: [UAE]. Norms: config/resume-norms/uae.md. Scan with: node scan.mjs --region UAE. Parallel session: use node scripts/claim-num.mjs, write TSVs only.
+/goal 150 applications with [UAE] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
+
+**Germany (100 target):**
+```
+Apply to Germany AI jobs, targeting Berlin and Munich. Target: 100 submitted. Region tag: [DE]. Norms: config/resume-norms/de.md. Scan with: node scan.mjs --region DE. Resume: A4, English ok for startups, "EU Blue Card eligible (IT shortage occupation)" in summary. Parallel session: use node scripts/claim-num.mjs, write TSVs only. Hard-skip: 8+ YOE → skip. Not building AI → skip.
+/goal 100 applications with [DE] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
+
+**Netherlands (100 target):**
+```
+Apply to Netherlands AI jobs, targeting Amsterdam. Target: 100 submitted. Region tag: [NL]. Norms: config/resume-norms/nl.md. Scan with: node scan.mjs --region NL. Resume: A4, English, "Require Dutch Highly Skilled Migrant permit" in summary. Parallel session: use node scripts/claim-num.mjs, write TSVs only. Hard-skip: 8+ YOE → skip. Not building AI → skip.
+/goal 100 applications with [NL] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
+
+**Australia (100 target):**
+```
+Apply to Australia AI jobs, targeting Sydney and Melbourne. Target: 100 submitted. Region tag: [AUS]. Norms: config/resume-norms/aus.md. Scan with: node scan.mjs --region AUS. Resume: A4, "Require Skills in Demand (Subclass 482 Specialist Skills) sponsorship" in summary. Parallel session: use node scripts/claim-num.mjs, write TSVs only. Hard-skip: 8+ YOE → skip. Not building AI → skip.
+/goal 100 applications with [AUS] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
+
+**Canada (100 target):**
+```
+Apply to Canada AI jobs, targeting Toronto and Vancouver. Target: 100 submitted. Region tag: [CA]. Norms: config/resume-norms/ca.md. Scan with: node scan.mjs --region CA. Resume: Letter format, "Require employer-sponsored work permit" in summary. Parallel session: use node scripts/claim-num.mjs, write TSVs only. Hard-skip: 8+ YOE → skip. Not building AI → skip.
+/goal 100 applications with [CA] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
+
+**Gulf+ — Saudi Arabia & Qatar (100 target):**
+```
+Apply to Saudi Arabia and Qatar AI jobs. Target: 100 submitted. Region tag: [GULF_PLUS]. Norms: config/resume-norms/gulf-plus.md. Scan with: node scan.mjs --region GULF_PLUS. Resume: A4, "Open to Saudi/Qatar work visa sponsorship" in summary. Parallel session: use node scripts/claim-num.mjs, write TSVs only. Hard-skip: 8+ YOE → skip. Not building AI → skip.
+/goal 100 applications with [GULF_PLUS] tag in data/applications.md have status Applied, Responded, Interview, or Offer
+```
 
 **One-off apply:**
 > "Apply to this role: {paste URL}"
+
+**After all sessions finish (run once):**
+```
+node merge-tracker.mjs
+powershell -ExecutionPolicy Bypass -File .\export-applications-xlsx.ps1
+npm run dashboard:html
+```
