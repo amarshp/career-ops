@@ -6,11 +6,15 @@
 2. Pide al usuario el JD si no está en contexto (texto o URL)
 3. Extrae 15-20 keywords del JD
 4. Detecta idioma del JD → idioma del CV (EN default)
-5. Detecta ubicación empresa → formato papel:
-   - US/Canada → `letter`
-   - Resto del mundo → `a4`
+5. Detecta ubicación empresa → formato papel + carga norms de país:
+   - US/Canada → `letter`, carga `config/resume-norms/usa.md` si existe
+   - UAE / Gulf → `a4`, carga `config/resume-norms/uae.md` si existe
+   - Singapore → `a4`, carga `config/resume-norms/sgp.md` si existe
+   - Resto del mundo → `a4`, busca norms en `config/resume-norms/{region}.md`
+   - **Si el archivo de norms no existe**: genera el CV igualmente, pero avisa al usuario que falta y sugiere ejecutar `modes/country-resume.md` primero.
+   - **Si existe**: aplica TODOS los campos de las secciones "Mandatory inclusions", "Prohibited/omit", "Work authorization statement", y "Summary framing" del archivo de norms.
 6. Detecta arquetipo del rol → adapta framing
-7. Reescribe Professional Summary inyectando keywords del JD + exit narrative bridge ("Built and sold a business. Now applying systems thinking to [domain del JD].")
+7. Reescribe Professional Summary inyectando: keywords del JD + exit narrative bridge + **work authorization statement del país** (última frase del summary, tomada de norms)
 8. Selecciona top 3-4 proyectos más relevantes para la oferta
 9. Reordena bullets de experiencia por relevancia al JD
 10. Construye competency grid desde requisitos del JD (6-8 keyword phrases)

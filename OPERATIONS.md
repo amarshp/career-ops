@@ -191,12 +191,18 @@ When starting an apply session, the LLM must:
 1. Read `modes/_profile.md` to load all constraints
 2. Read `data/applications.md` to know current state and enable dedup
 3. Confirm the target region and goal with the user
-4. For each job:
+4. **Load country resume norms** (CRITICAL — before generating any resume):
+   - Check if `config/resume-norms/{region}.md` exists (uae / sgp / usa / etc.)
+   - If yes: load it silently, confirm: "UAE resume norms loaded (photo omitted, relocation statement, A4)."
+   - If no: run `modes/country-resume.md` to research and create the norms file first. Do not generate resumes until it exists.
+5. For each job:
    a. Check dedup (Step 0 from `modes/apply.md`)
-   b. Save JD to `jds/`
-   c. Fill form and submit
-   d. Write TSV to `batch/tracker-additions/`
-5. At end of session:
+   b. Claim report num: `node scripts/claim-num.mjs`
+   c. Save JD to `jds/`
+   d. Generate resume: apply country norms (Layer 2) + per-job tailoring (Layer 3) on top of `cv.md` (Layer 1)
+   e. Fill form and submit
+   f. Write TSV to `batch/tracker-additions/`
+6. At end of session:
    a. Run `node merge-tracker.mjs`
    b. Run `powershell -ExecutionPolicy Bypass -File .\export-applications-xlsx.ps1`
    c. Generate session index file
