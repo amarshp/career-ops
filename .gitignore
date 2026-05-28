@@ -35,6 +35,14 @@ modes/_profile.md
 node_modules/
 bun.lock
 
+# Playwright browser profiles and caches (large, machine-specific)
+.playwright-*/
+profiles/*/
+
+# Temporary files
+temp_resume_b64.txt
+data/num-counter.txt
+
 # OS
 .DS_Store
 *.mov
