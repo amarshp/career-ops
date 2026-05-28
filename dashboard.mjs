@@ -53,8 +53,10 @@ function parse(content) {
     if (!inTable || !line.startsWith('|')) continue;
     const c = line.split('|').map(s => s.trim()).filter(Boolean);
     if (c.length < 6) continue;
+    // Notes is always the last column. Rows where Report is empty have
+    // that column filtered out, shifting Notes from index 8 to 7.
     rows.push({ num: c[0], date: c[1], company: c[2], role: c[3],
-                score: c[4], status: c[5], notes: c[8] ?? '' });
+                score: c[4], status: c[5], notes: c.at(-1) ?? '' });
   }
   return rows;
 }
