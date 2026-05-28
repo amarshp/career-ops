@@ -17,7 +17,9 @@
     "scan": "node scan.mjs",
     "gemini:eval": "node gemini-eval.mjs",
     "dashboard": "node dashboard.mjs",
+    "dashboard:html": "node dashboard.mjs --html",
     "dashboard:watch": "node dashboard.mjs --watch",
+    "dashboard:live": "node dashboard.mjs --html --watch",
     "claim-num": "node scripts/claim-num.mjs"
   },
   "keywords": [
