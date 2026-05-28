@@ -14,7 +14,7 @@ Do NOT apply to roles that say "remote" but require being in a specific country 
 ## Mandatory inclusions
 
 - **"Remote-ready" signal**: Explicitly state remote availability. Best placed in contact line:
-  > Location: Bengaluru, India (IST, UTC+5:30) | Remote-First
+  > Location: Hyderabad, India (IST, UTC+5:30) | Remote-First
 - **Contractor / employment framing**: State how you can be legally engaged:
   > "Available as a full-time remote employee via EOR (Deel/Remote.com) or as an independent contractor on C2C basis."
 - **Time zone**: IST (UTC+5:30). Many remote companies care about overlap windows. Note: "6h overlap with CET, 9.5h overlap with EST mornings."
@@ -37,7 +37,7 @@ Do NOT apply to roles that say "remote" but require being in a specific country 
 Header contact line example:
 ```
 Amarsh Pedapati | AI Engineer
-Bengaluru, India (UTC+5:30) | Remote-First
+Hyderabad, India (UTC+5:30) | Remote-First
 amarsh@email.com | linkedin.com/in/amarshp | github.com/amarshp
 Available: EOR employment (Deel/Remote.com) or C2C contractor
 ```

@@ -5,7 +5,7 @@ Source: IND Highly Skilled Migrant guidelines, Dutch tech recruiter practice, 30
 ## Mandatory inclusions
 
 - **Visa sponsorship note**: "Require Dutch Highly Skilled Migrant (HSM) permit or EU Blue Card sponsorship."
-- **Current location + relocation intent**: "Bengaluru, India — open to relocation to Amsterdam / Netherlands."
+- **Current location + relocation intent**: "Hyderabad, India — open to relocation to Amsterdam / Netherlands."
 - **LinkedIn URL**: Dutch tech recruiters lean heavily on LinkedIn (Netherlands has one of highest LinkedIn penetration rates globally).
 - **GitHub / portfolio links**: Important for technical roles.
 - **English proficiency**: Implicit from the resume being in English — most Dutch tech companies operate in English.

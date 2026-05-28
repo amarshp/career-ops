@@ -7,7 +7,7 @@ Source: IRCC Express Entry guidelines, Canadian tech recruiter practice, Glassdo
 - **Work authorization / immigration status note**: Unlike the US, Canada does not have EEOC-equivalent restrictions on mentioning immigration status. Include:
   > "Require employer LMIA exemption or Express Entry-aligned work permit sponsorship."
   OR more simply: "Eligible to work in Canada with employer-sponsored work permit."
-- **Current location + relocation intent**: "Bengaluru, India — open to relocation to Toronto / Vancouver / Canada."
+- **Current location + relocation intent**: "Hyderabad, India — open to relocation to Toronto / Vancouver / Canada."
 - **LinkedIn URL**: Critical — Canadian tech recruiters (especially Toronto and Vancouver) use LinkedIn as the primary screening tool.
 - **GitHub URL**: Important for AI/ML roles.
 
@@ -36,7 +36,7 @@ The clearest framing for Canada:
 Note: "LMIA-exempt" signals you know the fast path. Many US/Canadian companies can hire under CUSMA (Canada-US-Mexico Agreement) for certain tech roles, bypassing the standard Labour Market Impact Assessment.
 
 For simpler communication:
-> Location: Bengaluru, India → Targeting Toronto / Vancouver | Require work permit sponsorship
+> Location: Hyderabad, India → Targeting Toronto / Vancouver | Require work permit sponsorship
 
 ## Format
 

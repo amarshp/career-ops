@@ -5,7 +5,7 @@ Source: BAMF EU Blue Card guidelines, German tech recruiter practice, make-it-in
 ## Mandatory inclusions
 
 - **Visa sponsorship note**: "Require EU Blue Card sponsorship (IT shortage occupation — €45,934 threshold)."
-- **Current location + relocation intent**: "Bengaluru, India — open to relocation to Berlin / Munich / Germany."
+- **Current location + relocation intent**: "Hyderabad, India — open to relocation to Berlin / Munich / Germany."
 - **LinkedIn / XING URL**: Both LinkedIn and XING are used in Germany. Include LinkedIn; XING is optional.
 - **GitHub / portfolio**: Important for AI/ML roles, especially at startups.
 - **Degree recognition note**: German employers want to know if your Indian degree is recognised. Add: "B.Tech/M.Tech degree — AICTE-accredited, recognized under anabin database (Germany)." Indian IT degrees from major universities are generally recognised via the anabin lookup tool.

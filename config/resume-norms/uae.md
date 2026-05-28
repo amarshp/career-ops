@@ -5,7 +5,7 @@ Source: UAE tech hiring practice, Bayt/NaukriGulf conventions, recruiter feedbac
 ## Mandatory inclusions
 
 - **Nationality**: Include. UAE employers routinely filter by nationality for visa cost estimation. "Indian National" is not a blocker in tech — state it plainly.
-- **Current location**: "Bengaluru, India" (or wherever Amarsh is based)
+- **Current location**: "Hyderabad, India" (or wherever Amarsh is based)
 - **Relocation statement**: Must appear in summary or header. Preferred phrasing: "Available to relocate to UAE immediately upon offer."
 - **Visa sponsorship openness**: In summary — "Open to UAE Employment Visa sponsorship." Do NOT say "requires sponsorship" (sounds demanding) — say "open to sponsorship."
 - **LinkedIn URL**: Required. UAE recruiters verify LinkedIn before calling.
@@ -39,7 +39,7 @@ Add to Professional Summary, last sentence:
 
 Alternatively in the header line under name/contact:
 
-> Location: Bengaluru, India → Targeting Dubai / Abu Dhabi | Open to UAE Employment Visa
+> Location: Hyderabad, India → Targeting Dubai / Abu Dhabi | Open to UAE Employment Visa
 
 ## Format
 

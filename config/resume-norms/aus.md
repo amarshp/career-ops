@@ -6,7 +6,7 @@ Source: Australian Home Affairs Skills in Demand visa guidelines, Seek recruiter
 
 - **Visa sponsorship note**: "Require Skills in Demand (SID) visa sponsorship (Subclass 482 — Specialist Skills stream)."
   - Use "Specialist Skills stream" framing — this signals you know you meet the AUD 141,210+ salary threshold, which removes the occupation-list constraint and speeds processing to 7–30 days.
-- **Current location + relocation intent**: "Bengaluru, India — open to relocation to Sydney / Melbourne / Australia."
+- **Current location + relocation intent**: "Hyderabad, India — open to relocation to Sydney / Melbourne / Australia."
 - **LinkedIn URL**: Critical — Australian recruiters use LinkedIn extensively.
 - **GitHub URL**: Important for AI/ML roles at Atlassian, Canva, tech companies.
 

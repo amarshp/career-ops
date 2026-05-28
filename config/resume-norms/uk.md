@@ -8,7 +8,7 @@ Source: UK Home Office Skilled Worker guidance, London AI recruiter practice, IT
   For Amarsh: "Require Skilled Worker visa sponsorship to work in the UK."
 - **LinkedIn URL**: UK tech recruiters always check LinkedIn first.
 - **GitHub URL**: Non-negotiable for AI/LLM roles — UK AI-native hiring managers will look.
-- **Current location**: "Bengaluru, India — open to relocation to London / UK."
+- **Current location**: "Hyderabad, India — open to relocation to London / UK."
 - **Portfolio/project links**: UK AI-native startups value demonstrable work (DevOps Copilot Plugin, PersonaRAG).
 
 ## Prohibited / omit
@@ -17,7 +17,7 @@ Source: UK Home Office Skilled Worker guidance, London AI recruiter practice, IT
 - **Date of birth / age**: Never.
 - **Marital status / religion**: Never.
 - **Salary expectation**: Do not include on resume.
-- **Full address**: City/country only — "Bengaluru, India."
+- **Full address**: City/country only — "Hyderabad, India."
 
 ## Length
 
@@ -36,7 +36,7 @@ Add as final sentence of summary OR as a footnote line below contact info:
 > "Require UK Skilled Worker visa sponsorship."
 
 OR combined with location:
-> Location: Bengaluru, India → Targeting London | Require Skilled Worker Visa Sponsorship
+> Location: Hyderabad, India → Targeting London | Require Skilled Worker Visa Sponsorship
 
 **Do NOT say "need visa" or "need work permit"** — Skilled Worker is the correct UK terminology.
 Employers with a Home Office sponsor licence can sponsor this; most UK tech companies do.

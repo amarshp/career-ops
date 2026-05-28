@@ -8,7 +8,7 @@ Source: MOM EP requirements, MyCareersFuture conventions, SGP tech recruiter fee
 - **EP sponsorship requirement**: Must appear in summary or a dedicated line. Exact phrasing:
   > "Require Employment Pass (EP) sponsorship."
   Do NOT say "visa required" (too vague) or "need work authorization" (US framing). Singapore-specific phrasing is "Employment Pass."
-- **Current location + relocation intent**: "Bengaluru, India — open to relocation to Singapore."
+- **Current location + relocation intent**: "Hyderabad, India — open to relocation to Singapore."
 - **LinkedIn URL**: Critical. SGP tech recruiters validate LinkedIn first.
 - **GitHub URL**: Important for technical roles at startups and regional tech companies (Grab, Sea, Carousell).
 
@@ -38,7 +38,7 @@ Add as the final sentence of Professional Summary:
 
 Or in the header contact line:
 
-> Location: Bengaluru, India → Targeting Singapore | Require EP Sponsorship
+> Location: Hyderabad, India → Targeting Singapore | Require EP Sponsorship
 
 ## Format
 
@@ -76,5 +76,5 @@ Key SGP market phrases to inject where authentic:
 - Do NOT submit a 3-page resume — SGP recruiters will not read past page 2
 - Do NOT omit EP sponsorship requirement — it creates friction later in the process
 - Do NOT use US Letter format
-- Do NOT use vague location ("Asia") — be specific: "Bengaluru → Singapore"
+- Do NOT use vague location ("Asia") — be specific: "Hyderabad → Singapore"
 - Do NOT list every technology you've ever touched in Skills — SGP recruiters value depth over breadth signal; keep Skills to verified proficiencies
